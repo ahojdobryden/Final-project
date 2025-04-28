@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 import requests
 from lxml import html
@@ -83,11 +85,13 @@ for link in links:
     # Keep clicking the "Load More" button until it disappears
     while True:
         try:
-            # Locate the "Load More" button (adjust the XPath to match the button's structure)
-            load_more_button = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//button[@data-test="button" and contains(text(), "Zobrazit vše")]'))
-    )
-            load_more_button.click()
+            # Wait for the button to be clickable
+            wait = WebDriverWait(driver, 10)
+            button = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-test="button" and contains(text(), "Zobrazit vše")]')))
+
+            # Click the button
+            driver.execute_script("arguments[0].click();", button)
+
             time.sleep(3)  # Wait for new products to load
         except Exception as e:
             print("No more 'Load More' button or error occurred:", e)
