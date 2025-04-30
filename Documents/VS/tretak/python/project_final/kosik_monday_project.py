@@ -89,21 +89,30 @@ for link in links:
     driver.get(link)
     time.sleep(5)  # Wait for the page to load completely
 
+height = driver.execute_script("return document.body.scrollHeight")  # Get the initial page height
 
-    # Keep clicking the "Load More" button until it disappears
     while True:
         try:
-            # Wait for the button to be clickable
-            wait = WebDriverWait(driver, 10)
-            button = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-test="button" and contains(text(), "Zobrazit vše")]')))
-
-            # Click the button
+            # Try to click the "Load More" button if it exists
+            wait = WebDriverWait(driver, 5)
+            button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Načíst další')]")))
             driver.execute_script("arguments[0].click();", button)
-
             time.sleep(3)  # Wait for new products to load
         except Exception as e:
             print("No more 'Load More' button or error occurred:", e)
+
+        # Scroll to the bottom of the page
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(3)  # Wait for new content to load
+
+        # Check if new content is loaded
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            print("No more content to load.")
             break
+        last_height = new_height
+
+>>>>>>> data_kosik
 
     page_title = driver.title
     print(f'This is the page title: {page_title}.')
