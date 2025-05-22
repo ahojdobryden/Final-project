@@ -1,0 +1,1922 @@
+[
+  {
+    "name": "Madeta Báječné české mléko 1.5% | 1 l",
+    "price": "27,90 Kč",
+    "unit_price": "27,90 Kč/l"
+  },
+  {
+    "name": "Báječné České Mléko 1.5% | 3 x 1 l",
+    "price": "79,51 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Bohemilk Čerstvé mléko z Orlických hor plnotučné 3,5 % | 1 l",
+    "price": "34,90 Kč",
+    "unit_price": "34,90 Kč/l"
+  },
+  {
+    "name": "Tatra Mléko 3,5% | 1 l",
+    "price": "34,90 Kč",
+    "unit_price": "34,90 Kč/l"
+  },
+  {
+    "name": "Tatra Mléko 3,5% | 3 x 1 l",
+    "price": "88,99 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Bohemilk Čerstvé mléko 3.5% | 3 x 1 l",
+    "price": "99,46 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Bohemilk Opočenské čerstvé polotučné mléko 1.5% | 1 l",
+    "price": "29,90 Kč",
+    "unit_price": "29,90 Kč/l"
+  },
+  {
+    "name": "Hochwald Latte Macchiato plech | 250 ml",
+    "price": "24,90 Kč",
+    "unit_price": "99,60 Kč/l"
+  },
+  {
+    "name": "Olma Čerstvé mléko 1.5 % | 1 l",
+    "price": "33,90 Kč",
+    "unit_price": "33,90 Kč/l"
+  },
+  {
+    "name": "Mlékárna Kunín Banánové kefírové mléko | 300 g",
+    "price": "23,90 Kč",
+    "unit_price": "79,67 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Valašské Meziříčí Jahodové kefírové mléko | 450 g",
+    "price": "29,90 Kč",
+    "unit_price": "66,44 Kč/kg"
+  },
+  {
+    "name": "Meggle Bezlaktózové mléko 1.5% | 1 l",
+    "price": "44,90 Kč",
+    "unit_price": "44,90 Kč/l"
+  },
+  {
+    "name": "Mlékárna Kunín Kefírové mléko | 300 g",
+    "price": "23,90 Kč",
+    "unit_price": "79,67 Kč/kg"
+  },
+  {
+    "name": "Kunín Acidofilní mléko 1,5% | 300 g",
+    "price": "24,90 Kč",
+    "unit_price": "83,00 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Valašské Meziříčí Nízkotučné klefírové mléko | 500 g",
+    "price": "23,90 Kč",
+    "unit_price": "47,80 Kč/kg"
+  },
+  {
+    "name": "Frapko Vanilkový Instantní granulovaný nápoj do mléka | 200 g",
+    "price": "48,90 Kč",
+    "unit_price": "244,50 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Valašské Meziříčí Meruňkové klefírové mléko | 450 g",
+    "price": "23,92 Kč",
+    "unit_price": "53,16 Kč/kg"
+  },
+  {
+    "name": "Meggle Barista mléko 3.5 % | 1 l",
+    "price": "64,90 Kč",
+    "unit_price": "64,90 Kč/l"
+  },
+  {
+    "name": "Tatra Piknik Zahuštěné slazené mléko | 150 g",
+    "price": "43,90 Kč",
+    "unit_price": "292,67 Kč/kg"
+  },
+  {
+    "name": "Frapko Jahodový Instantní granulovaný nápoj do mléka | 200 g",
+    "price": "48,90 Kč",
+    "unit_price": "244,50 Kč/kg"
+  },
+  {
+    "name": "Meggle Bezlaktózové mléko 3.5% | 1 l",
+    "price": "49,90 Kč",
+    "unit_price": "49,90 Kč/l"
+  },
+  {
+    "name": "Jeden Tag Kondenzované kléko 4% | 340 g",
+    "price": "26,90 Kč",
+    "unit_price": "79,12 Kč/kg"
+  },
+  {
+    "name": "Tatra Piknik Zahuštěné slazené plnotučné mléko | 75 g",
+    "price": "29,90 Kč",
+    "unit_price": "398,67 Kč/kg"
+  },
+  {
+    "name": "Frapko Banánový instantní granulovaný nápoj do mléka | 200 g",
+    "price": "48,90 Kč",
+    "unit_price": "244,50 Kč/kg"
+  },
+  {
+    "name": "Tatra Pikao Zahuštěné slazené plnotučné mléko s kakaem | 150 g",
+    "price": "43,90 Kč",
+    "unit_price": "292,67 Kč/kg"
+  },
+  {
+    "name": "Tatra Salko Kondenzované slazené mléko | 397 g",
+    "price": "69,90 Kč",
+    "unit_price": "176,07 Kč/kg"
+  },
+  {
+    "name": "Tatra Jesenka Zahuštěná slazená smetana | 75 g",
+    "price": "30,90 Kč",
+    "unit_price": "412,00 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Kondenzované mléko 7.5% | 340 g",
+    "price": "27,90 Kč",
+    "unit_price": "82,06 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Jahodové acidofilní mléko | 300 g",
+    "price": "23,90 Kč",
+    "unit_price": "79,67 Kč/kg"
+  },
+  {
+    "name": "Tatra Pikao Zahuštěné slazené plnotučné mléko s kakaem | 75 g",
+    "price": "29,90 Kč",
+    "unit_price": "398,67 Kč/kg"
+  },
+  {
+    "name": "Hollandia Jahoda jogurt bez laktózy | 180 g",
+    "price": "21,90 Kč",
+    "unit_price": "121,67 Kč/kg"
+  },
+  {
+    "name": "Hollandia Borůvkový jogurt bez laktózy | 180 g",
+    "price": "21,90 Kč",
+    "unit_price": "121,67 Kč/kg"
+  },
+  {
+    "name": "Olma jogurt high protein malina | 4 x 150 g",
+    "price": "83,22 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Váš Výběr Jahodový jogurt | 150 g",
+    "price": "10,90 Kč",
+    "unit_price": "72,67 Kč/kg"
+  },
+  {
+    "name": "Olma High protein malina jogurt | 150 g",
+    "price": "21,90 Kč",
+    "unit_price": "146,00 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Borůvkový jogurt | 150 g",
+    "price": "10,90 Kč",
+    "unit_price": "72,67 Kč/kg"
+  },
+  {
+    "name": "Hollandia Selský jogurt černý rybíz | 200 g",
+    "price": "20,90 Kč",
+    "unit_price": "104,50 Kč/kg"
+  },
+  {
+    "name": "Olma High Protein meruňkový jogurt | 150 g",
+    "price": "21,90 Kč",
+    "unit_price": "146,00 Kč/kg"
+  },
+  {
+    "name": "Olma Pierot Čokoláda a lískový oříšek jogurt | 175 g",
+    "price": "24,90 Kč",
+    "unit_price": "142,29 Kč/kg"
+  },
+  {
+    "name": "Olma Pierot jahodový jogurt | 175 g",
+    "price": "24,90 Kč",
+    "unit_price": "142,29 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Choco Balls smetanový jogurt | 150 g",
+    "price": "17,90 Kč",
+    "unit_price": "119,33 Kč/kg"
+  },
+  {
+    "name": "Olma Florian meruňkový lahodný jogurt s kousky ovoce | 150 g",
+    "price": "17,90 Kč",
+    "unit_price": "119,33 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Jogurt lesní směs 8% | 150 g",
+    "price": "18,90 Kč",
+    "unit_price": "126,00 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Jogurt višeň 8% | 150 g",
+    "price": "17,90 Kč",
+    "unit_price": "119,33 Kč/kg"
+  },
+  {
+    "name": "Bohemilk Opočenský jogurt borůvka, ostružina | 150 g",
+    "price": "28,90 Kč",
+    "unit_price": "192,67 Kč/kg"
+  },
+  {
+    "name": "Milko Bio Matylda tvaroh s jogurtem jahoda | 125 g",
+    "price": "24,90 Kč",
+    "unit_price": "199,20 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Stracciatella smetanový jogurt | 150 g",
+    "price": "17,90 Kč",
+    "unit_price": "119,33 Kč/kg"
+  },
+  {
+    "name": "Müller Mix Choco Waffles jogurt se smetanovou příchutí | 130 g",
+    "price": "22,90 Kč",
+    "unit_price": "176,15 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Jogurt vaječný likér 8% | 150 g",
+    "price": "17,90 Kč",
+    "unit_price": "119,33 Kč/kg"
+  },
+  {
+    "name": "Olma Florian jahodový smetanový jogurt | 150 g",
+    "price": "18,90 Kč",
+    "unit_price": "126,00 Kč/kg"
+  },
+  {
+    "name": "Kostíci Čokoparta vanilkový jogurt | 107 g",
+    "price": "24,90 Kč",
+    "unit_price": "232,71 Kč/kg"
+  },
+  {
+    "name": "Milko Matylda Bio vanilkový tvaroh a smetanový jogurt | 125 g",
+    "price": "24,90 Kč",
+    "unit_price": "199,20 Kč/kg"
+  },
+  {
+    "name": "Kostíci Sladkáči slazený bílý jogurt | 109 g",
+    "price": "24,90 Kč",
+    "unit_price": "228,44 Kč/kg"
+  },
+  {
+    "name": "Bohemilk Opočenský jahodový jogurt | 150 g",
+    "price": "28,90 Kč",
+    "unit_price": "192,67 Kč/kg"
+  },
+  {
+    "name": "Bohemilk Opočenský jogurt premium hruška a karamel | 150 g",
+    "price": "29,90 Kč",
+    "unit_price": "199,33 Kč/kg"
+  },
+  {
+    "name": "Milko Matylda Bio čokoládový tvaroh a smetanový jogurt | 125 g",
+    "price": "19,17 Kč",
+    "unit_price": "153,36 Kč/kg"
+  },
+  {
+    "name": "Bohušovická mlékárna Skyr borůvkový | 130 g",
+    "price": "23,90 Kč",
+    "unit_price": "183,85 Kč/kg"
+  },
+  {
+    "name": "Hollandia Čokoládový selský jogurt | 200 g",
+    "price": "20,90 Kč",
+    "unit_price": "104,50 Kč/kg"
+  },
+  {
+    "name": "Bohušovická mlékárna Jahodový skyr 0.1% | 130 g",
+    "price": "23,90 Kč",
+    "unit_price": "183,85 Kč/kg"
+  },
+  {
+    "name": "Bohušovická mlékárna Meruňkový skyr 0.1% | 130 g",
+    "price": "23,90 Kč",
+    "unit_price": "183,85 Kč/kg"
+  },
+  {
+    "name": "Bohemilk Opočenský Broskvovo meruňkový jogurt | 150 g",
+    "price": "14,45 Kč",
+    "unit_price": "96,33 Kč/kg"
+  },
+  {
+    "name": "Hollandia Jahodový selský jogurt | 200 g",
+    "price": "20,90 Kč",
+    "unit_price": "104,50 Kč/kg"
+  },
+  {
+    "name": "Müller Borůvkový jogurt | 130 g",
+    "price": "24,90 Kč",
+    "unit_price": "191,54 Kč/kg"
+  },
+  {
+    "name": "Choceňská Mlékárna Choceňský jahodový smetanový jogurt | 150 g",
+    "price": "19,90 Kč",
+    "unit_price": "132,67 Kč/kg"
+  },
+  {
+    "name": "Fantasia Borůvkový jogurt | 122 g",
+    "price": "23,90 Kč",
+    "unit_price": "195,90 Kč/kg"
+  },
+  {
+    "name": "Bohemilk Opočenský malinový jogurt | 150 g",
+    "price": "16,73 Kč",
+    "unit_price": "111,53 Kč/kg"
+  },
+  {
+    "name": "Kolios řecký jogurt bílý 10% | 150 g",
+    "price": "24,90 Kč",
+    "unit_price": "166,00 Kč/kg"
+  },
+  {
+    "name": "Kolios řecký jogurt bílý 0% | 150 g",
+    "price": "22,90 Kč",
+    "unit_price": "152,67 Kč/kg"
+  },
+  {
+    "name": "Kolios Řecký bílý jogurt přírodní 10% | 1 kg",
+    "price": "129,90 Kč",
+    "unit_price": "129,90 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Bílý jogurt | 150 g",
+    "price": "8,90 Kč",
+    "unit_price": "59,33 Kč/kg"
+  },
+  {
+    "name": "Kolios Hercules řecký jogurt bílý s 20g proteinu | 200 g",
+    "price": "31,90 Kč",
+    "unit_price": "159,50 Kč/kg"
+  },
+  {
+    "name": "Hollandia Bílý selský jogurt | 500 g",
+    "price": "29,90 Kč",
+    "unit_price": "59,80 Kč/kg"
+  },
+  {
+    "name": "Olma Jogurt High Protein bílý | 4 x 150 g",
+    "price": "83,22 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Olma Jogurt bílý klasik 2.7% | 6 x 150 g",
+    "price": "79,23 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Olma Bílý jogurt klasik 2.7% | 150 ml",
+    "price": "13,90 Kč",
+    "unit_price": "92,67 Kč/l"
+  },
+  {
+    "name": "Kunín Athentikos bílý jogurt | 140 g",
+    "price": "18,90 Kč",
+    "unit_price": "135,00 Kč/kg"
+  },
+  {
+    "name": "Olma High Protein bílý jogurt | 150 g",
+    "price": "21,90 Kč",
+    "unit_price": "146,00 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Řecký bílý jogurt | 1 kg",
+    "price": "72,89 Kč",
+    "unit_price": "72,89 Kč/kg"
+  },
+  {
+    "name": "Activia Bílý probiotický jogurt | 120 g",
+    "price": "19,90 Kč",
+    "unit_price": "165,83 Kč/kg"
+  },
+  {
+    "name": "Choceňská Mlékárna Choceňský smetanový jogurt | 150 g",
+    "price": "18,90 Kč",
+    "unit_price": "126,00 Kč/kg"
+  },
+  {
+    "name": "Hollandia Selský bílý jogurt | 200 g",
+    "price": "12,13 Kč",
+    "unit_price": "60,65 Kč/kg"
+  },
+  {
+    "name": "Choceňská Mlékárna Bílý smetanový jogurt max | 330 g",
+    "price": "17,95 Kč",
+    "unit_price": "54,39 Kč/kg"
+  },
+  {
+    "name": "Zlatá vejce L z podestýlky | 6 kusů",
+    "price": "49,90 Kč",
+    "unit_price": "8,32 Kč/kus"
+  },
+  {
+    "name": "Zlatá vejce M z podestýlky | 10 kusů",
+    "price": "79,90 Kč",
+    "unit_price": "7,99 Kč/kus"
+  },
+  {
+    "name": "CocoKarl Bio Čerstvá farmářská vejce | 6 ks",
+    "price": "79,90 Kč",
+    "unit_price": "13,32 Kč/kus"
+  },
+  {
+    "name": "Vejce z Bystřice vejce z volného chovu mix S+M+L | 6 kusů",
+    "price": "69,90 Kč",
+    "unit_price": "11,65 Kč/kus"
+  },
+  {
+    "name": "Vejce z Bystřice podestýlková vejce ze stodoly | 10 kusů",
+    "price": "114,90 Kč",
+    "unit_price": "11,49 Kč/kus"
+  },
+  {
+    "name": "Lesaffre Droždí pekařské čerstvé | 3 x 42 g",
+    "price": "16,81 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Vilgain Lahůdkové droždí | 100 g",
+    "price": "59,00 Kč",
+    "unit_price": "590,00 Kč/kg"
+  },
+  {
+    "name": "Lesaffre Čerstvé pekařské droždí | 42 g",
+    "price": "5,90 Kč",
+    "unit_price": "140,48 Kč/kg"
+  },
+  {
+    "name": "Kinder Mléčný řez | 4 x 28 g",
+    "price": "68,04 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Kinder Maxi King oplatka plněná měkkým karamelem a mléčným krémem | 5 x 35 g",
+    "price": "103,05 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Pribináček Tvarohový krém vanilka | 4 x 70 g",
+    "price": "75,62 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Ekomilk Termix Dezert kakao | 4 x 90 g",
+    "price": "45,22 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Zott Cremore Duo Dezert lískooříškový puding | 190 g",
+    "price": "25,41 Kč",
+    "unit_price": "133,74 Kč/kg"
+  },
+  {
+    "name": "Prima Mrož jahodový tvarohový dezert | 90 g",
+    "price": "18,90 Kč",
+    "unit_price": "210,00 Kč/kg"
+  },
+  {
+    "name": "Pribináček Vanilka tvarohový krém | 70 g",
+    "price": "19,90 Kč",
+    "unit_price": "284,29 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Mazlík kakaový tvarohový dezert | 80 g",
+    "price": "11,90 Kč",
+    "unit_price": "148,75 Kč/kg"
+  },
+  {
+    "name": "Kinder Maxi King čokoládová tyčinka | 35 g",
+    "price": "22,90 Kč",
+    "unit_price": "654,29 Kč/kg"
+  },
+  {
+    "name": "Kinder Mléčný řez | 28 g",
+    "price": "18,90 Kč",
+    "unit_price": "675,00 Kč/kg"
+  },
+  {
+    "name": "Pribináček Tvarohový krém kakao | 4 x 70 g",
+    "price": "75,62 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Kinder Pingui Tyčinka | 4 x 30 g",
+    "price": "86,04 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Ekomilk Termix Dezert vanilka | 4 x 90 g",
+    "price": "49,02 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Pribináček Kakao tvarohový krém | 70 g",
+    "price": "19,90 Kč",
+    "unit_price": "284,29 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Mazlík vanilkový tvarohový dezert | 80 g",
+    "price": "11,90 Kč",
+    "unit_price": "148,75 Kč/kg"
+  },
+  {
+    "name": "Pribináček Kapsík vanilka | 4 x 70 g",
+    "price": "98,42 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Zott Monte Mléčný Čokoládový dezert | 4 x 55 g",
+    "price": "34,90 Kč",
+    "unit_price": "158,64 Kč/kg"
+  },
+  {
+    "name": "Ekomilk Termix kakao dezert | 90 g",
+    "price": "11,90 Kč",
+    "unit_price": "132,22 Kč/kg"
+  },
+  {
+    "name": "Madeta Lipánek Maxi vanilkový jogurt | 130 g",
+    "price": "23,90 Kč",
+    "unit_price": "183,85 Kč/kg"
+  },
+  {
+    "name": "Pribináček Tyčinka s tvarrrohem | 38 g",
+    "price": "14,90 Kč",
+    "unit_price": "392,11 Kč/kg"
+  },
+  {
+    "name": "Madeta Fruitisimo mango a maracuja | 130 g",
+    "price": "24,90 Kč",
+    "unit_price": "191,54 Kč/kg"
+  },
+  {
+    "name": "Madeta Fruitisimo jahoda a malina | 130 g",
+    "price": "24,90 Kč",
+    "unit_price": "191,54 Kč/kg"
+  },
+  {
+    "name": "Milko Tvaroháček Smetanový tvarohový krém | 90 g",
+    "price": "13,78 Kč",
+    "unit_price": "153,11 Kč/kg"
+  },
+  {
+    "name": "Olma Čokoládový pudingový dezert se šlehačkou | 200 g",
+    "price": "19,90 Kč",
+    "unit_price": "99,50 Kč/kg"
+  },
+  {
+    "name": "Ekomilk Vanilkový termix | 90 g",
+    "price": "12,90 Kč",
+    "unit_price": "143,33 Kč/kg"
+  },
+  {
+    "name": "Kinder Pinguí čokoládová tyčinka | 30 g",
+    "price": "23,90 Kč",
+    "unit_price": "796,67 Kč/kg"
+  },
+  {
+    "name": "Madeta Lipánek Maxi Kakaový jogurt | 130 g",
+    "price": "18,90 Kč",
+    "unit_price": "145,38 Kč/kg"
+  },
+  {
+    "name": "Pribináček Kapsík vanilkový dezert | 70 g",
+    "price": "25,90 Kč",
+    "unit_price": "370,00 Kč/kg"
+  },
+  {
+    "name": "Milko Tvaroháček Vanilkový tvarohový krém | 90 g",
+    "price": "8,95 Kč",
+    "unit_price": "99,44 Kč/kg"
+  },
+  {
+    "name": "Kinder Choco Fresh tyčinka s mléčnou čokoládou a lískooříškovou náplní | 41 g",
+    "price": "34,90 Kč",
+    "unit_price": "851,22 Kč/kg"
+  },
+  {
+    "name": "Olma Vanilkový pudingový dezert se šlehačkou | 200 g",
+    "price": "19,90 Kč",
+    "unit_price": "99,50 Kč/kg"
+  },
+  {
+    "name": "Ehrmann Grand Dessert pudingový dezert panna cotta se šlehačkou | 190 g",
+    "price": "34,90 Kč",
+    "unit_price": "183,68 Kč/kg"
+  },
+  {
+    "name": "Zott Cremore Duo vanilkový | 190 g",
+    "price": "29,90 Kč",
+    "unit_price": "157,37 Kč/kg"
+  },
+  {
+    "name": "Müller Riso Skořicová mléčná rýže | 200 g",
+    "price": "24,90 Kč",
+    "unit_price": "124,50 Kč/kg"
+  },
+  {
+    "name": "Kapucín Šlehačka ve spreji | 250 g",
+    "price": "62,90 Kč",
+    "unit_price": "251,60 Kč/kg"
+  },
+  {
+    "name": "Kinder Pinguí kokosová tyčinka | 30 g",
+    "price": "23,90 Kč",
+    "unit_price": "796,67 Kč/kg"
+  },
+  {
+    "name": "Kunín Mléčná krupice | 150 g",
+    "price": "25,90 Kč",
+    "unit_price": "172,67 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Pohár čokoládový mléčný dezert | 150 g",
+    "price": "21,90 Kč",
+    "unit_price": "146,00 Kč/kg"
+  },
+  {
+    "name": "Zott Cremore Duo čokoládový | 190 g",
+    "price": "29,90 Kč",
+    "unit_price": "157,37 Kč/kg"
+  },
+  {
+    "name": "Müller Riso čokoládová mléčná rýže | 200 g",
+    "price": "24,90 Kč",
+    "unit_price": "124,50 Kč/kg"
+  },
+  {
+    "name": "Ehrmann Grand Dessert Pudinkový dezert choc noir se šlehačkou | 190 g",
+    "price": "34,90 Kč",
+    "unit_price": "183,68 Kč/kg"
+  },
+  {
+    "name": "Zott Monte Snack lískooříškový mléčný řez | 29 g",
+    "price": "13,90 Kč",
+    "unit_price": "479,31 Kč/kg"
+  },
+  {
+    "name": "Riso Jahodová mléčná rýže | 200 g",
+    "price": "24,90 Kč",
+    "unit_price": "124,50 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Pohár jahodový mléčný dezert | 150 g",
+    "price": "10,95 Kč",
+    "unit_price": "73,00 Kč/kg"
+  },
+  {
+    "name": "Milka Choco Snack dezert s mléčno krémovou náplní máčený v mléčné čokoládě | 29 g",
+    "price": "22,90 Kč",
+    "unit_price": "789,66 Kč/kg"
+  },
+  {
+    "name": "Zott Monte Snack mléčný řez | 29 g",
+    "price": "13,90 Kč",
+    "unit_price": "479,31 Kč/kg"
+  },
+  {
+    "name": "Milko Papriková tvarohová svačinka | 140 g",
+    "price": "28,90 Kč",
+    "unit_price": "206,43 Kč/kg"
+  },
+  {
+    "name": "Ehrmann High Protein vanilkový pudding s toppingem | 200 g",
+    "price": "34,14 Kč",
+    "unit_price": "170,70 Kč/kg"
+  },
+  {
+    "name": "Ehrmann High Protein lískooříškový puding | 200 g",
+    "price": "56,90 Kč",
+    "unit_price": "284,50 Kč/kg"
+  },
+  {
+    "name": "Ehrmann High Protein pudingový dezert double choc se šlehačkou | 200 g",
+    "price": "56,90 Kč",
+    "unit_price": "284,50 Kč/kg"
+  },
+  {
+    "name": "Ehrmann Grand Dessert Vanilkový pudinkový dezert se šlehačkou | 190 g",
+    "price": "34,90 Kč",
+    "unit_price": "183,68 Kč/kg"
+  },
+  {
+    "name": "Zlatý sýr Eidam sýr 30% plátky | 100 g",
+    "price": "24,90 Kč",
+    "unit_price": "249,00 Kč/kg"
+  },
+  {
+    "name": "Zlatý Sýr Gouda sýr 48% plátky | 100 g",
+    "price": "27,90 Kč",
+    "unit_price": "279,00 Kč/kg"
+  },
+  {
+    "name": "Zott Toasty Emmentaler tavený sýr plátky | 150 g",
+    "price": "39,90 Kč",
+    "unit_price": "266,00 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Eidam sýr 30% plátky | 100 g",
+    "price": "24,90 Kč",
+    "unit_price": "249,00 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Gouda sýr 48% plátky | 100 g",
+    "price": "24,90 Kč",
+    "unit_price": "249,00 Kč/kg"
+  },
+  {
+    "name": "Zlatý Sýr Cheddar 50 % plátky | 3 x 100 g",
+    "price": "108,01 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Moravia Excelent Gold sýr se zeleným pepřem a chilli plátky | 100 g",
+    "price": "39,90 Kč",
+    "unit_price": "399,00 Kč/kg"
+  },
+  {
+    "name": "Vás Výběr Eidam sýr 30% plátky uzený | 100 g",
+    "price": "24,90 Kč",
+    "unit_price": "249,00 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Eidam sýr 45% plátky | 100 g",
+    "price": "26,90 Kč",
+    "unit_price": "269,00 Kč/kg"
+  },
+  {
+    "name": "Brazza Sýr Provolone Dolce plátky | 150 g",
+    "price": "59,90 Kč",
+    "unit_price": "399,33 Kč/kg"
+  },
+  {
+    "name": "Zlatý Sýr Cheddar plátky | 100 g",
+    "price": "37,90 Kč",
+    "unit_price": "379,00 Kč/kg"
+  },
+  {
+    "name": "Agricol Eidam sýr 45% plátky | 100 g",
+    "price": "31,90 Kč",
+    "unit_price": "319,00 Kč/kg"
+  },
+  {
+    "name": "Madeta Jihočeský Eidam sýr 30% plátky | 100 g",
+    "price": "34,90 Kč",
+    "unit_price": "349,00 Kč/kg"
+  },
+  {
+    "name": "Agricol Sýr eidam uzený 30% plátky | 3 x 100 g",
+    "price": "85,21 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Zlatý sýr Tilsiter sýr 45% plátky | 150 g",
+    "price": "39,90 Kč",
+    "unit_price": "266,00 Kč/kg"
+  },
+  {
+    "name": "Madeta Jihočeský Eidam sýr 20% plátky | 100 g",
+    "price": "35,90 Kč",
+    "unit_price": "359,00 Kč/kg"
+  },
+  {
+    "name": "Zott Toasty Toast tavený plátkový sýr | 8 x 18.75 g",
+    "price": "39,90 Kč",
+    "unit_price": "266,00 Kč/kg"
+  },
+  {
+    "name": "Madeta Madeland sýr 45% plátky | 100 g",
+    "price": "42,90 Kč",
+    "unit_price": "429,00 Kč/kg"
+  },
+  {
+    "name": "Agricol Gouda 48% sýr plátky | 100 g",
+    "price": "33,90 Kč",
+    "unit_price": "339,00 Kč/kg"
+  },
+  {
+    "name": "Krolewski Original sýr 45% plátky | 100 g",
+    "price": "42,90 Kč",
+    "unit_price": "429,00 Kč/kg"
+  },
+  {
+    "name": "Agricol Eidam uzený sýr 30% plátky | 100 g",
+    "price": "29,90 Kč",
+    "unit_price": "299,00 Kč/kg"
+  },
+  {
+    "name": "Leerdammer Original sýr plátky | 100 g",
+    "price": "49,90 Kč",
+    "unit_price": "499,00 Kč/kg"
+  },
+  {
+    "name": "Šumavský sýr Eidam 30% plátky | 100 g",
+    "price": "39,90 Kč",
+    "unit_price": "399,00 Kč/kg"
+  },
+  {
+    "name": "Président Maasdamer sýr 45% plátky | 100 g",
+    "price": "51,90 Kč",
+    "unit_price": "519,00 Kč/kg"
+  },
+  {
+    "name": "Krolewski Original Uzený sýr 45% plátky | 100 g",
+    "price": "42,90 Kč",
+    "unit_price": "429,00 Kč/kg"
+  },
+  {
+    "name": "Président Čedar sýr plátky | 100 g",
+    "price": "64,90 Kč",
+    "unit_price": "649,00 Kč/kg"
+  },
+  {
+    "name": "Madeta Madeland Light sýr 30% plátky | 100 g",
+    "price": "44,90 Kč",
+    "unit_price": "449,00 Kč/kg"
+  },
+  {
+    "name": "Président Gouda sýr plátky | 100 g",
+    "price": "59,90 Kč",
+    "unit_price": "599,00 Kč/kg"
+  },
+  {
+    "name": "Dobroty s příběhem Nakládaný hermoš s tvarohem | 390 g",
+    "price": "79,89 Kč",
+    "unit_price": "204,85 Kč/kg"
+  },
+  {
+    "name": "Italat Mozzarella sýr uzené třešinky | 100 g",
+    "price": "36,90 Kč",
+    "unit_price": "369,00 Kč/kg"
+  },
+  {
+    "name": "Vivaldi Burrata sýr | 200 g",
+    "price": "63,82 Kč",
+    "unit_price": "319,10 Kč/kg"
+  },
+  {
+    "name": "Dobroty s příběhem Nakládaný hermoš s ořechy | 2 kusy",
+    "price": "79,89 Kč",
+    "unit_price": "39,95 Kč/kus"
+  },
+  {
+    "name": "Dobroty s příběhem Nakládaný hermoš s česnekem | 2 kusy",
+    "price": "79,89 Kč",
+    "unit_price": "39,95 Kč/kus"
+  },
+  {
+    "name": "Dobroty s příběhem Naložený balkánský sýr s rajčaty | 395 g",
+    "price": "79,89 Kč",
+    "unit_price": "202,25 Kč/kg"
+  },
+  {
+    "name": "Italat Mozzarella sýr | 100 g",
+    "price": "29,90 Kč",
+    "unit_price": "299,00 Kč/kg"
+  },
+  {
+    "name": "Dobroty s příběhem Nakládané tvarůžky s pálivou paprikou | 405 g",
+    "price": "184,90 Kč",
+    "unit_price": "456,54 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Strouhaná gouda | 250 g",
+    "price": "64,90 Kč",
+    "unit_price": "259,60 Kč/kg"
+  },
+  {
+    "name": "Želetava Sýr Smetanito | 150 g",
+    "price": "53,90 Kč",
+    "unit_price": "359,33 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Strouhaná mozzarella | 250 g",
+    "price": "64,90 Kč",
+    "unit_price": "259,60 Kč/kg"
+  },
+  {
+    "name": "Milki Line Cottage Cheese Light | 150 g",
+    "price": "29,90 Kč",
+    "unit_price": "199,33 Kč/kg"
+  },
+  {
+    "name": "Zott Mozzarella Protein sýr | 250 g",
+    "price": "35,90 Kč",
+    "unit_price": "287,20 Kč/kg"
+  },
+  {
+    "name": "Ovčí brynza sýr Statek Horní Dvorce | 125 g",
+    "price": "92,90 Kč",
+    "unit_price": "743,20 Kč/kg"
+  },
+  {
+    "name": "Král Sýrů Hermelín Originál | 120 g",
+    "price": "54,90 Kč",
+    "unit_price": "457,50 Kč/kg"
+  },
+  {
+    "name": "Sedlčanský Hermelín sýr smetanový | 100 g",
+    "price": "44,90 Kč",
+    "unit_price": "449,00 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Bambini mozzarella | 125 g",
+    "price": "32,90 Kč",
+    "unit_price": "263,20 Kč/kg"
+  },
+  {
+    "name": "Apetito Smetanový tavený sýr | 150 g",
+    "price": "50,90 Kč",
+    "unit_price": "339,33 Kč/kg"
+  },
+  {
+    "name": "Sedlčanský Hermelín sýr originál | 100 g",
+    "price": "45,90 Kč",
+    "unit_price": "459,00 Kč/kg"
+  },
+  {
+    "name": "Veselá Kráva Tavený sýr | 120 g",
+    "price": "54,90 Kč",
+    "unit_price": "457,50 Kč/kg"
+  },
+  {
+    "name": "Aw Olomoucké tvarůžky malé | 100 g",
+    "price": "39,90 Kč",
+    "unit_price": "399,00 Kč/kg"
+  },
+  {
+    "name": "Galbani Mozzarella | 125 g",
+    "price": "41,90 Kč",
+    "unit_price": "335,20 Kč/kg"
+  },
+  {
+    "name": "Madeta Romadur měkký zrající sýr | 100 g",
+    "price": "33,90 Kč",
+    "unit_price": "339,00 Kč/kg"
+  },
+  {
+    "name": "A.W. Tyčinky z Olomouckých tvarůžků | 125 g",
+    "price": "45,90 Kč",
+    "unit_price": "367,20 Kč/kg"
+  },
+  {
+    "name": "Président Cheddar tavený sýr | 150 g",
+    "price": "49,90 Kč",
+    "unit_price": "332,67 Kč/kg"
+  },
+  {
+    "name": "Galbani Mini Mozzarella sýr | 150 g",
+    "price": "49,90 Kč",
+    "unit_price": "191,92 Kč/kg"
+  },
+  {
+    "name": "Meggle Chilli Cottage cheese | 180 g",
+    "price": "46,90 Kč",
+    "unit_price": "260,56 Kč/kg"
+  },
+  {
+    "name": "Prezident Camembert tavený sýr | 150 g",
+    "price": "52,90 Kč",
+    "unit_price": "352,67 Kč/kg"
+  },
+  {
+    "name": "Jihočeská Niva Fit 30% | 100 g",
+    "price": "19,45 Kč",
+    "unit_price": "194,50 Kč/kg"
+  },
+  {
+    "name": "Madeta Báječný český tavený sýr 44% | 140 g",
+    "price": "29,90 Kč",
+    "unit_price": "213,57 Kč/kg"
+  },
+  {
+    "name": "Veselá Kráva Sýr a křup | 35 g",
+    "price": "20,90 Kč",
+    "unit_price": "597,14 Kč/kg"
+  },
+  {
+    "name": "Président Rondelé sýr se solí | 100 g",
+    "price": "54,90 Kč",
+    "unit_price": "549,00 Kč/kg"
+  },
+  {
+    "name": "Président Brie natur sýr | 125 g",
+    "price": "57,90 Kč",
+    "unit_price": "463,20 Kč/kg"
+  },
+  {
+    "name": "Sedlčanský Hermelín sýr bez laktózy | 100 g",
+    "price": "48,90 Kč",
+    "unit_price": "489,00 Kč/kg"
+  },
+  {
+    "name": "Veselá Kráva Tavený sýr | 8 x 15 g",
+    "price": "54,90 Kč",
+    "unit_price": "457,50 Kč/kg"
+  },
+  {
+    "name": "Veselá Kráva Sýr a křup | 4 x 35 g",
+    "price": "72,90 Kč",
+    "unit_price": "520,71 Kč/kg"
+  },
+  {
+    "name": "Madeta Madetka tavený smetanový sýr 45% | 100 g",
+    "price": "29,90 Kč",
+    "unit_price": "299,00 Kč/kg"
+  },
+  {
+    "name": "Kiri Tavený sýr z tvarohu a smetany | 100 g",
+    "price": "45,90 Kč",
+    "unit_price": "459,00 Kč/kg"
+  },
+  {
+    "name": "Milki Line Cottage Cheese | 150 g",
+    "price": "29,90 Kč",
+    "unit_price": "199,33 Kč/kg"
+  },
+  {
+    "name": "Liptov Bryndza plnotučná | 100 g",
+    "price": "54,90 Kč",
+    "unit_price": "549,00 Kč/kg"
+  },
+  {
+    "name": "Apetito Tavený sýr s modrou plísní | 140 g",
+    "price": "51,90 Kč",
+    "unit_price": "370,71 Kč/kg"
+  },
+  {
+    "name": "Président Le Palet de Chévre kozí sýr | 120 g",
+    "price": "119,90 Kč",
+    "unit_price": "999,17 Kč/kg"
+  },
+  {
+    "name": "Meggle Cottage cheese s pažitkou | 180 g",
+    "price": "49,90 Kč",
+    "unit_price": "277,22 Kč/kg"
+  },
+  {
+    "name": "Veselá Kráva Tavený sýr se šunkou | 120 g",
+    "price": "54,90 Kč",
+    "unit_price": "457,50 Kč/kg"
+  },
+  {
+    "name": "Président Rondelé se sýrem s modrou plísní | 100 g",
+    "price": "43,92 Kč",
+    "unit_price": "439,20 Kč/kg"
+  },
+  {
+    "name": "Váš výběr Uzené korbáčky | 55 g",
+    "price": "27,90 Kč",
+    "unit_price": "507,27 Kč/kg"
+  },
+  {
+    "name": "Gran Moravia Extra tvrdý sýr strouhaný | 60 g",
+    "price": "34,90 Kč",
+    "unit_price": "581,67 Kč/kg"
+  },
+  {
+    "name": "Virgilio Grana Padano strouhaný sýr | 100 g",
+    "price": "59,90 Kč",
+    "unit_price": "599,00 Kč/kg"
+  },
+  {
+    "name": "Balkánský sýr v nálevu | 180 g",
+    "price": "44,90 Kč",
+    "unit_price": "249,44 Kč/kg"
+  },
+  {
+    "name": "Cypriota Halloumi PDO sýr | 200 g",
+    "price": "89,90 Kč",
+    "unit_price": "449,50 Kč/kg"
+  },
+  {
+    "name": "Šumavský Eidam sýr 30% strouhaný | 100 g",
+    "price": "39,90 Kč",
+    "unit_price": "399,00 Kč/kg"
+  },
+  {
+    "name": "Váš výběr Neuzené korbáčky | 55 g",
+    "price": "27,90 Kč",
+    "unit_price": "507,27 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Gouda sýr 48% bloček | 250 g",
+    "price": "59,90 Kč",
+    "unit_price": "239,60 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Eidam sýr 30% bloček | 250 g",
+    "price": "49,90 Kč",
+    "unit_price": "199,60 Kč/kg"
+  },
+  {
+    "name": "Agricol Eidam sýr 30% bloček | 200 g",
+    "price": "47,90 Kč",
+    "unit_price": "239,50 Kč/kg"
+  },
+  {
+    "name": "Madeta Jihočeská Niva 45% sýr | 100 g",
+    "price": "38,90 Kč",
+    "unit_price": "389,00 Kč/kg"
+  },
+  {
+    "name": "Vivaldi Pecorino Romano DOP ovčí sýr | 200 g",
+    "price": "159,90 Kč",
+    "unit_price": "799,50 Kč/kg"
+  },
+  {
+    "name": "Madeta Balkánský sýr | 115 g",
+    "price": "35,90 Kč",
+    "unit_price": "312,17 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Eidam sýr 45% bloček | 250 g",
+    "price": "55,90 Kč",
+    "unit_price": "223,60 Kč/kg"
+  },
+  {
+    "name": "Agrofarma Gazdovská neuzená parenica sýr | 112 g",
+    "price": "54,90 Kč",
+    "unit_price": "490,18 Kč/kg"
+  },
+  {
+    "name": "Madeta Sýr na pánev uzený | 100 g",
+    "price": "41,90 Kč",
+    "unit_price": "419,00 Kč/kg"
+  },
+  {
+    "name": "Gran Moravia Extra tvrdý sýr porce | 100 g",
+    "price": "69,90 Kč",
+    "unit_price": "699,00 Kč/kg"
+  },
+  {
+    "name": "Kolios feta sýr | 200 g",
+    "price": "109,90 Kč",
+    "unit_price": "549,50 Kč/kg"
+  },
+  {
+    "name": "Kolios Feta sýr bez laktózy | 150 g",
+    "price": "89,90 Kč",
+    "unit_price": "599,33 Kč/kg"
+  },
+  {
+    "name": "Milsy Bánovecké neuzené sýrové nitě | 100 g",
+    "price": "45,90 Kč",
+    "unit_price": "459,00 Kč/kg"
+  },
+  {
+    "name": "Jihočeská Niva 60% | 100 g",
+    "price": "37,90 Kč",
+    "unit_price": "379,00 Kč/kg"
+  },
+  {
+    "name": "Président Balkánský sýr v nálevu | 250 g",
+    "price": "69,90 Kč",
+    "unit_price": "279,60 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Gorgonzola | 200 g",
+    "price": "79,90 Kč",
+    "unit_price": "399,50 Kč/kg"
+  },
+  {
+    "name": "Babybel Mini Original poloměkký zrající plnotučný sýr | 3 x 20 g",
+    "price": "44,90 Kč",
+    "unit_price": "748,33 Kč/kg"
+  },
+  {
+    "name": "Gran Moravia Scaglie sýr | 100 g",
+    "price": "78,90 Kč",
+    "unit_price": "789,00 Kč/kg"
+  },
+  {
+    "name": "Madeta Klasický sýr na pánev | 100 g",
+    "price": "41,90 Kč",
+    "unit_price": "419,00 Kč/kg"
+  },
+  {
+    "name": "Valio Gran Regale Tvrdý sýr strouhaný 12 měsíců | 100 g",
+    "price": "64,90 Kč",
+    "unit_price": "649,00 Kč/kg"
+  },
+  {
+    "name": "Violife Blok s příchuti goudy | 200 g",
+    "price": "72,90 Kč",
+    "unit_price": "364,50 Kč/kg"
+  },
+  {
+    "name": "Valio Forte Speciale Tvrdý sýr 20 měsíců | 180 g",
+    "price": "139,90 Kč",
+    "unit_price": "777,22 Kč/kg"
+  },
+  {
+    "name": "Milko Tvaroh polotučný | 3 x 250 g",
+    "price": "85,21 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Milko Polotučný tvaroh | 250 g",
+    "price": "29,90 Kč",
+    "unit_price": "119,60 Kč/kg"
+  },
+  {
+    "name": "Gervais Čerstvý tvarohový sýr s česnekem a bylinkami | 80 g",
+    "price": "31,90 Kč",
+    "unit_price": "398,75 Kč/kg"
+  },
+  {
+    "name": "Gervais Original tvarohový sýr | 80 g",
+    "price": "31,90 Kč",
+    "unit_price": "398,75 Kč/kg"
+  },
+  {
+    "name": "Lučina Smetanový termizovaný sýr | 120 g",
+    "price": "42,90 Kč",
+    "unit_price": "357,50 Kč/kg"
+  },
+  {
+    "name": "Lučina Smetanový termizovaný sýr | 100 g",
+    "price": "26,90 Kč",
+    "unit_price": "269,00 Kč/kg"
+  },
+  {
+    "name": "Milko Žervé z Poděbrad paprika sýr | 80 g",
+    "price": "25,90 Kč",
+    "unit_price": "323,75 Kč/kg"
+  },
+  {
+    "name": "Gervais Čerstvý tvarohový sýr s pažitkou | 80 g",
+    "price": "19,89 Kč",
+    "unit_price": "248,63 Kč/kg"
+  },
+  {
+    "name": "Milko Tučný tvaroh z Poděbrad | 250 g",
+    "price": "32,90 Kč",
+    "unit_price": "131,60 Kč/kg"
+  },
+  {
+    "name": "Gervais Čerstvý tvarohový sýr s paprikou a rajčaty | 80 g",
+    "price": "31,90 Kč",
+    "unit_price": "398,75 Kč/kg"
+  },
+  {
+    "name": "Milko Odtučněný tvaroh z Poděbrad | 250 g",
+    "price": "27,90 Kč",
+    "unit_price": "111,60 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Mascarpone | 250 g",
+    "price": "46,90 Kč",
+    "unit_price": "187,60 Kč/kg"
+  },
+  {
+    "name": "Milko Žervé z Poděbrad pažitka sýr | 80 g",
+    "price": "25,90 Kč",
+    "unit_price": "323,75 Kč/kg"
+  },
+  {
+    "name": "Milko Krémové žervé z Poděbrad | 80 g",
+    "price": "25,90 Kč",
+    "unit_price": "323,75 Kč/kg"
+  },
+  {
+    "name": "Philadelphia Original čerstvý sýr | 125 g",
+    "price": "61,90 Kč",
+    "unit_price": "495,20 Kč/kg"
+  },
+  {
+    "name": "Milko Bio Odtučněný tvaroh | 250 g",
+    "price": "24,56 Kč",
+    "unit_price": "98,24 Kč/kg"
+  },
+  {
+    "name": "Gervais Čerstvý tvarohový sýr s ředkvičkou a pažitkou | 80 g",
+    "price": "19,89 Kč",
+    "unit_price": "248,63 Kč/kg"
+  },
+  {
+    "name": "Lučina Nadýchaná čerstvý tvarohový sýr se smetanou | 140 g",
+    "price": "51,90 Kč",
+    "unit_price": "370,71 Kč/kg"
+  },
+  {
+    "name": "Lučina Nadýchaná čerstvý tvarohový sýr s bylinkami | 140 g",
+    "price": "51,90 Kč",
+    "unit_price": "370,71 Kč/kg"
+  },
+  {
+    "name": "Lučina Nadýchaná čerstvý tvarohový sýr se šalotkou | 140 g",
+    "price": "51,90 Kč",
+    "unit_price": "370,71 Kč/kg"
+  },
+  {
+    "name": "Ekomilk Zakysaná smetana 14% | 200 g",
+    "price": "19,90 Kč",
+    "unit_price": "99,50 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Smetana na vaření 12% | 200 g",
+    "price": "16,90 Kč",
+    "unit_price": "84,50 Kč/kg"
+  },
+  {
+    "name": "Váš výběr Zakysaná smetana 15% | 200 g",
+    "price": "15,90 Kč",
+    "unit_price": "79,50 Kč/kg"
+  },
+  {
+    "name": "Váš Výběr Smetana ke šlehání 31% | 200 g",
+    "price": "29,90 Kč",
+    "unit_price": "149,50 Kč/kg"
+  },
+  {
+    "name": "Kunín Smetana ke šlehání 31% | 3 x 200 g",
+    "price": "113,71 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Kunín Smetana na vaření 12% | 3 x 200 g",
+    "price": "79,51 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Gastro service Smetana do kávy | 10 x 10 g",
+    "price": "14,90 Kč",
+    "unit_price": "149,00 Kč/kg"
+  },
+  {
+    "name": "Váš výběr Zakysaná smetana 12% | 200 g",
+    "price": "11,74 Kč",
+    "unit_price": "58,70 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Smetana na vaření 12% | 200 g",
+    "price": "27,90 Kč",
+    "unit_price": "139,50 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Smetana ke šlehání 31% | 200 g",
+    "price": "39,90 Kč",
+    "unit_price": "199,50 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Kunín Zakysaná smetana 15% | 190 g",
+    "price": "27,90 Kč",
+    "unit_price": "146,84 Kč/kg"
+  },
+  {
+    "name": "Jeden Tag Trvanlivá šlehačka 30% | 200 g",
+    "price": "24,90 Kč",
+    "unit_price": "124,50 Kč/kg"
+  },
+  {
+    "name": "Carrefour Bio Kokosové krém | 330 g",
+    "price": "59,90 Kč",
+    "unit_price": "181,52 Kč/kg"
+  },
+  {
+    "name": "Carrefour Bio kokosové mléko | 400 ml",
+    "price": "79,90 Kč",
+    "unit_price": "199,75 Kč/l"
+  },
+  {
+    "name": "Aroy-D Kokosové Mléko | 250 ml",
+    "price": "49,90 Kč",
+    "unit_price": "199,60 Kč/l"
+  },
+  {
+    "name": "Mlékárna Kunín de Luxe smetana ke šlehání 40% | 200 g",
+    "price": "48,90 Kč",
+    "unit_price": "244,50 Kč/kg"
+  },
+  {
+    "name": "Kunín Pařížská šlehačka | 200 g",
+    "price": "41,90 Kč",
+    "unit_price": "209,50 Kč/kg"
+  },
+  {
+    "name": "Kapucín Šlehačka ve spreji | 250 g",
+    "price": "62,90 Kč",
+    "unit_price": "251,60 Kč/kg"
+  },
+  {
+    "name": "Meggle Smetana na vaření 10% bez laktózy | 200 ml",
+    "price": "35,90 Kč",
+    "unit_price": "179,50 Kč/l"
+  },
+  {
+    "name": "Globus Bio kokosový krém | 400 ml",
+    "price": "52,90 Kč",
+    "unit_price": "132,25 Kč/l"
+  },
+  {
+    "name": "Mokate Carmen práškova smetana do kávy classic | 200 g",
+    "price": "29,89 Kč",
+    "unit_price": "149,45 Kč/kg"
+  },
+  {
+    "name": "Grizly Ghí přepuštěné máslo | 500 ml",
+    "price": "219,88 Kč",
+    "unit_price": "439,76 Kč/l"
+  },
+  {
+    "name": "Moravia Máslo z Vysočiny | 125 g",
+    "price": "44,90 Kč",
+    "unit_price": "359,20 Kč/kg"
+  },
+  {
+    "name": "Tatra Máslo | 250 g",
+    "price": "84,90 Kč",
+    "unit_price": "339,60 Kč/kg"
+  },
+  {
+    "name": "Madeta Jihočeské máslo | 250 g",
+    "price": "84,90 Kč",
+    "unit_price": "339,60 Kč/kg"
+  },
+  {
+    "name": "Vilgain Grass-fed Ghí BIO | 300 ml",
+    "price": "279,00 Kč",
+    "unit_price": "930,00 Kč/l"
+  },
+  {
+    "name": "Rama Máslová příchuť | 400 g",
+    "price": "88,90 Kč",
+    "unit_price": "222,25 Kč/kg"
+  },
+  {
+    "name": "Choceňské Přírodní pomazánkové | 150 g",
+    "price": "44,90 Kč",
+    "unit_price": "299,33 Kč/kg"
+  },
+  {
+    "name": "Vepřové škvařené sádlo | 250 g",
+    "price": "41,90 Kč",
+    "unit_price": "167,60 Kč/kg"
+  },
+  {
+    "name": "Mlékárna Olešnice DeLacto máslo bez laktózy | 125 g",
+    "price": "23,95 Kč",
+    "unit_price": "191,60 Kč/kg"
+  },
+  {
+    "name": "Choceňská Mlékárna Choceňské tradiční pomazánkové s česnekem a bylinkami | 150 g",
+    "price": "45,90 Kč",
+    "unit_price": "306,00 Kč/kg"
+  },
+  {
+    "name": "Rama Classic natural | 400 g",
+    "price": "87,90 Kč",
+    "unit_price": "219,75 Kč/kg"
+  },
+  {
+    "name": "Madeta Jihočeské pomazánkové bez laktózy | 150 g",
+    "price": "32,90 Kč",
+    "unit_price": "219,33 Kč/kg"
+  },
+  {
+    "name": "Choceňská Mlékárna Choceňský Nuty čokoládovo oříškový krém | 150 g",
+    "price": "34,12 Kč",
+    "unit_price": "227,47 Kč/kg"
+  },
+  {
+    "name": "Flora Light margarín | 400 g",
+    "price": "83,90 Kč",
+    "unit_price": "209,75 Kč/kg"
+  },
+  {
+    "name": "Heinz Majonéza | 480 ml",
+    "price": "99,90 Kč",
+    "unit_price": "208,13 Kč/l"
+  },
+  {
+    "name": "Hellmann's Majonéza originál 40% | 210 ml",
+    "price": "49,90 Kč",
+    "unit_price": "237,62 Kč/l"
+  },
+  {
+    "name": "Hellmann's Tatarská omáčka extra krémová | 210 ml",
+    "price": "49,90 Kč",
+    "unit_price": "237,62 Kč/l"
+  },
+  {
+    "name": "Agricol Poličanka majonéza | 100 ml",
+    "price": "13,90 Kč",
+    "unit_price": "139,00 Kč/l"
+  },
+  {
+    "name": "Agricol Tatarská omáčka | 100 ml",
+    "price": "13,90 Kč",
+    "unit_price": "139,00 Kč/l"
+  },
+  {
+    "name": "Hellmann's Tatarská omáčka extra krémová | 405 ml",
+    "price": "93,90 Kč",
+    "unit_price": "231,85 Kč/l"
+  },
+  {
+    "name": "Hellmann's Original majonéza | 100 ml",
+    "price": "20,90 Kč",
+    "unit_price": "209,00 Kč/l"
+  },
+  {
+    "name": "Agricol Tatarská omáčka | 250 ml",
+    "price": "32,90 Kč",
+    "unit_price": "131,60 Kč/l"
+  },
+  {
+    "name": "Hellmann's Original majonéza | 405 ml",
+    "price": "69,89 Kč",
+    "unit_price": "172,57 Kč/l"
+  },
+  {
+    "name": "Hellmann's Tatarská omáčka | 100 ml",
+    "price": "20,90 Kč",
+    "unit_price": "209,00 Kč/l"
+  },
+  {
+    "name": "Hellmann's Burgrová omáčka | 250 ml",
+    "price": "78,90 Kč",
+    "unit_price": "315,60 Kč/l"
+  },
+  {
+    "name": "Hellmann's Caesar dresink | 250 ml",
+    "price": "76,90 Kč",
+    "unit_price": "307,60 Kč/l"
+  },
+  {
+    "name": "Hellmann’s Majonéza delikátní | 405 ml",
+    "price": "109,90 Kč",
+    "unit_price": "271,36 Kč/l"
+  },
+  {
+    "name": "Hellmann’s Delikátní tatarská omáčka | 405 ml",
+    "price": "109,90 Kč",
+    "unit_price": "271,36 Kč/l"
+  },
+  {
+    "name": "Hochwald Eiskaffee ledová káva | 500 ml",
+    "price": "33,90 Kč",
+    "unit_price": "67,80 Kč/l"
+  },
+  {
+    "name": "Okf Cappuccino ledová káva | 240 ml",
+    "price": "19,90 Kč",
+    "unit_price": "82,92 Kč/l"
+  },
+  {
+    "name": "Vilgain Kakaový proteinový milkshake | 330 ml",
+    "price": "59,90 Kč",
+    "unit_price": "181,52 Kč/l"
+  },
+  {
+    "name": "Vilgain Kokosový proteinový milkshake | 330 ml",
+    "price": "59,90 Kč",
+    "unit_price": "181,52 Kč/l"
+  },
+  {
+    "name": "Okf Caffe mocha ledová káva | 240 ml",
+    "price": "19,90 Kč",
+    "unit_price": "82,92 Kč/l"
+  },
+  {
+    "name": "Vilgain Vanilkový proteinový milkshake | 330 ml",
+    "price": "59,90 Kč",
+    "unit_price": "181,52 Kč/l"
+  },
+  {
+    "name": "Hochwald Eiskaffee Ledová káva | 3 x 500 ml",
+    "price": "96,37 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Nescafé Cappuccino ledová káva | 250 ml",
+    "price": "49,90 Kč",
+    "unit_price": "199,60 Kč/l"
+  },
+  {
+    "name": "Zott Protein Drink Plus kakao | 4 x 250 ml",
+    "price": "117,42 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Zott Protein Drink Plus vanilková příchuť | 4 x 250 ml",
+    "price": "117,42 Kč",
+    "unit_price": null
+  },
+  {
+    "name": "Milka Čokoládovo-karamelový mléčný nápoj | 250 ml",
+    "price": "46,90 Kč",
+    "unit_price": "187,60 Kč/l"
+  },
+  {
+    "name": "Milka Čokoládový mléčný nápoj | 250 ml",
+    "price": "46,90 Kč",
+    "unit_price": "187,60 Kč/l"
+  },
+  {
+    "name": "Nescafé Latte ledová káva | 250 ml",
+    "price": "39,92 Kč",
+    "unit_price": "159,68 Kč/l"
+  },
+  {
+    "name": "Hochwald Ledová káva | 250 ml",
+    "price": "24,90 Kč",
+    "unit_price": "99,60 Kč/l"
+  },
+  {
+    "name": "Nescafé Americano ledová káva | 250 ml",
+    "price": "49,90 Kč",
+    "unit_price": "199,60 Kč/l"
+  },
+  {
+    "name": "Olma Florian Active+ malina a borůvka jogurtový nápoj | 320 g",
+    "price": "15,95 Kč",
+    "unit_price": "49,84 Kč/kg"
+  },
+  {
+    "name": "Olma Florian Jahodový jogurtový nápoj | 400 g",
+    "price": "18,83 Kč",
+    "unit_price": "47,08 Kč/kg"
+  },
+  {
+    "name": "Tatra Kravík Kakaový mléčný nápoj | 250 ml",
+    "price": "20,90 Kč",
+    "unit_price": "83,60 Kč/l"
+  },
+  {
+    "name": "Ehrmann Foodie pistáciový mléčný nápoj | 400 ml",
+    "price": "89,90 Kč",
+    "unit_price": "224,75 Kč/l"
+  },
+  {
+    "name": "Mr. Brown Cappucino ledová káva | 240 ml",
+    "price": "39,90 Kč",
+    "unit_price": "166,25 Kč/l"
+  },
+  {
+    "name": "Olma Florian jogurtový nápoj borůvka | 400 g",
+    "price": "15,45 Kč",
+    "unit_price": "38,63 Kč/kg"
+  },
+  {
+    "name": "Alnatura Bio Latte Macchiato ledová káva | 230 ml",
+    "price": "29,90 Kč",
+    "unit_price": "130,00 Kč/l"
+  },
+  {
+    "name": "Activia Třešeň a Jablko jogurtový nápoj | 270 g",
+    "price": "16,95 Kč",
+    "unit_price": "62,78 Kč/kg"
+  },
+  {
+    "name": "Activia Jahoda a Kiwi jogurtový nápoj | 280 ml",
+    "price": "32,90 Kč",
+    "unit_price": "117,50 Kč/l"
+  },
+  {
+    "name": "Tatra Kravík Jahodový mléčný nápoj | 250 ml",
+    "price": "19,90 Kč",
+    "unit_price": "79,60 Kč/l"
+  },
+  {
+    "name": "Müller Müllermilch Kokosovo pistáciový mléčný nápoj | 400 g",
+    "price": "34,90 Kč",
+    "unit_price": "87,25 Kč/kg"
+  },
+  {
+    "name": "Activia Malina a Granátové jablko jogurtový nápoj | 280 g",
+    "price": "32,90 Kč",
+    "unit_price": "117,50 Kč/kg"
+  },
+  {
+    "name": "Zott Monte Mléčný čokoládový nápoj | 200 ml",
+    "price": "27,90 Kč",
+    "unit_price": "139,50 Kč/l"
+  },
+  {
+    "name": "Mr. Brown Black Coffee ledová káva | 240 ml",
+    "price": "39,90 Kč",
+    "unit_price": "166,25 Kč/l"
+  },
+  {
+    "name": "Actimel Kids Banán a Jahoda Probiotický nápoj | 8 x 100 g",
+    "price": "129,90 Kč",
+    "unit_price": "162,38 Kč/kg"
+  },
+  {
+    "name": "Tatra Kravík Vanilkový mléčný nápoj | 250 ml",
+    "price": "20,90 Kč",
+    "unit_price": "83,60 Kč/l"
+  },
+  {
+    "name": "Activia Lesní ovoce jogurtový nápoj | 280 g",
+    "price": "33,90 Kč",
+    "unit_price": "121,07 Kč/kg"
+  },
+  {
+    "name": "Ehrmann Foodie vanilkový mléčný nápoj | 400 ml",
+    "price": "89,90 Kč",
+    "unit_price": "224,75 Kč/l"
+  },
+  {
+    "name": "Müllermilch mléčný nápoj jahoda | 400 g",
+    "price": "34,90 Kč",
+    "unit_price": "87,25 Kč/kg"
+  },
+  {
+    "name": "Zott Protein Drink Plus Nápoj vanilka | 250 ml",
+    "price": "30,90 Kč",
+    "unit_price": "123,60 Kč/l"
+  },
+  {
+    "name": "Activia Borůvkový jogurtový nápoj | 280 g",
+    "price": "32,90 Kč",
+    "unit_price": "117,50 Kč/kg"
+  },
+  {
+    "name": "Olma Protein Skyr jahodový jogurtový nápoj | 320 g",
+    "price": "32,90 Kč",
+    "unit_price": "102,81 Kč/kg"
+  },
+  {
+    "name": "Ehrmann Foodie čokoládový mléčný nápoj | 400 ml",
+    "price": "89,90 Kč",
+    "unit_price": "224,75 Kč/l"
+  },
+  {
+    "name": "Zott Protein Drink Plus Nápoj kakao | 250 ml",
+    "price": "30,90 Kč",
+    "unit_price": "123,60 Kč/l"
+  },
+  {
+    "name": "Müller Müllermilch Čokoládový mléčný nápoj | 400 g",
+    "price": "34,90 Kč",
+    "unit_price": "87,25 Kč/kg"
+  },
+  {
+    "name": "Müllermilch Mléčný nápoj bílá čokoláda | 400 ml",
+    "price": "34,90 Kč",
+    "unit_price": "87,25 Kč/kg"
+  },
+  {
+    "name": "Actimel Bílý probiotický nápoj | 4 x 100 g",
+    "price": "79,90 Kč",
+    "unit_price": "199,75 Kč/kg"
+  },
+  {
+    "name": "Hochwald Ledový čokoládový nápoj | 0.5 l",
+    "price": "34,90 Kč",
+    "unit_price": "69,80 Kč/l"
+  },
+  {
+    "name": "Müllermilch Mléčný nápoj čokoládové cookie & karamel | 400 g",
+    "price": "34,90 Kč",
+    "unit_price": "87,25 Kč/kg"
+  },
+  {
+    "name": "Müller Müllermilch Čokoládovo-banánový mléčný nápoj s proteinem | 400 g",
+    "price": "44,90 Kč",
+    "unit_price": "112,25 Kč/kg"
+  },
+  {
+    "name": "Mr. Brown Kávový nápoj | 240 ml",
+    "price": "59,90 Kč",
+    "unit_price": "249,58 Kč/l"
+  },
+  {
+    "name": "Vilgain Ovesný nápoj BIO | 1000 ml",
+    "price": "44,90 Kč",
+    "unit_price": "44,90 Kč/l"
+  },
+  {
+    "name": "Alpro Barista ovesný bezlepkový nápoj | 1 l",
+    "price": "99,90 Kč",
+    "unit_price": "99,90 Kč/l"
+  },
+  {
+    "name": "Alpro Barista Mandlový nápoj | 1 l",
+    "price": "99,90 Kč",
+    "unit_price": "99,90 Kč/l"
+  },
+  {
+    "name": "Alpro Barista kokos sójový nápoj | 1 l",
+    "price": "99,90 Kč",
+    "unit_price": "99,90 Kč/l"
+  },
+  {
+    "name": "Alpro Barista Ovesno-sójový nápoj s karamelovou příchutí | 750 ml",
+    "price": "65,90 Kč",
+    "unit_price": "87,87 Kč/l"
+  },
+  {
+    "name": "Vilgain Mandlový nápoj BIO | 1000 ml",
+    "price": "64,90 Kč",
+    "unit_price": "64,90 Kč/l"
+  },
+  {
+    "name": "Alpro Neslazený mandlový nápoj | 1 l",
+    "price": "86,90 Kč",
+    "unit_price": "86,90 Kč/l"
+  },
+  {
+    "name": "Alpro Čokoládový sójový nápoj | 1 l",
+    "price": "88,90 Kč",
+    "unit_price": "88,90 Kč/l"
+  },
+  {
+    "name": "Alpro ovesný nápoj TAG 3.5% | 1 l",
+    "price": "90,90 Kč",
+    "unit_price": "90,90 Kč/l"
+  },
+  {
+    "name": "Alpro Sójový nápoj | 1 l",
+    "price": "75,90 Kč",
+    "unit_price": "75,90 Kč/l"
+  },
+  {
+    "name": "Alpro Broskvový sójový dezert | 150 g",
+    "price": "34,90 Kč",
+    "unit_price": "232,67 Kč/kg"
+  },
+  {
+    "name": "Alpro Brůvkový sójový dezert | 150 g",
+    "price": "17,79 Kč",
+    "unit_price": "118,60 Kč/kg"
+  },
+  {
+    "name": "Alpro Čokoládový sójový dezert | 125 g",
+    "price": "23,55 Kč",
+    "unit_price": "188,40 Kč/kg"
+  },
+  {
+    "name": "Alpro Ovesný výrobek na vaření | 250 ml",
+    "price": "44,90 Kč",
+    "unit_price": "179,60 Kč/l"
+  },
+  {
+    "name": "Alpro Vanilkový sójový nápoj | 250 ml",
+    "price": "26,90 Kč",
+    "unit_price": "107,60 Kč/l"
+  },
+  {
+    "name": "Alpro Sójový dezert s příchutí hořké čokolády | 125 g",
+    "price": "27,67 Kč",
+    "unit_price": "221,36 Kč/kg"
+  },
+  {
+    "name": "Alpro Rýžová alternativa smetany na vaření | 250 ml",
+    "price": "44,90 Kč",
+    "unit_price": "179,60 Kč/l"
+  },
+  {
+    "name": "Alpro Vanilkový sójový dezert | 125 g",
+    "price": "23,55 Kč",
+    "unit_price": "47,10 Kč/kg"
+  },
+  {
+    "name": "Alpro Barista sójový nápoj | 1 l",
+    "price": "116,90 Kč",
+    "unit_price": "116,90 Kč/l"
+  },
+  {
+    "name": "Alpro Sójový výrobek na vaření | 250 ml",
+    "price": "39,31 Kč",
+    "unit_price": "157,24 Kč/l"
+  },
+  {
+    "name": "Alpro High Protein Čokoládový sójový nápoj | 250 ml",
+    "price": "32,10 Kč",
+    "unit_price": "128,40 Kč/l"
+  },
+  {
+    "name": "Alpro High Protein sójový nápoj s příchutí karamelu a kávy | 250 ml",
+    "price": "32,10 Kč",
+    "unit_price": "128,40 Kč/l"
+  },
+  {
+    "name": "Alpro Sójová alternativa smetany ke šlehání | 250 ml",
+    "price": "54,89 Kč",
+    "unit_price": "219,56 Kč/l"
+  },
+  {
+    "name": "Alpro Čokoládový sójový nápoj | 250 ml",
+    "price": "26,90 Kč",
+    "unit_price": "107,60 Kč/l"
+  },
+  {
+    "name": "Alpro Banánový sójový nápoj | 250 ml",
+    "price": "26,90 Kč",
+    "unit_price": "107,60 Kč/l"
+  },
+  {
+    "name": "Alpro Karamelový sójový dezert | 125 g",
+    "price": "24,86 Kč",
+    "unit_price": "198,88 Kč/kg"
+  }
+]
