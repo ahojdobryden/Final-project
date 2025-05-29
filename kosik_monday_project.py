@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -15,7 +16,7 @@ CHROMEDRIVER_PATH = "/Users/kucer/Downloads/chromedriver-mac-arm64/chromedriver"
 
 # Set Chrome options
 options = Options()
-options.add_argument("--headless")  # Runs Chrome in headless mode (no GUI) pak odkomentit
+# options.add_argument("--headless")  # Runs Chrome in headless mode (no GUI) pak odkomentit
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
@@ -64,7 +65,8 @@ cookies = {
 }
 
 # Sending the GET request with the necessary parameters, headers, and cookies
-response = requests.get(url, params=params, headers=headers, cookies=cookies)
+# response = requests.get(url, params=params, headers=headers, cookies=cookies)
+response = requests.get(url, params=params, headers=headers)
 data = response.json()  # Parse the JSON response
 # Checking the status code of the response
 #print(data)
@@ -89,7 +91,7 @@ for link in links:
     driver.get(link)
     time.sleep(5)  # Wait for the page to load completely
 
-height = driver.execute_script("return document.body.scrollHeight")  # Get the initial page height
+    height = driver.execute_script("return document.body.scrollHeight")  # Get the initial page height
 
     while True:
         try:
@@ -98,6 +100,8 @@ height = driver.execute_script("return document.body.scrollHeight")  # Get the i
             button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Načíst další')]")))
             driver.execute_script("arguments[0].click();", button)
             time.sleep(3)  # Wait for new products to load
+        except ElementClickInterceptedException as e:
+            print("ElementClickInterceptedException occurred:", e)
         except Exception as e:
             print("No more 'Load More' button or error occurred:", e)
 
@@ -107,23 +111,24 @@ height = driver.execute_script("return document.body.scrollHeight")  # Get the i
 
         # Check if new content is loaded
         new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
+        if new_height == height:
             print("No more content to load.")
             break
-        last_height = new_height
+        height = new_height
 
 
     page_title = driver.title
     print(f'This is the page title: {page_title}.')
     # Extract the page source   
     page_source = driver.page_source
-    print(f'This is the length of the page source: {page_source}.')
+    #print(f'This is the length of the page source: {page_source}.')
 
     try:
         # Example XPath: Adjust this to match the actual item elements on the page
         item_elements = driver.find_elements(By.XPATH, '//article[@data-cnstrc-item-name]')
         item_names = [item.get_attribute("data-cnstrc-item-name") for item in item_elements]
-        prices = driver.find_elements(By.XPATH, "//*[@class='text-gray']")# Adjust based on actual structure
+        # prices = driver.find_elements(By.XPATH, "//*[@class='text-gray']")# Adjust based on actual structure
+        prices = driver.find_elements(By.XPATH, "//div[@class='tw-flex tw-justify-between tw-pr-2 tw-text-sm tw-font-normal tw-text-ds-neutral-70']/div[2]/span[1]")# Adjust based on actual structure
 
         # Print extracted data
         if len(item_names) != len(prices):
@@ -157,3 +162,4 @@ print(f"Execution time: {execution_time} seconds")
 
 
 print('THIS IS THE END OF THE MONDAY PROJECT')
+print(f'THESE ARE THE LINKS: {links}.')
