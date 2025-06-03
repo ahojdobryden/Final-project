@@ -7,7 +7,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import requests
-from lxml import html
 import json
 
 # Path to your ChromeDriver binary
@@ -16,7 +15,7 @@ CHROMEDRIVER_PATH = "/Users/kucer/Downloads/chromedriver-mac-arm64/chromedriver"
 
 # Set Chrome options
 options = Options()
-# options.add_argument("--headless")  # Runs Chrome in headless mode (no GUI) pak odkomentit
+options.add_argument("--headless")  # Runs Chrome in headless mode (no GUI) pak odkomentit
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
@@ -24,7 +23,7 @@ options.add_argument("--disable-dev-shm-usage")
 service = Service(CHROMEDRIVER_PATH)
 
 # Start the WebDriver
-driver = webdriver.Chrome(service=service, options=options)
+#driver = webdriver.Chrome(service=service, options=options)
 
 # The target URL for the API request
 url = "https://www.kosik.cz/api/front/page/products/flexible"
@@ -63,6 +62,32 @@ cookies = {
     "lbuid": "250428|572777531998",
     "X-Ksp-Token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImtpZDEifQ.eyJzdWIiOiIxNzcyODA5MDYiLCJzY3AiOiIxIiwiY2F0IjoxNzQ1ODU1OTIzLCJpYXQiOjE3NDU4NTU5MjMsImlzcyI6InBjeiIsImV4cCI6MTc0NjQ2MDcyM30.e40lZ6mnvb8VwXwbzsSWYYpgRfsHcL0isaVJUGfaAHPRWXkyMigWiHkG2rdT_EBOzuzjlCo0wTyXlFshOhYRlT859vUVd3FtINqacp4a48mP7OPNiGS_F4qIhDqL5fEGW2Y08wyJOKGsudDQyJagTXtgQWN9dUYfsISh-I6krv43olWqJOR5jhB_XA9OFol9Pp58kviiVTgEHPLQ9EaWYF0PNDt-Gfv6Xw0E6RS3yK4QqOAae_9CUyU15-KGQWb2QSZNMwM-FRnOlBiBSX7d6ltnGodNI6DE2-ZHiKXDoLRDYyKqkOyKyhMJVIkVq-5h4WjPLKHwSJ8ExW5irM4grP7v_6SMteQozFqtiEDINBVAfHmNFrxOBO6taniU-vJW4kZ3eZUMNheFhWGhNn2BGcSkYA-mzycZY2w4YxFGwBKlRYdgl_2aeu5K0ywP9z5brD0fNmbT0ml8v2OEbq-MOYcvO0o0KtTi_MoJsh8EmQvMWHwjSq8yUUeHJUInEAxh"
 }
+##################
+def get_links(api_url, params, headers, base_url):
+    response = requests.get(api_url, params=params, headers=headers)
+    data = response.json()
+    links = []
+    for item in data.get("subCategories", []):
+        relative_url = item.get("url")
+        if relative_url:
+            links.append(f"{base_url}{relative_url}")
+    return links
+
+def scrape_products_from_link(driver, link, subcat_name):
+    driver.get(link)
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.XPATH, '//article[@data-cnstrc-item-name]'))
+    )
+    # Load all products
+    while True:
+        try:
+            wait = WebDriverWait(driver, 5)
+            button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Načíst další')]")))
+            driver.execute_script("arguments[0].click();", button)
+            time.sleep(2)
+        except Exception:
+            break
+##################
 
 # Sending the GET request with the necessary parameters, headers, and cookies
 # response = requests.get(url, params=params, headers=headers, cookies=cookies)
@@ -89,6 +114,7 @@ print(f'THESE ARE THE LINKS: {links}.')
 
 start_time = time.time()
 for i,link in enumerate(links):
+    driver = webdriver.Chrome(service=service, options=options)
     subcategory_name_list = (link.split("/")[-1]).split("-")[1::]
     subcat_name = " ".join(str(item) for item in subcategory_name_list)  # Extract the last part of the URL as the subcategory name
     print(f"Processing link {i+1}/{len(links)}: {subcat_name}")
@@ -154,9 +180,9 @@ for i,link in enumerate(links):
     finally:
 
         print(data_kosik_subcats)
+    driver.quit()
 
-
-driver.quit()
+#driver.quit()
 
 import json
 
