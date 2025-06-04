@@ -98,7 +98,7 @@ data = response.json()  # Parse the JSON response
 
 links = []
 data_kosik = {}
-data_kosik_cats = []
+data_kosik_subcats = []
 
 for key,value in data.items():
     if key == "subCategories":
@@ -175,14 +175,14 @@ for i,link in enumerate(links):
                 "subcategory": subcat_name,
                 "sub-subcategory_name": subsub_name.text if subsub_name else "Unknown"
             }
-            data_kosik_cats.append(product_dict)   
+            data_kosik_subcats.append(product_dict)   
     
     except Exception as e:
         print(f"Error while extracting data from {link}: {e}")
 
     finally:
 
-        print(data_kosik_cats)
+        print(data_kosik_subcats)
     driver.quit()
 
 #driver.quit()
@@ -190,10 +190,10 @@ for i,link in enumerate(links):
 import json
 
 # Save data_kosik to a JSON file
-with open("data_kosik_cats.json", "w", encoding="utf-8") as json_file:
-    json.dump(data_kosik_cats, json_file, ensure_ascii=False, indent=4)
+with open("data_kosik_subcats.json", "w", encoding="utf-8") as json_file:
+    json.dump(data_kosik_subcats, json_file, ensure_ascii=False, indent=4)
 
-print("Data saved to data_kosik_cats.json")
+print("Data saved to data_kosik_subcats.json")
 
 end_time = time.time()
 execution_time = end_time - start_time
