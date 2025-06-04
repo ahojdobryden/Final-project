@@ -155,6 +155,8 @@ for i,link in enumerate(links):
 
     try:
         # Example XPath: Adjust this to match the actual item elements on the page
+        subsub_name = driver.find_element(By.XPATH, "(//nav//ul//li/a)")
+        # Example XPath: Adjust this to match the actual item elements on the page
         item_elements = driver.find_elements(By.XPATH, '//article[@data-cnstrc-item-name]')
     
         item_names = [item.get_attribute("data-cnstrc-item-name") for item in item_elements]
@@ -170,7 +172,8 @@ for i,link in enumerate(links):
             product_dict = {
                 "name": name,
                 "price": price.text,
-                "subcategory": subcat_name
+                "subcategory": subcat_name,
+                "sub-subcategory_name": subsub_name.text if subsub_name else "Unknown"
             }
             data_kosik_subcats.append(product_dict)   
     

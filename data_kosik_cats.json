@@ -1,7 +1,19 @@
 [
     {
-        "name": "Caseamo Kozí sýr 50+ mladý, výkroj",
-        "price": "529,90",
+        "name": "Italat Mascarpone smetanový krém z vysokotučné smetany",
+        "price": "224,50",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Matylda BIO Gouda (48%)",
+        "price": "299,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Balsýr Žirovnický sýr balkánského typu",
+        "price": "174,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -12,26 +24,20 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Leerdammer Original Finesse Plátky",
-        "price": "411,25",
+        "name": "Meggle Cottage Cheese light",
+        "price": "221,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Philadelphia Original smetanový sýr",
-        "price": "319,20",
+        "name": "Authentic Farmářská Gouda sweet extra mature",
+        "price": "469,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Galbani Bocconcini",
-        "price": "224,50",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Casino Čerstvý sýr",
-        "price": "299,50",
+        "name": "Matylda BIO Sýrové tyčky pařené 4x20g",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -42,14 +48,20 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Smetanito Střívko s ementálem tavený sýr",
-        "price": "249,00",
+        "name": "Casino Čerstvý sýr",
+        "price": "299,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Liptov Hravé Pareničky",
-        "price": "499,00",
+        "name": "Lučina Svěží - pro celou rodinu",
+        "price": "238,33",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Eru Tavený sýr uzený",
+        "price": "279,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -60,8 +72,104 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Formagia Mascarpone ",
-        "price": "211,60",
+        "name": "Gran Moravia Scaglie",
+        "price": "749,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Mini Babybel Mini Rolls",
+        "price": "904,71",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Authentic Farmářský sýr Babinský zlaťák 45%",
+        "price": "559,90",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Kapitán 48%",
+        "price": "468,13",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Italat Ricotta syrovátkový sýr",
+        "price": "114,50",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Dublin Dairy Cheddar Red plátky",
+        "price": "399,33",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Dublin Dairy Cheddar White bloček",
+        "price": "349,50",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Metro Chef Gorgonzola & Mascarpone",
+        "price": "566,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Galbani Bocconcini",
+        "price": "224,50",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Blaník Cottage light (3%)",
+        "price": "132,67",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Matylda BIO Čerstvý sýr",
+        "price": "179,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Casino BIO BIO Strouhaný ementál 28%",
+        "price": "349,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Eru Tavený sýr Maasdammer",
+        "price": "279,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Krajánek sýr na pánev i na gril 2x 50 g s bylinkami a sušenými rajčaty",
+        "price": "369,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Liptov Hravé Korbáčiky",
+        "price": "754,55",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Liptov Bryndza bez laktózy",
+        "price": "499,09",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "San Sebastiano Grana Padano AOP 16 měsíců zrání",
+        "price": "845,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -74,114 +182,6 @@
     {
         "name": "Président Saint Morgon",
         "price": "549,50",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Meggle Cottage Cheese chilli",
-        "price": "221,67",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Džiugas Tvrdý sýr zrající 18 měsíců",
-        "price": "666,11",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Kapitán 48%",
-        "price": "468,13",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Leerdammer Original",
-        "price": "329,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Authentic Farmářská Gouda sweet extra mature",
-        "price": "469,90",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Philadelphia Light 12%",
-        "price": "319,20",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Casino BIO BIO Strouhaný ementál 28%",
-        "price": "349,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Smetanito Střívko krémové tavený sýr",
-        "price": "249,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Galbani Mozzarella Light",
-        "price": "239,20",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Krajánek sýr na pánev i na gril 2x 50 g s bylinkami a sušenými rajčaty",
-        "price": "369,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Président Brie",
-        "price": "343,20",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Liptov Hravé Korbáčiky",
-        "price": "572,73",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Liptov Bryndza bez laktózy",
-        "price": "390,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Italat Ricotta syrovátkový sýr",
-        "price": "192,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Monoprix Přírodní Feta sýr, kostky",
-        "price": "768,46",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Saský tvarůžek ",
-        "price": "479,20",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Meggle Cottage cheese čerstvý sýr pažitkový",
-        "price": "221,67",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Cortelazzi Sýr Parmigiano Reggiano extra vyzrálý 30 měsíců, balený",
-        "price": "1 066,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -337,13 +337,13 @@
     },
     {
         "name": "Italat Mozzarella v nálevu",
-        "price": "299,00",
+        "price": "199,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Čerstvý sýr",
-        "price": "299,00",
+        "price": "239,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -361,7 +361,7 @@
     },
     {
         "name": "Balsýr Žirovnický sýr balkánského typu",
-        "price": "289,50",
+        "price": "174,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -379,13 +379,13 @@
     },
     {
         "name": "Milki line Milki Cottage cheese",
-        "price": "172,67",
+        "price": "132,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Svěží - pro celou rodinu",
-        "price": "349,44",
+        "price": "238,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -409,19 +409,19 @@
     },
     {
         "name": "Lučina Linie",
-        "price": "357,50",
+        "price": "265,83",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Matylda BIO Čerstvý sýr",
-        "price": "259,00",
+        "price": "179,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Leerdammer Original",
-        "price": "329,00",
+        "price": "389,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -439,13 +439,13 @@
     },
     {
         "name": "Matylda BIO Gouda (48%)",
-        "price": "499,00",
+        "price": "299,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Italat Ricotta syrovátkový sýr",
-        "price": "192,00",
+        "price": "114,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -463,13 +463,13 @@
     },
     {
         "name": "Philadelphia Original smetanový sýr",
-        "price": "319,20",
+        "price": "495,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Matylda BIO Sýrové tyčky pařené 4x20g",
-        "price": "561,25",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -481,7 +481,7 @@
     },
     {
         "name": "Blaník Cottage light (3%)",
-        "price": "192,67",
+        "price": "132,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -493,13 +493,13 @@
     },
     {
         "name": "Italat Mascarpone smetanový krém z vysokotučné smetany",
-        "price": "399,50",
+        "price": "224,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Sýr a Křup přírodní sýr Rodinné balení 4x35g",
-        "price": "499,29",
+        "price": "399,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -511,31 +511,31 @@
     },
     {
         "name": "Lučina Salátová jemně slaná",
-        "price": "352,67",
+        "price": "266,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Liptov Parenica uzená",
-        "price": "408,57",
+        "price": "522,86",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Svěží Žervé",
-        "price": "320,71",
+        "price": "249,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Lahodná Tavený sýr (8 ks)",
-        "price": "457,50",
+        "price": "332,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Eru Tavený sýr Gouda",
-        "price": "389,00",
+        "price": "279,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -547,25 +547,25 @@
     },
     {
         "name": "Liptov Bryndza plnotučná, termizovaná",
-        "price": "429,00",
+        "price": "549,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Matylda BIO Eidam plátky (30%)",
-        "price": "449,00",
+        "price": "299,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Nadýchaná se smetanou",
-        "price": "377,86",
+        "price": "270,71",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Nadýchaná bez laktózy",
-        "price": "385,00",
+        "price": "285,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -577,25 +577,25 @@
     },
     {
         "name": "Lučina & Skyr",
-        "price": "357,50",
+        "price": "265,83",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Kozí",
-        "price": "466,00",
+        "price": "366,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Lučina Čerstvý sýr",
-        "price": "369,35",
+        "name": "Lučina Přírodní",
+        "price": "256,45",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Pro děti tvarohovo smetanový sýr",
-        "price": "419,00",
+        "price": "329,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -613,19 +613,19 @@
     },
     {
         "name": "Liptov Parenica neuzená",
-        "price": "393,58",
+        "price": "503,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Liptov Hravé Korbáčiky",
-        "price": "572,73",
+        "price": "754,55",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Smetanová",
-        "price": "357,50",
+        "price": "265,83",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -637,7 +637,7 @@
     },
     {
         "name": "Liptov Hravé Pareničky",
-        "price": "499,00",
+        "price": "679,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -661,13 +661,13 @@
     },
     {
         "name": "Blaník Cottage (6%)",
-        "price": "192,67",
+        "price": "132,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Eru Tavený sýr Maasdammer",
-        "price": "389,00",
+        "price": "279,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -679,43 +679,43 @@
     },
     {
         "name": "Leerdammer Original Finesse Plátky",
-        "price": "411,25",
+        "price": "486,25",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Leerdammer Protein plátky",
-        "price": "561,25",
+        "price": "436,25",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Lahodná XL Tavený sýr (16 ks)",
-        "price": "416,25",
+        "price": "320,42",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Heinrichsthaler Tilsiter bez laktózy plátky",
-        "price": "452,67",
+        "price": "299,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Nadýchaná s bylinkami",
-        "price": "377,86",
+        "price": "270,71",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Svěží Žervé natur",
-        "price": "373,75",
+        "price": "273,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Liptov Vrchár výrazný a aromatický",
-        "price": "387,78",
+        "price": "498,89",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -727,7 +727,7 @@
     },
     {
         "name": "Kiri Z tvarohu a smetany (12 porcí)",
-        "price": "424,50",
+        "price": "334,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -739,31 +739,31 @@
     },
     {
         "name": "Leerdammer Lightlife",
-        "price": "329,00",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Eru Tavený sýr uzený",
         "price": "389,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
+        "name": "Eru Tavený sýr uzený",
+        "price": "279,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
         "name": "Kiri Křup Family pack",
-        "price": "570,48",
+        "price": "446,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Sýr a Křup s tyčinkami s pizza příchutí - Rodinné balení",
-        "price": "499,29",
+        "price": "399,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Gervais de la Créme",
-        "price": "321,67",
+        "price": "243,89",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -781,7 +781,7 @@
     },
     {
         "name": "Heinrichsthaler Emmentaler bez laktózy plátky",
-        "price": "503,20",
+        "price": "359,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -799,31 +799,31 @@
     },
     {
         "name": "Kiri Z tvarohu a smetany (6 porcí)",
-        "price": "449,00",
+        "price": "349,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Svěží Žervé s pažitkou",
-        "price": "373,75",
+        "price": "273,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva se Šunkou (8 ks)",
-        "price": "457,50",
+        "price": "332,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Caseamo Provolone dolce DOP, výkroj",
-        "price": "629,90",
+        "price": "469,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Bez laktózy Tavený sýr (8 ks)",
-        "price": "457,50",
+        "price": "332,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -835,13 +835,13 @@
     },
     {
         "name": "Heinrichsthaler Gouda plátky 48% bez laktózy",
-        "price": "499,33",
+        "price": "332,67",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Lučina Svěží Žervé s jogurtem",
-        "price": "373,75",
+        "price": "273,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -853,19 +853,19 @@
     },
     {
         "name": "Mini Babybel Mini Rolls",
-        "price": "1 057,65",
+        "price": "904,71",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Kiri Tavený sýr z tvarohu, smetany a jogurtu",
-        "price": "377,86",
+        "price": "285,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Kiri Křup",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -877,31 +877,31 @@
     },
     {
         "name": "Liptov Pološtiepok uzený",
-        "price": "332,78",
+        "price": "416,11",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Sýr a Křup přírodní snack",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Violife Pomazánka originál",
-        "price": "566,00",
+        "price": "466,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Gervais de la Créme s česnekem a pažitkou",
-        "price": "321,67",
+        "price": "243,89",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Violife Blok s příchutí goudy",
-        "price": "349,50",
+        "price": "274,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -919,7 +919,7 @@
     },
     {
         "name": "Veselá Kráva Smetanová Tavený sýr",
-        "price": "399,00",
+        "price": "299,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -943,13 +943,13 @@
     },
     {
         "name": "Violife Plátky s příchutí goudy",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Eru Tavený sýr Kids s přidaným vápníkem",
-        "price": "389,00",
+        "price": "279,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -961,7 +961,7 @@
     },
     {
         "name": "Caseamo Gouda red pesto, výkroj",
-        "price": "729,90",
+        "price": "529,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -991,13 +991,13 @@
     },
     {
         "name": "Liptov Oštiepok plátky uzené",
-        "price": "387,78",
+        "price": "498,89",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Liptov Hranolčeky na gril",
-        "price": "547,14",
+        "price": "690,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1009,7 +1009,7 @@
     },
     {
         "name": "Kiri Křup pizza",
-        "price": "597,14",
+        "price": "454,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1021,7 +1021,7 @@
     },
     {
         "name": "Violife Plátky s čedarovým aroma",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1039,7 +1039,7 @@
     },
     {
         "name": "Liptov Gouda bez laktózy",
-        "price": "410,00",
+        "price": "532,22",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1051,19 +1051,19 @@
     },
     {
         "name": "Veselá Kráva Sýr a Křup s šunkovou příchutí snack",
-        "price": "597,14",
+        "price": "454,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Bylinková Tavený sýr",
-        "price": "399,00",
+        "price": "299,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Veselá Kráva Sýr a Křup Pizza snack",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1081,19 +1081,19 @@
     },
     {
         "name": "Violife Le Rond s ušlechtilou plísní",
-        "price": "699,33",
+        "price": "566,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Liptov Bryndza bez laktózy",
-        "price": "390,00",
+        "price": "499,09",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Violife Plátky s uzenou příchutí",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1105,7 +1105,7 @@
     },
     {
         "name": "Violife Uzený blok",
-        "price": "349,50",
+        "price": "274,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1116,14 +1116,14 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Violife Grill me! Mediterranean style",
-        "price": "499,50",
+        "name": "Fine Life Brynza sýr plnotučný",
+        "price": "295,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Fine Life Brynza sýr plnotučný",
-        "price": "295,20",
+        "name": "Violife Grill me! Mediterranean style",
+        "price": "349,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1147,7 +1147,7 @@
     },
     {
         "name": "Krolewski sýr plátky (45%)",
-        "price": "299,00",
+        "price": "449,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1219,13 +1219,13 @@
     },
     {
         "name": "Krolewski Sýr light plátky",
-        "price": "299,00",
+        "price": "449,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Gervais Original",
-        "price": "286,25",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1249,7 +1249,7 @@
     },
     {
         "name": "Krolewski Sýr L.Casei 45%, plátky",
-        "price": "299,00",
+        "price": "449,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1273,7 +1273,7 @@
     },
     {
         "name": "Gervais Original FIT Protein",
-        "price": "286,25",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1297,7 +1297,7 @@
     },
     {
         "name": "Smetanito Smetanové GIGA",
-        "price": "254,50",
+        "price": "349,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1309,7 +1309,7 @@
     },
     {
         "name": "ARO Eidam 30% strouhaný",
-        "price": "332,67",
+        "price": "259,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1345,7 +1345,7 @@
     },
     {
         "name": "Gervais Original s pažitkou",
-        "price": "286,25",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1363,7 +1363,7 @@
     },
     {
         "name": "Krolewski Sýr 45% uzený, plátky",
-        "price": "299,00",
+        "price": "449,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1459,7 +1459,7 @@
     },
     {
         "name": "Gervais Natur Vanička",
-        "price": "249,50",
+        "price": "314,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1507,7 +1507,7 @@
     },
     {
         "name": "Gervais Original s paprikou a rajčaty",
-        "price": "286,25",
+        "price": "373,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1861,7 +1861,7 @@
     },
     {
         "name": "Fine Life Cottage bez příchuti",
-        "price": "139,50",
+        "price": "174,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -1981,7 +1981,7 @@
     },
     {
         "name": "Smetanito Střívko krémové tavený sýr",
-        "price": "249,00",
+        "price": "349,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2317,7 +2317,7 @@
     },
     {
         "name": "Smetanito Střívko s ementálem tavený sýr",
-        "price": "249,00",
+        "price": "349,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2503,7 +2503,7 @@
     },
     {
         "name": "Philadelphia Light 12%",
-        "price": "319,20",
+        "price": "495,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2521,7 +2521,7 @@
     },
     {
         "name": "Caseamo Kozí sýr 50+ pískavice a koriandr, výkroj",
-        "price": "619,90",
+        "price": "959,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2563,7 +2563,7 @@
     },
     {
         "name": "Philadelphia bez laktózy",
-        "price": "332,67",
+        "price": "499,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2803,7 +2803,7 @@
     },
     {
         "name": "Philadelphia 11% protein",
-        "price": "342,29",
+        "price": "456,57",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -2881,7 +2881,7 @@
     },
     {
         "name": "Philadelphia Bylinky",
-        "price": "319,20",
+        "price": "495,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3018,14 +3018,14 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Milsy Bánovecké nite uzené",
-        "price": "499,00",
+        "name": "Milsy Sýrové kuličky neuzené",
+        "price": "598,75",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Milsy Sýrové kuličky neuzené",
-        "price": "598,75",
+        "name": "Milsy Bánovecké nite uzené",
+        "price": "499,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3157,7 +3157,7 @@
     },
     {
         "name": "FP Appenzeller výkroj",
-        "price": "749,90",
+        "price": "979,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3217,7 +3217,7 @@
     },
     {
         "name": "Caseamo Kozí sýr 50+ mladý, výkroj",
-        "price": "529,90",
+        "price": "899,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3318,26 +3318,26 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Wyngaard Sýr s lanýži",
-        "price": "979,33",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
         "name": "Lakmilk Grill for Me",
         "price": "399,50",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Q-Concept Blue Cheese sýr",
-        "price": "606,92",
+        "name": "Wyngaard Sýr s lanýži",
+        "price": "979,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Naturalia BIO Čerstvý sýr natural",
         "price": "224,75",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Q-Concept Blue Cheese sýr",
+        "price": "606,92",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3385,19 +3385,19 @@
     },
     {
         "name": "Philadelphia Pažitka",
-        "price": "319,20",
-        "subcategory": "syry",
-        "sub-subcategory_name": "Plátkové"
-    },
-    {
-        "name": "Smetanito Sýr na gril a na pánev  jemně pikantní",
-        "price": "104,90",
+        "price": "495,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
         "name": "Cortelazzi Burrata s bazalkou",
         "price": "699,00",
+        "subcategory": "syry",
+        "sub-subcategory_name": "Plátkové"
+    },
+    {
+        "name": "Smetanito Sýr na gril a na pánev  jemně pikantní",
+        "price": "104,90",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3510,14 +3510,14 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Hollandia Čerstvý sýr s jogurtem méně soli ",
-        "price": "319,20",
+        "name": "FP Iberico curado výkroj",
+        "price": "819,00",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "FP Iberico curado výkroj",
-        "price": "819,00",
+        "name": "Hollandia Čerstvý sýr s jogurtem méně soli ",
+        "price": "319,20",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
@@ -3546,20 +3546,14 @@
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Naturalia BIO Ovčí sýr, bloček",
-        "price": "866,00",
+        "name": "Nurishh Gran Vegiano strouhaný",
+        "price": "599,33",
         "subcategory": "syry",
         "sub-subcategory_name": "Plátkové"
     },
     {
-        "name": "Milko Bedřich smetanový jogurt mango 10%",
-        "price": "59,33",
-        "subcategory": "jogurty a mlecne dezerty",
-        "sub-subcategory_name": "Ochucené jogurty"
-    },
-    {
-        "name": "Milko Bedřich smetanový jogurt bílý 10%",
-        "price": "59,33",
+        "name": "YoPRO Proteinový puding s karamelovou příchutí",
+        "price": "271,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3570,8 +3564,8 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Zott Snack 8x29g Choco",
-        "price": "206,55",
+        "name": "Milko Tvaroh s vlákninou Jahoda",
+        "price": "142,14",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3582,44 +3576,44 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "YoPRO Proteinový puding s vanilkovou příchutí",
-        "price": "182,78",
+        "name": "Activia Probiotický jogurt bílý slazený",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Monoprix Vaječný krém s vanilkovou příchutí (4x 100 g)",
-        "price": "224,75",
+        "name": "Zott Monte Snack Hazelnuts",
+        "price": "341,38",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Mlékárna Kunín Termix Extra malina",
-        "price": "160,77",
+        "name": "Mlékárna Kunín Sametový jogurt s příchutí vanilky",
+        "price": "79,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Bohušovická mlékárna Skyr tradiční islandský výrobek natur (0,1%)",
-        "price": "176,15",
+        "price": "114,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Mlékárna Kunín Mléčná krupice čokoládová",
-        "price": "152,67",
+        "name": "Zott Monte Mléčný dezert s čokoládou a lískovými oříšky",
+        "price": "192,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Naturalia BIO Ovčí jogurt s kaštanovým krémem, 2x125g",
-        "price": "359,60",
+        "name": "Bon Lait Ovčí jogurt stracciatella",
+        "price": "279,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Milko Bedřich smetanový jogurt jahoda 10%",
-        "price": "59,33",
+        "name": "Mlékárna Kunín Mléčná krupička s kakaem",
+        "price": "212,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3630,19 +3624,31 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
+        "name": "Zott Protein Puding Čokoláda",
+        "price": "174,50",
+        "subcategory": "jogurty a mlecne dezerty",
+        "sub-subcategory_name": "Ochucené jogurty"
+    },
+    {
+        "name": "Activia Probiotický jogurt bílý",
+        "price": "99,17",
+        "subcategory": "jogurty a mlecne dezerty",
+        "sub-subcategory_name": "Ochucené jogurty"
+    },
+    {
         "name": "Zott Monte Snack White",
         "price": "341,38",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "YoPRO Proteinový  puding s čokoládovo-lískooříškovou příchutí",
-        "price": "182,78",
+        "name": "Matylda BIO Dezert Natur bez přidaného cukru",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Hollandia Klasik jogurt krémový bílý",
+        "name": "Mlékárna Kunín Sametový jogurt malina ostružina",
         "price": "79,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
@@ -3654,20 +3660,20 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Monoprix Kokosovo vaječný krém s karamelem (4x 100 g)",
-        "price": "299,75",
+        "name": "Zott Monte Mléčný dezert s čokoládou a lískovými oříšky 4x55g",
+        "price": "149,55",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Mlékárna Kunín Termix Extra pomeranč",
-        "price": "183,85",
-        "subcategory": "jogurty a mlecne dezerty",
-        "sub-subcategory_name": "Ochucené jogurty"
-    },
-    {
-        "name": "Bohušovická mlékárna Skyr tradiční islandský výrobek jahoda (0,1%)",
+        "name": "Bohušovická mlékárna Skyr tradiční islandský výrobek borůvka (0,1%)",
         "price": "176,15",
+        "subcategory": "jogurty a mlecne dezerty",
+        "sub-subcategory_name": "Ochucené jogurty"
+    },
+    {
+        "name": "Statek Horní Dvorce Jogurt ovčí",
+        "price": "319,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3678,14 +3684,8 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Naturalia BIO Ovčí jogurt s borůvkami, 2x125g",
-        "price": "359,60",
-        "subcategory": "jogurty a mlecne dezerty",
-        "sub-subcategory_name": "Ochucené jogurty"
-    },
-    {
-        "name": "Milko Bedřich smetanový jogurt čokoláda 10%",
-        "price": "59,33",
+        "name": "Zott Protein Puding Karamel",
+        "price": "174,50",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3702,44 +3702,44 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "YoPRO Protein dezert s příchutí stracciatella",
-        "price": "143,13",
+        "name": "Activia Probiotický jogurt bílý 4x120g",
+        "price": "151,88",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Hollandia BIO selský jogurt bílý",
-        "price": "74,75",
+        "name": "Matylda BIO Dezert jahoda",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Biofarma DoRa Kozí jogurt ochucený meruňka",
-        "price": "212,67",
+        "name": "Mlékárna ValMez Smetanový jogurt z Valašska borůvka",
+        "price": "126,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Zott Monte Mix příchutí (Waffle sticks, Choco flakes), 1ks",
-        "price": "231,20",
-        "subcategory": "jogurty a mlecne dezerty",
-        "sub-subcategory_name": "Ochucené jogurty"
-    },
-    {
-        "name": "Olma Míša Tvarohový mls meruňkový",
-        "price": "191,54",
-        "subcategory": "jogurty a mlecne dezerty",
-        "sub-subcategory_name": "Ochucené jogurty"
-    },
-    {
-        "name": "Ehrmann High protein Skyr Natural",
+        "name": "Mlékárna Kunín Pohár mléčný dezert s čokoládovou příchutí",
         "price": "132,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Mlékárna Kunín Mléčná rýže karamel",
-        "price": "148,00",
+        "name": "Bon Lait Kozí jogurt bez laktózy",
+        "price": "226,00",
+        "subcategory": "jogurty a mlecne dezerty",
+        "sub-subcategory_name": "Ochucené jogurty"
+    },
+    {
+        "name": "Milko Můj Skyr 0% vanilka",
+        "price": "168,46",
+        "subcategory": "jogurty a mlecne dezerty",
+        "sub-subcategory_name": "Ochucené jogurty"
+    },
+    {
+        "name": "Bon Lait Ovčí jogurt Slaný karamel",
+        "price": "279,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3781,13 +3781,13 @@
     },
     {
         "name": "Activia Cereální snídaně Červené ovoce",
-        "price": "205,29",
+        "price": "158,24",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Activia Cereální snídaně Jablko",
-        "price": "205,29",
+        "price": "158,24",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3817,7 +3817,7 @@
     },
     {
         "name": "Ehrmann High Protein Mousse Salty Caramel",
-        "price": "299,50",
+        "price": "224,50",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3847,7 +3847,7 @@
     },
     {
         "name": "Zorba Smetanový jogurt bílý",
-        "price": "94,90",
+        "price": "72,90",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3865,7 +3865,7 @@
     },
     {
         "name": "Kostíci Barvíci jogurt vanilkový",
-        "price": "200,92",
+        "price": "155,05",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3883,13 +3883,13 @@
     },
     {
         "name": "Matylda BIO Dezert vanilka",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Matylda BIO Dezert čokoláda",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3967,7 +3967,7 @@
     },
     {
         "name": "Activia Probiotický jogurt vlašský ořech a oves",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -3979,13 +3979,13 @@
     },
     {
         "name": "Matylda BIO Dezert jahoda",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Activia Probiotický jogurt jahodový",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4009,7 +4009,7 @@
     },
     {
         "name": "Activia Probiotický jogurt bílý",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4021,7 +4021,7 @@
     },
     {
         "name": "Activia Mix & Go Malina a chia",
-        "price": "211,18",
+        "price": "158,24",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4063,19 +4063,19 @@
     },
     {
         "name": "Danette Dezert čokoláda 4x125g",
-        "price": "199,80",
+        "price": "119,80",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Kostíci Čokoparta jogurt vanilkový",
-        "price": "204,67",
+        "price": "157,94",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Matylda BIO Dezert Natur bez přidaného cukru",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4087,13 +4087,13 @@
     },
     {
         "name": "Activia Probiotický jogurt meruňka",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Kostíci Sladkáči bílý jogurt slazený",
-        "price": "200,92",
+        "price": "155,05",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4105,13 +4105,13 @@
     },
     {
         "name": "YoPRO Protein dezert s příchutí stracciatella",
-        "price": "143,13",
+        "price": "199,38",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Kostíci Kapsička Vanilka",
-        "price": "168,46",
+        "price": "130,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4129,13 +4129,13 @@
     },
     {
         "name": "Kostíci Kapsička Čoko - Oříšek",
-        "price": "168,46",
+        "price": "130,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Danette Dezert vanilka 4x125g",
-        "price": "199,80",
+        "price": "119,80",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4153,7 +4153,7 @@
     },
     {
         "name": "Activia Probiotický jogurt bílý s müsli",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4201,7 +4201,7 @@
     },
     {
         "name": "Activia Bílá Bezlaktózová",
-        "price": "150,91",
+        "price": "102,42",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4351,7 +4351,7 @@
     },
     {
         "name": "YoPRO Proteinový  puding s čokoládovo-lískooříškovou příchutí",
-        "price": "182,78",
+        "price": "271,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4381,13 +4381,13 @@
     },
     {
         "name": "Kostíci Klauníci jogurt čokoládový",
-        "price": "200,92",
+        "price": "155,05",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Activia Probiotický jogurt bílý slazený",
-        "price": "157,50",
+        "price": "99,17",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4399,7 +4399,7 @@
     },
     {
         "name": "YoPRO Protein dezert s borůvkovou příchutí",
-        "price": "143,13",
+        "price": "199,38",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4411,7 +4411,7 @@
     },
     {
         "name": "Activia Probiotický jogurt bílý",
-        "price": "150,91",
+        "price": "102,42",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4435,7 +4435,7 @@
     },
     {
         "name": "Activia Mix & Go Ovesná granola",
-        "price": "211,18",
+        "price": "158,24",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4453,13 +4453,13 @@
     },
     {
         "name": "YoPRO Proteinový puding s vanilkovou příchutí",
-        "price": "182,78",
+        "price": "271,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Activia Bílá zrající v kelímku",
-        "price": "113,93",
+        "price": "78,21",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4471,13 +4471,13 @@
     },
     {
         "name": "Kostíci Křupíni jogurt vanilkový",
-        "price": "206,60",
+        "price": "159,43",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "YoPRO Proteinový puding s karamelovou příchutí",
-        "price": "182,78",
+        "price": "271,67",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -4729,7 +4729,7 @@
     },
     {
         "name": "Milko Bedřich smetanový jogurt borůvka 10%",
-        "price": "59,33",
+        "price": "106,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -5293,7 +5293,7 @@
     },
     {
         "name": "Milko Bedřich smetanový jogurt mango 10%",
-        "price": "59,33",
+        "price": "106,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -5581,13 +5581,13 @@
     },
     {
         "name": "Milko Bedřich smetanový jogurt jahoda 10%",
-        "price": "59,33",
+        "price": "106,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
         "name": "Milko Bedřich smetanový jogurt bílý 10%",
-        "price": "59,33",
+        "price": "106,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -5683,7 +5683,7 @@
     },
     {
         "name": "Milko Bedřich smetanový jogurt čokoláda 10%",
-        "price": "59,33",
+        "price": "106,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -6390,14 +6390,14 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Naturalia BIO Ovčí řecký jogurt, 2x150g",
-        "price": "333,00",
+        "name": "Monoprix Fermentovaná sójová specialita 6x100g",
+        "price": "99,83",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Monoprix Fermentovaná sójová specialita 6x100g",
-        "price": "99,83",
+        "name": "Naturalia BIO Ovčí řecký jogurt, 2x150g",
+        "price": "333,00",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -6480,14 +6480,14 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Mila Vanilkový jogurt s čokoládovými kroužky",
-        "price": "159,33",
+        "name": "Monoprix Přírodní řecký jogurt",
+        "price": "155,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Monoprix Přírodní řecký jogurt",
-        "price": "155,33",
+        "name": "Mila Vanilkový jogurt s čokoládovými kroužky",
+        "price": "159,33",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -6696,14 +6696,14 @@
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Monoprix Řecký jogurt s medem (4x 150 g)",
-        "price": "199,80",
+        "name": "Casino BIO BIO Jogurt borůvkový, 2x 125 g",
+        "price": "199,60",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
     {
-        "name": "Casino BIO BIO Jogurt borůvkový, 2x 125 g",
-        "price": "199,60",
+        "name": "Monoprix Řecký jogurt s medem (4x 150 g)",
+        "price": "199,80",
         "subcategory": "jogurty a mlecne dezerty",
         "sub-subcategory_name": "Ochucené jogurty"
     },
@@ -6798,104 +6798,44 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Olma Dobré Mléko Selské (3,9%)",
-        "price": "28,90",
+        "name": "Actimel Probiotický jogurtový nápoj s vitamíny bílý 8x100g",
+        "price": "15,74",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Actimel Triple Action Borůvka - Ostružina",
-        "price": "15,48",
+        "name": "Tatra Pikao Doypack",
+        "price": "362,73",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Olma BIO Kefír",
-        "price": "46,44",
+        "name": "Zott Protein Drink Vanilka",
+        "price": "122,69",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Zott Hungry Drink Jahoda",
-        "price": "159,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Tatra Salko slaný karamel",
-        "price": "201,26",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Ehrmann High Protein Caffé Latte",
-        "price": "231,60",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Wild & Coco Ccoguard shot Young coconut Bio",
-        "price": "33,32",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Bohemilk Trvanlivé mléko z podhůří Orlických hor - polotučné (1,5%)",
+        "name": "Moravia Farmářské mléko (3,6%)",
         "price": "22,90",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Bohemilk Sušené mléko plnotučné 26%",
-        "price": "349,75",
+        "name": "Olma BIO Kefír",
+        "price": "59,78",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Actimel probiotický jogurtový nápoj s vitamíny Fruit Sensation bez přidaného cukru 4x100g",
-        "price": "15,48",
+        "name": "Bohemilk Trvanlivé mléko z podhůří Orlických hor - plnotučné (3,5%)",
+        "price": "28,90",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Zott Hungry Drink Vanilka",
-        "price": "159,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Olma Via Natur BIO Čerstvé mléko (4%)",
-        "price": "39,90",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Kefírové mléko 1%",
-        "price": "53,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Tatra Salko bez laktózy",
-        "price": "213,85",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Ehrmann High Protein Caffé Latte Caramel Style",
-        "price": "231,60",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Wild & Coco Cocoguard shot Cacao Ceremony Bio",
-        "price": "33,32",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Tatra Mléko Polotučné (1,5%)",
-        "price": "39,80",
+        "name": "Parmalat Caffe Latte Espresso",
+        "price": "149,50",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -6906,56 +6846,68 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Tatra Kravík vanilkový",
-        "price": "83,60",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Actimel Probiotický jogurtový nápoj s vitamíny bílý 4x100g",
-        "price": "15,48",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Zott Hungry Drink Choco",
-        "price": "159,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Bohemilk Čerstvé plnotučné mléko z podhůří Orlických hor (3,5%)",
-        "price": "34,90",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Podmáslí 1%",
-        "price": "41,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Maresi Alpské mléko do kávy",
-        "price": "191,60",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Hochwald Eiskaffee ledová káva",
-        "price": "69,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Wild & Coco Cocoguard shot Mango Bio",
+        "name": "Wild & Coco Ccoguard shot Young coconut Bio",
         "price": "33,32",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Meggle Barista mléko (3,5%)",
-        "price": "62,90",
+        "name": "Mlékárna Kunín Termix Šejk s příchutí pistácie",
+        "price": "76,33",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Actimel Triple Action Jahoda - Granátové jablko ",
+        "price": "15,48",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Tatra Piknik Doypack",
+        "price": "362,73",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Zott Protein Drink Čokoláda",
+        "price": "122,69",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Madeta Jihočeské mléko čerstvé plnotučné (3,5%)",
+        "price": "31,90",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Agrola Zákys Bílý",
+        "price": "90,61",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Meggle Trvanlivé polotučné mléko (1,5%)",
+        "price": "31,90",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Ehrmann High Protein Caffé Latte",
+        "price": "231,60",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Bohemilk Sušené mléko plnotučné 26%",
+        "price": "349,75",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Wild & Coco Cocoguard shot Cacao Ceremony Bio",
+        "price": "33,32",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -6966,20 +6918,74 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Actimel Probiotický jogurtový nápoj s vitamíny jahoda 4x100g",
-        "price": "15,48",
+        "name": "Activia Probiotický jogurtový nápoj jahoda a kiwi",
+        "price": "113,93",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Biofarma DoRa Kozí mléko BIO (3,1%)",
-        "price": "99,78",
+        "name": "Tatra Pikao zahuštené slazené plnotučné mléko s kakaem",
+        "price": "398,67",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Zott Hungry Drink Jahoda",
+        "price": "159,80",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Authentic Farmářské čerstvé mléko plnotučné (3,5%)",
+        "price": "49,90",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Agrola Zákys Meruňka",
+        "price": "90,61",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Meggle Plnotučné trvanlivé mléko (3,5%)",
+        "price": "39,90",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Ehrmann High Protein Caffé Latte Caramel Style",
+        "price": "231,60",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Wild & Coco Cocoguard shot Mango Bio",
+        "price": "33,32",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Mlékárna Kunín Termix Šejk s příchutí vanilka ",
+        "price": "76,33",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Activia Probiotický jogurtový nápoj lesní plody",
+        "price": "113,93",
+        "subcategory": "mleko a mlecne napoje",
+        "sub-subcategory_name": "Čerstvé mléko"
+    },
+    {
+        "name": "Tatra Piknik zahuštené slazené plnotučné mléko",
+        "price": "398,67",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
         "name": "Moravia Farmářské mléko (3,6%)",
-        "price": "27,90",
+        "price": "22,90",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7081,7 +7087,7 @@
     },
     {
         "name": "Alpro Barista Ovesný Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7099,7 +7105,7 @@
     },
     {
         "name": "Alpro Barista Sójovo-Kokosový Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7135,7 +7141,7 @@
     },
     {
         "name": "Actimel Kids probiotický jogurtový nápoj s vitamíny jahoda-banán 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7153,7 +7159,7 @@
     },
     {
         "name": "Alpro Barista Sójový nápoj",
-        "price": "54,90",
+        "price": "84,90",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7171,7 +7177,7 @@
     },
     {
         "name": "Alpro Barista Mandlový Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7213,13 +7219,13 @@
     },
     {
         "name": "YoPRO Protein jogurtový nápoj s příchutí stracciatella",
-        "price": "109,67",
+        "price": "163,00",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
         "name": "YoPRO Protein jogurtový nápoj s příchutí jahody a maliny",
-        "price": "109,67",
+        "price": "163,00",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7231,7 +7237,7 @@
     },
     {
         "name": "Actimel Kids probiotický jogurtový nápoj s vitamíny vanilka 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7243,7 +7249,7 @@
     },
     {
         "name": "Actimel Probiotický jogurtový nápoj s vitamíny a 0% přidaného cukru jahoda 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7255,7 +7261,7 @@
     },
     {
         "name": "Actimel Probiotický jogurtový nápoj s vitamíny jahoda 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7291,7 +7297,7 @@
     },
     {
         "name": "Actimel probiotický jogurtový nápoj s vitamíny Fruit Sensation bez přidaného cukru 4x100g",
-        "price": "15,48",
+        "price": "19,98",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7309,13 +7315,13 @@
     },
     {
         "name": "Actimel Probiotický jogurtový nápoj s vitamíny bílý 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
         "name": "YoPRO Proteinový mléčný nápoj vanilka",
-        "price": "131,60",
+        "price": "199,60",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7333,7 +7339,7 @@
     },
     {
         "name": "YoPRO Proteinový mléčný nápoj čokoláda",
-        "price": "131,60",
+        "price": "199,60",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7345,7 +7351,7 @@
     },
     {
         "name": "Alpro Káva z mandlového nápoje",
-        "price": "159,60",
+        "price": "211,60",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7357,7 +7363,7 @@
     },
     {
         "name": "Actimel Triple Action Broskev - Marakuja ",
-        "price": "15,48",
+        "price": "21,23",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7369,19 +7375,13 @@
     },
     {
         "name": "Alpro Káva ze sójového nápoje s karamelem",
-        "price": "159,60",
+        "price": "211,60",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
         "name": "Zott Hungry Drink Choco",
         "price": "159,80",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
-        "name": "Tatra Ledová káva",
-        "price": "90,61",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7393,7 +7393,7 @@
     },
     {
         "name": "Actimel Triple Action Borůvka - Ostružina",
-        "price": "15,48",
+        "price": "21,23",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7447,7 +7447,7 @@
     },
     {
         "name": "Olma Dobré Mléko Selské (3,9%)",
-        "price": "28,90",
+        "price": "39,90",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7495,7 +7495,7 @@
     },
     {
         "name": "Olma BIO Kefír",
-        "price": "46,44",
+        "price": "59,78",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -7920,12 +7920,6 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Tatra Kravík vanilkový",
-        "price": "83,60",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
         "name": "Ehrmann High Protein Drink Caffé Latte",
         "price": "231,60",
         "subcategory": "mleko a mlecne napoje",
@@ -8160,12 +8154,6 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Tatra Grand zahuštené neslazené plnotučné mléko",
-        "price": "170,65",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
         "name": "OATLY Ovesný nápoj",
         "price": "69,90",
         "subcategory": "mleko a mlecne napoje",
@@ -8347,7 +8335,7 @@
     },
     {
         "name": "Kukkonia Vanilkové mléko s uzávěrem",
-        "price": "53,80",
+        "price": "73,80",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -8377,7 +8365,7 @@
     },
     {
         "name": "Kukkonia Trvanlivé mléko DeLakto s uzávěrem",
-        "price": "37,80",
+        "price": "49,80",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -8401,7 +8389,7 @@
     },
     {
         "name": "Kukkonia Iced coffee s uzávěrem",
-        "price": "59,80",
+        "price": "79,80",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -8454,12 +8442,6 @@
         "sub-subcategory_name": "Čerstvé mléko"
     },
     {
-        "name": "Tatra Light zahuštěné neslazené polotučné mléko",
-        "price": "108,53",
-        "subcategory": "mleko a mlecne napoje",
-        "sub-subcategory_name": "Čerstvé mléko"
-    },
-    {
         "name": "Ehrmann High Protein Caffé Latte Caramel Style",
         "price": "231,60",
         "subcategory": "mleko a mlecne napoje",
@@ -8503,7 +8485,7 @@
     },
     {
         "name": "Kukkonia Kakaové mléko s uzávěrem",
-        "price": "53,80",
+        "price": "73,80",
         "subcategory": "mleko a mlecne napoje",
         "sub-subcategory_name": "Čerstvé mléko"
     },
@@ -8754,32 +8736,8 @@
         "sub-subcategory_name": "Slepičí"
     },
     {
-        "name": "Olma Kysaná smetana (16%)",
-        "price": "94,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Olma Smetana (12%)",
-        "price": "89,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Olma Smetana ke šlehání (33%)",
-        "price": "144,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Classic 7,5% ",
-        "price": "155,60",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Laura Šlehačka ve spreji",
-        "price": "271,60",
+        "name": "Mlékárna Kunín Smetana 12%",
+        "price": "93,07",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -8790,44 +8748,8 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Mlékárna Kunín Smetana 12%",
-        "price": "93,07",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Trvanlivá smetana ke šlehání 30%",
-        "price": "159,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Premium Smetana do kávy",
-        "price": "95,80",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Vitala Šlehačka ve spreji",
-        "price": "127,60",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Mlékárna Kunín Krémová do omáček (15%)",
-        "price": "114,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Bohušovická mlékárna Zakysaná smetana krémová (15%)",
-        "price": "82,78",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Mlékárna Kunín Smetana ke šlehání (31%)",
-        "price": "167,73",
+        "name": "Bohemilk Smetana ke šlehání (33%)",
+        "price": "183,60",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -8838,8 +8760,38 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Rioba Šlehačka ve spreji slazená",
-        "price": "314,14",
+        "name": "Laura Šlehačka ve spreji",
+        "price": "271,60",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Mlékárna Kunín Krémová do omáček (15%)",
+        "price": "114,50",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Mlékárna Kunín Zakysaná smetana de luxe (20%)",
+        "price": "199,47",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Tatra smetana na šlehání 31%",
+        "price": "159,90",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Meggle Smetana do kávy (10%) 10x10g",
+        "price": "209,00",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Vitala Šlehačka ve spreji",
+        "price": "127,60",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -8850,14 +8802,44 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Madeta Jihočeská tradiční zakysaná smetana (15%)",
-        "price": "160,56",
+        "name": "Mlékárna Kunín Šlehačka de luxe (40%)",
+        "price": "224,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Mlékárna Kunín Smetana ke šlehání 31%",
-        "price": "199,50",
+        "name": "Bohušovická mlékárna Zakysaná smetana krémová (15%)",
+        "price": "82,78",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "ALNATURA BIO Smetana do kávy 10%",
+        "price": "223,64",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Rioba Šlehačka ve spreji slazená",
+        "price": "314,14",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Monoprix Smetana 30% MG (3x 200 ml)",
+        "price": "249,83",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Pâturages Zakysaná smetana (15%)",
+        "price": "110,89",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Bohemilk Smetana ke šlehání 33%",
+        "price": "136,06",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -8874,62 +8856,14 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Madeta Jihočeská zakysaná smetana 11%",
-        "price": "155,00",
+        "name": "Monoprix BIO Smetana 30% UHT (3x 200 ml)",
+        "price": "266,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Meggle Trvanlivá smetana na vaření (10%)",
-        "price": "166,11",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Mlékárna Kunín Šlehačka de luxe (40%)",
-        "price": "224,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "ALNATURA BIO Smetana do kávy 10%",
-        "price": "223,64",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Madeta Jihočeská zakysaná smetana 18%",
-        "price": "166,11",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Meggle Trvanlivá smetana na vaření (10%)",
-        "price": "105,80",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Madeta Jihočeská trvanlivá smetana",
-        "price": "179,60",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Lascato na cappuccino ",
-        "price": "48,90",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Mlékárna Kunín Zakysaná smetana krémovitá (15%)",
-        "price": "146,84",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Meggle Trvanlivá smetana na vaření (10%)",
-        "price": "119,60",
+        "name": "Madeta Jihočeská tradiční zakysaná smetana (15%)",
+        "price": "160,56",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -8940,8 +8874,56 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Meggle Smetana do kávy (10%) 10x10g",
-        "price": "209,00",
+        "name": "Tatra Lascato na cappuccino ",
+        "price": "48,90",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Meggle Trvanlivá smetana na vaření (10%)",
+        "price": "166,11",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Madeta Jihočeská zakysaná smetana 11%",
+        "price": "155,00",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Mlékárna Kunín Smetana ke šlehání (31%)",
+        "price": "167,73",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Meggle Trvanlivá smetana na vaření (10%)",
+        "price": "105,80",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Madeta Jihočeská zakysaná smetana 18%",
+        "price": "166,11",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Madeta Jihočeská trvanlivá smetana",
+        "price": "179,60",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Meggle Trvanlivá smetana na vaření (10%)",
+        "price": "119,60",
+        "subcategory": "smetany a slehacky",
+        "sub-subcategory_name": "Ke šlehání"
+    },
+    {
+        "name": "Olma Kysaná smetana (16%)",
+        "price": "144,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -9006,18 +8988,6 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Tatra mléko do kávy 4% ",
-        "price": "59,80",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra smetana na vaření 10% 250g",
-        "price": "115,60",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
         "name": "Tatra smetana na šlehání 31%",
         "price": "159,90",
         "subcategory": "smetany a slehacky",
@@ -9061,7 +9031,7 @@
     },
     {
         "name": "Olma Smetana ke šlehání (33%)",
-        "price": "144,50",
+        "price": "194,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -9133,19 +9103,13 @@
     },
     {
         "name": "Olma Kysaná smetana (16%)",
-        "price": "94,50",
+        "price": "144,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
     {
         "name": "Rioba Šlehačka ve spreji neslazená",
         "price": "299,86",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Premium Smetana do kávy",
-        "price": "95,80",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -9158,12 +9122,6 @@
     {
         "name": "Rama Crema 15% na vaření",
         "price": "169,50",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
-        "name": "Tatra Trvanlivá smetana ke šlehání 30%",
-        "price": "159,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -9187,7 +9145,7 @@
     },
     {
         "name": "Olma Smetana (12%)",
-        "price": "89,50",
+        "price": "149,50",
         "subcategory": "smetany a slehacky",
         "sub-subcategory_name": "Ke šlehání"
     },
@@ -9360,12 +9318,6 @@
         "sub-subcategory_name": "Ke šlehání"
     },
     {
-        "name": "Tatra Classic 7,5% ",
-        "price": "155,60",
-        "subcategory": "smetany a slehacky",
-        "sub-subcategory_name": "Ke šlehání"
-    },
-    {
         "name": "Violife  zakysaný krém ",
         "price": "189,80",
         "subcategory": "smetany a slehacky",
@@ -9511,7 +9463,7 @@
     },
     {
         "name": "Créme Bonjour Rostlinný tuk",
-        "price": "251,60",
+        "price": "147,60",
         "subcategory": "maslo margariny tuky",
         "sub-subcategory_name": "Máslo"
     },
@@ -9529,7 +9481,7 @@
     },
     {
         "name": "Meggle Bylinkové máslo Original",
-        "price": "439,20",
+        "price": "583,20",
         "subcategory": "maslo margariny tuky",
         "sub-subcategory_name": "Máslo"
     },
@@ -9739,7 +9691,7 @@
     },
     {
         "name": "Fine Life Tradiční pomazánkové lehké s jogurtem",
-        "price": "159,33",
+        "price": "186,00",
         "subcategory": "maslo margariny tuky",
         "sub-subcategory_name": "Máslo"
     },
@@ -9834,14 +9786,14 @@
         "sub-subcategory_name": "Máslo"
     },
     {
-        "name": "Monoprix Máslo",
-        "price": "479,20",
+        "name": "České Ghičko Přepuštěné máslo česnek",
+        "price": "908,64",
         "subcategory": "maslo margariny tuky",
         "sub-subcategory_name": "Máslo"
     },
     {
-        "name": "České Ghičko Přepuštěné máslo česnek",
-        "price": "908,64",
+        "name": "Monoprix Máslo",
+        "price": "479,20",
         "subcategory": "maslo margariny tuky",
         "sub-subcategory_name": "Máslo"
     },
@@ -10039,7 +9991,7 @@
     },
     {
         "name": "Heinz Majonéza Seriously Good",
-        "price": "132,25",
+        "price": "249,75",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
@@ -10057,7 +10009,7 @@
     },
     {
         "name": "Vitana Poctivá Majonéza",
-        "price": "159,80",
+        "price": "99,80",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
@@ -10075,19 +10027,19 @@
     },
     {
         "name": "Vitana Poctivá Tatarská omáčka",
-        "price": "149,80",
+        "price": "99,80",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
     {
         "name": "Vitana Poctivá Majonéza",
-        "price": "190,67",
+        "price": "119,56",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
     {
         "name": "Vitana Poctivá Tatarská omáčka",
-        "price": "190,67",
+        "price": "119,56",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
@@ -10237,13 +10189,13 @@
     },
     {
         "name": "Heinz Mayoketchup",
-        "price": "168,43",
+        "price": "240,72",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
     {
         "name": "Monoprix Gourmet Tzatziki Feta",
-        "price": "416,11",
+        "price": "555,00",
         "subcategory": "majonezy tatarky a dresingy",
         "sub-subcategory_name": "Majonézy"
     },
@@ -10273,13 +10225,13 @@
     },
     {
         "name": "Ehrmann High Protein Mousse Salty Caramel",
-        "price": "299,50",
+        "price": "224,50",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
         "name": "Lučina Nadýchaná bez laktózy",
-        "price": "385,00",
+        "price": "285,00",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
@@ -10291,31 +10243,31 @@
     },
     {
         "name": "Heinrichsthaler Tilsiter bez laktózy plátky",
-        "price": "452,67",
+        "price": "299,33",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
         "name": "Heinrichsthaler Emmentaler bez laktózy plátky",
-        "price": "503,20",
+        "price": "359,20",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
         "name": "Activia Bílá Bezlaktózová",
-        "price": "150,91",
+        "price": "102,42",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
         "name": "Veselá Kráva Bez laktózy Tavený sýr (8 ks)",
-        "price": "457,50",
+        "price": "332,50",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
         "name": "Liptov Gouda bez laktózy",
-        "price": "410,00",
+        "price": "532,22",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
@@ -10633,7 +10585,7 @@
     },
     {
         "name": "Philadelphia bez laktózy",
-        "price": "332,67",
+        "price": "499,33",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
@@ -10741,7 +10693,7 @@
     },
     {
         "name": "Kukkonia Trvanlivé mléko DeLakto s uzávěrem",
-        "price": "37,80",
+        "price": "49,80",
         "subcategory": "bez laktozy",
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
@@ -10818,32 +10770,20 @@
         "sub-subcategory_name": "Mléko a mléčné nápoje"
     },
     {
-        "name": "Zott Monte -30% ",
-        "price": "199,33",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
         "name": "Mini Babybel Mix pack, 9x20g",
         "price": "693,89",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Heinz Majonéza Seriously Good",
-        "price": "132,25",
+        "name": "Zott Monte -30% ",
+        "price": "199,33",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Milko Bedřich smetanový jogurt mango 10%",
-        "price": "59,33",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Milko Bedřich smetanový jogurt bílý 10%",
-        "price": "59,33",
+        "name": "Italat Mascarpone smetanový krém z vysokotučné smetany",
+        "price": "224,50",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10860,14 +10800,20 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Caseamo Kozí sýr 50+ mladý, výkroj",
-        "price": "529,90",
+        "name": "Créme Bonjour Rostlinný tuk",
+        "price": "147,60",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Olma Smetana (12%)",
-        "price": "89,50",
+        "name": "Milko Tvaroh s vlákninou Jahoda",
+        "price": "142,14",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Matylda BIO Gouda (48%)",
+        "price": "299,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10878,8 +10824,8 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Zott Snack 8x29g Choco",
-        "price": "206,55",
+        "name": "Balsýr Žirovnický sýr balkánského typu",
+        "price": "174,50",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10890,32 +10836,56 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Leerdammer Original",
-        "price": "329,00",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
         "name": "Biofarma DoRa Kozí jogurt jahoda",
         "price": "132,67",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Philadelphia Original smetanový sýr",
-        "price": "319,20",
+        "name": "Meggle Cottage Cheese light",
+        "price": "221,67",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Olma Kysaná smetana (16%)",
-        "price": "94,50",
+        "name": "Vitana Poctivá Majonéza",
+        "price": "99,80",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Galbani Bocconcini",
-        "price": "224,50",
+        "name": "Authentic Farmářská Gouda sweet extra mature",
+        "price": "469,90",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Vitana Poctivá Tatarská omáčka",
+        "price": "119,56",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Activia Probiotický jogurt bílý slazený",
+        "price": "99,17",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "YoPRO Proteinový puding s karamelovou příchutí",
+        "price": "271,67",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Heinrichsthaler Tilsiter bez laktózy plátky",
+        "price": "299,33",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Zott Monte Snack Hazelnuts",
+        "price": "341,38",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10932,14 +10902,8 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Philadelphia bez laktózy",
-        "price": "332,67",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Casino Čerstvý sýr",
-        "price": "299,50",
+        "name": "Matylda BIO Sýrové tyčky pařené 4x20g",
+        "price": "373,75",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10950,8 +10914,20 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "YoPRO Proteinový puding s vanilkovou příchutí",
-        "price": "182,78",
+        "name": "Casino Čerstvý sýr",
+        "price": "299,50",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Mlékárna Kunín Smetana 12%",
+        "price": "93,07",
+        "subcategory": "mlecne vyrobky pro deti",
+        "sub-subcategory_name": "Dětské dezerty a pudinky"
+    },
+    {
+        "name": "Lučina Svěží - pro celou rodinu",
+        "price": "238,33",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -10962,50 +10938,26 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Smetanito Střívko s ementálem tavený sýr",
-        "price": "249,00",
+        "name": "Milko BIO Zakysaná smetana (15%)",
+        "price": "90,86",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Olma Dobré Mléko Selské (3,9%)",
-        "price": "28,90",
+        "name": "Mlékárna Kunín Sametový jogurt s příchutí vanilky",
+        "price": "79,33",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Actimel Triple Action Borůvka - Ostružina",
-        "price": "15,48",
+        "name": "Actimel Probiotický jogurtový nápoj s vitamíny bílý 8x100g",
+        "price": "15,74",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Liptov Hravé Pareničky",
-        "price": "499,00",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Krajánek sýr na pánev i na gril 2x 50 g natur",
-        "price": "369,00",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Olma Smetana ke šlehání (33%)",
-        "price": "144,50",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Tatra Classic 7,5% ",
-        "price": "155,60",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
-        "name": "Monoprix Gourmet Tzatziki Feta",
-        "price": "416,11",
+        "name": "Eru Tavený sýr uzený",
+        "price": "279,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11023,7 +10975,7 @@
     },
     {
         "name": "Matylda BIO Čerstvý sýr",
-        "price": "259,00",
+        "price": "179,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11035,31 +10987,31 @@
     },
     {
         "name": "Matylda BIO Gouda (48%)",
-        "price": "499,00",
+        "price": "299,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Matylda BIO Sýrové tyčky pařené 4x20g",
-        "price": "561,25",
+        "price": "373,75",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Veselá Kráva Sýr a Křup přírodní sýr Rodinné balení 4x35g",
-        "price": "499,29",
+        "price": "399,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Matylda BIO Dezert vanilka",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Matylda BIO Dezert čokoláda",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11071,49 +11023,49 @@
     },
     {
         "name": "Matylda BIO Eidam plátky (30%)",
-        "price": "449,00",
+        "price": "299,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Matylda BIO Dezert jahoda",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Lučina Pro děti tvarohovo smetanový sýr",
-        "price": "419,00",
+        "price": "329,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Liptov Hravé Korbáčiky",
-        "price": "572,73",
+        "price": "754,55",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Liptov Hravé Pareničky",
-        "price": "499,00",
+        "price": "679,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Matylda BIO Dezert Natur bez přidaného cukru",
-        "price": "159,20",
+        "price": "111,20",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Kostíci Sladkáči bílý jogurt slazený",
-        "price": "200,92",
+        "price": "155,05",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Kostíci Kapsička Vanilka",
-        "price": "168,46",
+        "price": "130,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11125,13 +11077,13 @@
     },
     {
         "name": "Kostíci Kapsička Čoko - Oříšek",
-        "price": "168,46",
+        "price": "130,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Actimel Kids probiotický jogurtový nápoj s vitamíny jahoda-banán 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11143,7 +11095,7 @@
     },
     {
         "name": "Kiri Z tvarohu a smetany (12 porcí)",
-        "price": "424,50",
+        "price": "334,50",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11155,13 +11107,13 @@
     },
     {
         "name": "Kiri Křup Family pack",
-        "price": "570,48",
+        "price": "446,67",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Veselá Kráva Sýr a Křup s tyčinkami s pizza příchutí - Rodinné balení",
-        "price": "499,29",
+        "price": "399,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11185,13 +11137,13 @@
     },
     {
         "name": "Kiri Z tvarohu a smetany (6 porcí)",
-        "price": "449,00",
+        "price": "349,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Mini Babybel Mini Rolls",
-        "price": "1 057,65",
+        "price": "904,71",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11203,7 +11155,7 @@
     },
     {
         "name": "Kiri Křup",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11221,37 +11173,37 @@
     },
     {
         "name": "Actimel Kids probiotický jogurtový nápoj s vitamíny vanilka 4x100g",
-        "price": "15,48",
+        "price": "19,48",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Veselá Kráva Sýr a Křup přírodní snack",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Eru Tavený sýr Kids s přidaným vápníkem",
-        "price": "389,00",
+        "price": "279,00",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Kiri Křup pizza",
-        "price": "597,14",
+        "price": "454,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Veselá Kráva Sýr a Křup s šunkovou příchutí snack",
-        "price": "597,14",
+        "price": "454,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
         "name": "Veselá Kráva Sýr a Křup Pizza snack",
-        "price": "568,57",
+        "price": "454,29",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11532,12 +11484,6 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Tatra Kravík vanilkový",
-        "price": "83,60",
-        "subcategory": "mlecne vyrobky pro deti",
-        "sub-subcategory_name": "Dětské dezerty a pudinky"
-    },
-    {
         "name": "Pribináček Krupička se skořicí",
         "price": "213,57",
         "subcategory": "mlecne vyrobky pro deti",
@@ -11725,7 +11671,7 @@
     },
     {
         "name": "Kukkonia Vanilkové mléko s uzávěrem",
-        "price": "53,80",
+        "price": "73,80",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11737,7 +11683,7 @@
     },
     {
         "name": "Kukkonia Kakaové mléko s uzávěrem",
-        "price": "53,80",
+        "price": "73,80",
         "subcategory": "mlecne vyrobky pro deti",
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
@@ -11802,14 +11748,8 @@
         "sub-subcategory_name": "Dětské dezerty a pudinky"
     },
     {
-        "name": "Naturalia BIO Tofu natural",
-        "price": "399,60",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Rostlinné plátky sýra s příchutí Gouda",
-        "price": "449,00",
+        "name": "Delice BIO Tofu s kozím sýrem, medem a lískovými oříšky",
+        "price": "666,11",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11820,26 +11760,8 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Naturalia Taifun BIO Japonské tofu filety, 2x80g",
-        "price": "624,38",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Rostlinný blok s příchutí řeckého typu",
-        "price": "366,00",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Delice BIO Tofu s kozím sýrem, medem a lískovými oříšky",
-        "price": "666,11",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Rostlinné plátky s kozí příchutí",
-        "price": "499,00",
+        "name": "Rostlinné plátky sýra s příchutí Gouda",
+        "price": "449,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11850,26 +11772,38 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
+        "name": "Rostlinný blok s příchutí řeckého typu",
+        "price": "366,00",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Naturalia BIO Tofu natural",
+        "price": "399,60",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Rostlinné plátky s kozí příchutí",
+        "price": "499,00",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Naturalia Taifun BIO Japonské tofu filety, 2x80g",
+        "price": "624,38",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
         "name": "Shmaky Vaječný protein uzený",
         "price": "359,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Heinz Majonéza Seriously Good",
-        "price": "132,25",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Milko Bedřich smetanový jogurt mango 10%",
-        "price": "59,33",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Milko Bedřich smetanový jogurt bílý 10%",
-        "price": "59,33",
+        "name": "Italat Mascarpone smetanový krém z vysokotučné smetany",
+        "price": "224,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11886,14 +11820,20 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Caseamo Kozí sýr 50+ mladý, výkroj",
-        "price": "529,90",
+        "name": "Créme Bonjour Rostlinný tuk",
+        "price": "147,60",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Olma Smetana (12%)",
-        "price": "89,50",
+        "name": "Milko Tvaroh s vlákninou Jahoda",
+        "price": "142,14",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Matylda BIO Gouda (48%)",
+        "price": "299,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11904,8 +11844,8 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Zott Snack 8x29g Choco",
-        "price": "206,55",
+        "name": "Balsýr Žirovnický sýr balkánského typu",
+        "price": "174,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11916,32 +11856,56 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Leerdammer Original",
-        "price": "329,00",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
         "name": "Biofarma DoRa Kozí jogurt jahoda",
         "price": "132,67",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Philadelphia Original smetanový sýr",
-        "price": "319,20",
+        "name": "Meggle Cottage Cheese light",
+        "price": "221,67",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Olma Kysaná smetana (16%)",
-        "price": "94,50",
+        "name": "Vitana Poctivá Majonéza",
+        "price": "99,80",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Galbani Bocconcini",
-        "price": "224,50",
+        "name": "Authentic Farmářská Gouda sweet extra mature",
+        "price": "469,90",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Vitana Poctivá Tatarská omáčka",
+        "price": "119,56",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Activia Probiotický jogurt bílý",
+        "price": "99,17",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "YoPRO Proteinový puding s karamelovou příchutí",
+        "price": "271,67",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Heinrichsthaler Tilsiter bez laktózy plátky",
+        "price": "299,33",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Zott Monte Snack Hazelnuts",
+        "price": "341,38",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11958,14 +11922,8 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Philadelphia bez laktózy",
-        "price": "332,67",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Casino Čerstvý sýr",
-        "price": "299,50",
+        "name": "Matylda BIO Sýrové tyčky pařené 4x20g",
+        "price": "373,75",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -11976,20 +11934,8 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "YoPRO Proteinový puding s vanilkovou příchutí",
-        "price": "182,78",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Naturalia BIO Tradiční máslo",
-        "price": "387,60",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Smetanito Střívko s ementálem tavený sýr",
-        "price": "249,00",
+        "name": "Casino Čerstvý sýr",
+        "price": "299,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12031,13 +11977,13 @@
     },
     {
         "name": "Alpro Barista Ovesný Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Alpro Barista Sójovo-Kokosový Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12067,19 +12013,19 @@
     },
     {
         "name": "Alpro Barista Sójový nápoj",
-        "price": "54,90",
+        "price": "84,90",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Alpro Barista Mandlový Nápoj",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Alpro Barista Ovesno-sójový nápoj s příchutí karamelu",
-        "price": "73,20",
+        "price": "86,53",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12121,7 +12067,7 @@
     },
     {
         "name": "Alpro Sójový fermentovaný výrobek bílý bez přidaného cukru ",
-        "price": "169,75",
+        "price": "132,25",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12145,19 +12091,19 @@
     },
     {
         "name": "Alpro Barista Ovesno-sójový nápoj s příchutí vanilky",
-        "price": "73,20",
+        "price": "83,87",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Violife Pomazánka originál",
-        "price": "566,00",
+        "price": "466,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Violife Blok s příchutí goudy",
-        "price": "349,50",
+        "price": "274,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12175,7 +12121,7 @@
     },
     {
         "name": "Violife Plátky s příchutí goudy",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12199,7 +12145,7 @@
     },
     {
         "name": "Alpro Sójový fermentovaný výrobek vanilka",
-        "price": "169,75",
+        "price": "132,25",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12229,7 +12175,7 @@
     },
     {
         "name": "Violife Plátky s čedarovým aroma",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12253,43 +12199,43 @@
     },
     {
         "name": "Alpro Káva z mandlového nápoje",
-        "price": "159,60",
+        "price": "211,60",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Violife Le Rond s ušlechtilou plísní",
-        "price": "699,33",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Alpro Káva ze sójového nápoje s karamelem",
-        "price": "159,60",
-        "subcategory": "rostlinne a bilkovinne alternativy",
-        "sub-subcategory_name": "Rostlinné nápoje"
-    },
-    {
-        "name": "Violife Cocospread",
         "price": "566,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
+        "name": "Alpro Káva ze sójového nápoje s karamelem",
+        "price": "211,60",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
+        "name": "Violife Cocospread",
+        "price": "466,00",
+        "subcategory": "rostlinne a bilkovinne alternativy",
+        "sub-subcategory_name": "Rostlinné nápoje"
+    },
+    {
         "name": "Violife Plátky s uzenou příchutí",
-        "price": "629,00",
+        "price": "469,00",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Violife Uzený blok",
-        "price": "349,50",
+        "price": "274,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
         "name": "Violife Grill me! Mediterranean style",
-        "price": "499,50",
+        "price": "349,50",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -12678,14 +12624,14 @@
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "ALNATURA BIO Nápoj sójový neslazený veganský",
-        "price": "42,90",
+        "name": "Alpro Ovesný krém na vaření",
+        "price": "211,60",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
     {
-        "name": "Alpro Ovesný krém na vaření",
-        "price": "211,60",
+        "name": "ALNATURA BIO Nápoj sójový neslazený veganský",
+        "price": "42,90",
         "subcategory": "rostlinne a bilkovinne alternativy",
         "sub-subcategory_name": "Rostlinné nápoje"
     },
@@ -13033,19 +12979,19 @@
     },
     {
         "name": "Matylda BIO Čerstvý sýr",
-        "price": "259,00",
+        "price": "179,00",
         "subcategory": "bio",
         "sub-subcategory_name": "Sýry"
     },
     {
         "name": "Matylda BIO Gouda (48%)",
-        "price": "499,00",
+        "price": "299,00",
         "subcategory": "bio",
         "sub-subcategory_name": "Sýry"
     },
     {
         "name": "Matylda BIO Eidam plátky (30%)",
-        "price": "449,00",
+        "price": "299,00",
         "subcategory": "bio",
         "sub-subcategory_name": "Sýry"
     },
@@ -13296,14 +13242,14 @@
         "sub-subcategory_name": "Sýry"
     },
     {
-        "name": "Monoprix BIO Sýr Roquefort z ovčího mléka",
-        "price": "1 199,00",
+        "name": "Naturalia BIO Tradiční máslo nesolené",
+        "price": "559,60",
         "subcategory": "bio",
         "sub-subcategory_name": "Sýry"
     },
     {
-        "name": "Naturalia BIO Tradiční máslo nesolené",
-        "price": "559,60",
+        "name": "Monoprix BIO Sýr Roquefort z ovčího mléka",
+        "price": "1 199,00",
         "subcategory": "bio",
         "sub-subcategory_name": "Sýry"
     },
@@ -13333,7 +13279,7 @@
     },
     {
         "name": "Zorba Smetanový jogurt bílý",
-        "price": "94,90",
+        "price": "72,90",
         "subcategory": "xxl baleni",
         "sub-subcategory_name": "Jogurty"
     },
@@ -13345,7 +13291,7 @@
     },
     {
         "name": "Veselá Kráva Sýr a Křup přírodní sýr Rodinné balení 4x35g",
-        "price": "499,29",
+        "price": "399,29",
         "subcategory": "xxl baleni",
         "sub-subcategory_name": "Jogurty"
     },
@@ -13369,7 +13315,7 @@
     },
     {
         "name": "Veselá Kráva Lahodná XL Tavený sýr (16 ks)",
-        "price": "416,25",
+        "price": "320,42",
         "subcategory": "xxl baleni",
         "sub-subcategory_name": "Jogurty"
     },
