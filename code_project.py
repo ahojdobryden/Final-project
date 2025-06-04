@@ -27,13 +27,13 @@ with open('data_kosik_subcats.json', 'r', encoding='utf-8') as file, open('rohli
     print("Your shopping cart:", shopping_cart) #printing the shopping cart
 
     
-    kosik_subcategories = {item['subcategory'] for item in data_kosik.values()} # Extracting subcategories from Kosik data
+    kosik_subcategories = {item['sub-subcategory_name'] for item in data_kosik.values()} # Extracting subcategories from Kosik data
     #kosik_subcategories = set(kosik_subcategories)  # Convert to a set to ensure uniqueness
     print("Unique categories from Kosik:", kosik_subcategories)
 
     rohlik_subcategories = {item['subcategory_name'] for item in data_rohlik} # Extracting subcategories from Kosik data
     #kosik_subcategories = set(kosik_subcategories)  # Convert to a set to ensure uniqueness
-    print("Unique categories from Rohlik:", rohlik_subcategories)
+    print("\n\n\nUnique categories from Rohlik:", rohlik_subcategories)
 
 
     print("Unique Kosik items:", len(data_kosik))
