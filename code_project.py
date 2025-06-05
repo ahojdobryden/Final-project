@@ -1,7 +1,13 @@
 import pandas as pd #importing packages for further data processing
 import json as js
 import os
-from rapidfuzz import fuzz
+from rapidfuzz import fuzz, process
+import unicodedata
+
+def normalize(text): # Function to normalize text by converting to lowercase, stripping whitespace, and removing accents
+    text = text.lower().strip()
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
+    return text
 
 
 # Load data from JSON files with items from Kosik and Rohlik
@@ -15,6 +21,12 @@ with open('data_kosik_subcats.json', 'r', encoding='utf-8') as file, open('rohli
 
     # Convert back to a list
     data_kosik = list(unique_kosik_dict.values())
+    kosik_df = pd.DataFrame(data_kosik, columns= ('name', 'price', 'subcategory', 'sub-subcategory_name') )  # Convert Kosik data to DataFrame for easier manipulation
+
+    #pd.columns(data_rohlik) = c('name', 'price', 'subcategory_name', 'subcategory_id', 'subcategory_url')
+    rohlik_df = pd.DataFrame(data_rohlik, columns= ('name', 'price', 'subcategory_name', 'subcategory_url'))  # Convert Rohlik data to DataFrame for easier manipulation
+    print(kosik_df.head())
+    print(rohlik_df.head())  # Display first few rows of Kosik data
 
     #print("Kosik data:", len(data_kosik_dupl))
     #print("Rohlik data:", len(data_rohlik))
@@ -54,85 +66,170 @@ with open('data_kosik_subcats.json', 'r', encoding='utf-8') as file, open('rohli
 
 
 
+
+    #i = 0
+    #while i < 7:
+        #print(kosik_df.iloc[i])  # Display first few rows of Kosik data
+        #i += 1
+
+    for item in data_kosik:  # creating a new subcategory for Kosik items that contain "protein" in their name
+        item_name = normalize(item['name'])
+        if "protein" in item_name:
+            print(f"Found 'protein' in item: {item_name} - {item['subcategory']}")
+            item['subcategory'] = 'Speciální - High protein'
+
+
+    kosik_subcategories = {row['subcategory'] for row in data_kosik} # Extracting subcategories from Kosik data
+    kosik_subcategories = set(kosik_subcategories)  # Convert to a set to ensure uniqueness
+
+
+    rohlik_subcategories = {item['subcategory_name'] for item in data_rohlik} # Extracting subcategories from Kosik data
+    rohlik_subcategories = set(rohlik_subcategories)  # Convert to a set to ensure uniqueness
+
+    #print("\n\n\nUnique categories from Rohlik:", rohlik_subcategories)
+    #print(len(rohlik_subcategories), "unique categories in Rohlik data.")
+
+    # Normalize Kosik subcategories once
+    normalized_kosik = {normalize(cat): cat for cat in kosik_subcategories}
+    norm_kosik_keys = list(normalized_kosik.keys())
+
+    # Now match every Rohlik category to the BEST Kosik match
+    rohlik_to_kosik_match = {}
+    THRESHOLD = 40  # Consider tuning this up/down depending on your needs
+
+    counter = 1
+    for rohlik_cat in rohlik_subcategories:
+        norm_rohlik = normalize(rohlik_cat)
+
+        match, score, _ = process.extractOne(
+            norm_rohlik,
+            norm_kosik_keys,
+            scorer=fuzz.token_set_ratio
+        )
+
+        if score >= THRESHOLD:
+            best_kosik = normalized_kosik[match]
+            rohlik_to_kosik_match[rohlik_cat] = best_kosik
+        else:
+            rohlik_to_kosik_match[rohlik_cat] = (None, score)
+
+    print(f"\n\n\nRohlik to Kosik category matches: {rohlik_to_kosik_match} \n\n\n")
+    # SHOPPING PROCESS
+    shopping_cart = []
+    shopping_cart_kosik = []  # List to store items in the shopping cart for Kosik
+    shopping_cart_rohlik = []  # List to store items in the shopping cart for Rohlik
+    print("categories:", kosik_subcategories)
+    category_user = normalize(input("Please choose a category from the list above: "))
+    if category_user not in kosik_subcategories:
+        category_user = normalize(input("Category not found. Please try again: "))
+        
+
+    else:
+        print(f"You selected the category: {category_user}")
+        print("Matching items from Rohlik to Kosik...")
+        item_input = input('Please type a product you are looking for. If you want to see all items in the category, type "all". If you want to exit, type "exit": ')
+        if normalize(item_input) == 'exit':
+            print("Exiting the program.")
+        elif normalize(item_input) == 'all':
+            print(f"Here are all items in the category '{category_user}':")
+            #for item in data_kosik:
+                #if item['subcategory'] == category_user:
+                    #print(f"{item['name']} - {item['price']} CZK")
+            while normalize(item_input) != 'exit':
+                item_input = input('Please type the desired product: ')
+                if item_input != 'exit':
+                    shopping_cart.append(normalize(item_input))
+                
+        else:
+            shopping_cart.append(normalize(item_input))
+            while normalize(item_input) != 'exit':
+                item_input = input('Please type the desired product: ')
+                if item_input != 'exit':
+                    shopping_cart.append(normalize(item_input))
+                else:
+                    print("Exiting the program.")
+                    break
+                
+print(shopping_cart)
+
+#for item in shopping_cart:
+
+
+
 from rapidfuzz import fuzz, process
-import unicodedata
 
-def normalize(text):
-    text = text.lower().strip()
-    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
-    return text
+possible_items_kosik= []
 
-for item in data_kosik: #Protein subcategory is missing in Kosik but we want to add it
-    if "protein" in normalize(item['name']): 
-        #print(f"Found 'protein' in item: {item['name']} - {item['subcategory']}")
-        item['subcategory'] = 'Speciální - High protein'
+# Collect normalized names from the selected Kosik category
+for item in data_kosik:
+    if item['subcategory'] == category_user:
+        norm_item = normalize(item['name'])
+        possible_items_kosik.append((norm_item, item))  # Keep original item too
 
-kosik_subcategories = {item['subcategory'] for item in data_kosik} # Extracting subcategories from Kosik data
-kosik_subcategories = set(kosik_subcategories)  # Convert to a set to ensure uniqueness
+# Match each shopping_cart item
+for it in shopping_cart:
+    normalized_it = normalize(it)
+    
+    # Extract just the list of normalized names
+    norm_names = [name for name, _ in possible_items_kosik]
 
+    result = process.extractOne(normalized_it, norm_names, scorer=fuzz.token_set_ratio)
 
-rohlik_subcategories = {item['subcategory_name'] for item in data_rohlik} # Extracting subcategories from Kosik data
-rohlik_subcategories = set(rohlik_subcategories)  # Convert to a set to ensure uniqueness
-
-#print("\n\n\nUnique categories from Rohlik:", rohlik_subcategories)
-#print(len(rohlik_subcategories), "unique categories in Rohlik data.")
-
-# Normalize Kosik subcategories once
-normalized_kosik = {normalize(cat): cat for cat in kosik_subcategories}
-norm_kosik_keys = list(normalized_kosik.keys())
-
-# Now match every Rohlik category to the BEST Kosik match
-rohlik_to_kosik_match = {}
-THRESHOLD = 40  # Consider tuning this up/down depending on your needs
-
-counter = 1
-for rohlik_cat in rohlik_subcategories:
-    norm_rohlik = normalize(rohlik_cat)
-
-    match, score, _ = process.extractOne(
-        norm_rohlik,
-        norm_kosik_keys,
-        scorer=fuzz.token_set_ratio
-    )
-
-    if score >= THRESHOLD:
-        best_kosik = normalized_kosik[match]
-        rohlik_to_kosik_match[rohlik_cat] = best_kosik
+    if result:
+        match, score, _ = result
+        if score >= 80:
+            # Find the corresponding original item
+            for norm_name, original_item in possible_items_kosik:
+                if norm_name == match:
+                    print(f"Found match: {original_item['name']} - {original_item['price']} CZK")
+                    shopping_cart_kosik.append(original_item)
+                    break
+        else:
+            print(f"No good match found for '{it}' (score was {score}) in category {category_user}.")
     else:
-        rohlik_to_kosik_match[rohlik_cat] = (None, score)
+        print(f"No match found for '{it}' in Kosik category {category_user}.")
 
-print(f"\n\n\nRohlik to Kosik category matches: {rohlik_to_kosik_match} \n\n\n")
-# SHOPPING PROCESS
-shopping_cart_kosik = []  # List to store items in the shopping cart for Kosik
-shopping_cart_rohlik = []  # List to store items in the shopping cart for Rohlik
-print("categories:", kosik_subcategories)
-category_user = input("Please choose a category from the list above: ")
-if category_user not in kosik_subcategories:
-    print("Category not found. Please try again.")
-else:
-    print(f"You selected the category: {category_user}")
-    print("Matching items from Rohlik to Kosik...")
-    item_input = input('Please type a product you are looking for. If you want to see all items in the category, type "all". If you want to exit, type "exit": ')
-    if normalize(item_input) == 'exit':
-        print("Exiting the program.")
-    elif normalize(item_input) == 'all':
-        print(f"Here are all items in the category '{category_user}':")
-        for item in data_kosik:
-            if item['subcategory'] == category_user:
-                print(f"{item['name']} - {item['price']} CZK")
-        item_input = input('Please type the desired product: ')
+#Rohlik
+possible_items_rohlik= []
+
+# Collect normalized names from the selected Kosik category
+for item in data_rohlik:
+    if item['subcategory_name'] == category_user:
+        norm_item = normalize(item['name'])
+        possible_items_rohlik.append((norm_item, item))  # Keep original item too
+
+# Match each shopping_cart item
+for it in shopping_cart:
+    normalized_it = normalize(it)
+    
+    # Extract just the list of normalized names
+    norm_names = [name for name, _ in possible_items_rohlik]
+
+    result = process.extractOne(normalized_it, norm_names, scorer=fuzz.token_set_ratio)
+
+    if result:
+        match, score, _ = result
+        if score >= 20:
+            # Find the corresponding original item
+            for norm_name, original_item in possible_items_rohlik:
+                if norm_name == match:
+                    print(f"Found match: {original_item['name']} - {original_item['price']} CZK")
+                    shopping_cart_rohlik.append(original_item)
+                    break
+        else:
+            print(f"No good match found for '{it}' (score was {score}) in category {category_user}.")
     else:
-        for item in data_kosik:
-            if item['subcategory'] == category_user and normalize(item_input) in normalize(item['name']):
-                print(f"{item['name']} - {item['price']} CZK")
-                shopping_cart_kosik.append(item)
-        rohlik_cat = rohlik_to_kosik_match.get(category_user)
-        for item in data_rohlik:
-            if rohlik_cat and normalize(item_input) in normalize(item['name']):
-                print(f"{item['name']} - {item['price']} CZK")
-                shopping_cart_rohlik.append(item)
+        print(f"No match found for '{it}' in Rohlik category {category_user}.")
 
 
-print(shopping_cart_rohlik)
+    #if item['subcategory'] == category_user and normalize(item_input) in normalize(item['name']):
+        #print(f"{item['name']} - {item['price']} CZK")
+        #shopping_cart_kosik.append(item)
+
+
+
+
+#print(f'Shopping cart Kosik: {shopping_cart_kosik}')
+#print(f'Shopping cart Rohlik: {shopping_cart_rohlik}')
 
 
