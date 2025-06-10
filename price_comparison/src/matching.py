@@ -10,14 +10,16 @@ import re
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Construct path to data files
-DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
+#DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
 
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # directory of this .py file
+DATA_PATH_kosik = os.path.join(BASE_DIR, '..', 'data', 'data_kosik_subcats.json')
+DATA_PATH_rohlik = os.path.join(BASE_DIR, '..', 'data', 'rohlik_dairy_products_multi_cat.json')
 class GroceryComparator:
     def __init__(self):
         # Load data files
-        with open('data/data_kosik_subcats.json', 'r', encoding='utf-8') as file, \
-             open('data/rohlik_dairy_products_multi_cat.json', 'r', encoding='utf-8') as file2:
+        with open(DATA_PATH_kosik, 'r', encoding='utf-8') as file, \
+             open(DATA_PATH_rohlik, 'r', encoding='utf-8') as file2:
             self.data_kosik_dupl = js.load(file)
             self.data_rohlik = js.load(file2)
 
