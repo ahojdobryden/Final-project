@@ -1,15 +1,25 @@
-import json
+import json as js
 import os
-from rapidfuzz import fuzz
+from rapidfuzz import fuzz, process
 import unicodedata
 import re
 
+# Get absolute path to current directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct path to data files
+#DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # directory of this .py file
+DATA_PATH_kosik = os.path.join(BASE_DIR, '..', 'data', 'data_kosik_subcats.json')
+DATA_PATH_rohlik = os.path.join(BASE_DIR, '..', 'data', 'rohlik_dairy_products_multi_cat.json')
 class GroceryComparator:
     def __init__(self):
-        with open('data/data_kosik_subcats.json', 'r', encoding='utf-8') as f1, \
-             open('data/rohlik_dairy_products_multi_cat.json', 'r', encoding='utf-8') as f2:
-            self.data_kosik = json.load(f1)
-            self.data_rohlik = json.load(f2)
+        # Load data files
+        with open(DATA_PATH_kosik, 'r', encoding='utf-8') as file, \
+             open(DATA_PATH_rohlik, 'r', encoding='utf-8') as file2:
+            self.data_kosik_dupl = js.load(file)
+            self.data_rohlik = js.load(file2)
 
         self._process_data()
         self._match_categories()
@@ -57,11 +67,13 @@ class GroceryComparator:
         )
 
     def _process_protein_items(self):
+        """Special handling for protein-enriched items"""
         for item in self.data_kosik:
             if "protein" in self.normalize(item['name']):
                 item['subcategory'] = 'Speciální - High protein'
 
     def find_products(self, selected_category):
+        """Find products in Rohlik and Kosik based on selected category"""
         kosik_category = self.match_rohlik_to_kosik.get(selected_category)
         kosik_products = [p for p in self.data_kosik if p['subcategory'] == kosik_category] if kosik_category else []
         rohlik_products = [p for p in self.data_rohlik if p['subcategory_name'] == selected_category]
