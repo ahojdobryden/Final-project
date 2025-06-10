@@ -1,40 +1,27 @@
-import pandas as pd
-import json as js  # Imported as 'js' per original code
+import json
 import os
-from rapidfuzz import fuzz, process
+from rapidfuzz import fuzz
 import unicodedata
-import sys
 import re
-
-# Get absolute path to current directory
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Construct path to data files
-DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
-
 
 class GroceryComparator:
     def __init__(self):
-        # Load data files
-        with open('data/data_kosik_subcats.json', 'r', encoding='utf-8') as file, \
-             open('data/rohlik_dairy_products_multi_cat.json', 'r', encoding='utf-8') as file2:
-            self.data_kosik_dupl = js.load(file)
-            self.data_rohlik = js.load(file2)
+        with open('data/data_kosik_subcats.json', 'r', encoding='utf-8') as f1, \
+             open('data/rohlik_dairy_products_multi_cat.json', 'r', encoding='utf-8') as f2:
+            self.data_kosik = json.load(f1)
+            self.data_rohlik = json.load(f2)
 
-        # Process Kosik data
         self._process_data()
         self._match_categories()
         self._process_protein_items()
 
     @staticmethod
     def normalize(text):
-        """Normalize text for comparison: lowercase, remove accents/whitespace"""
         text = text.lower().strip()
         return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
 
     @staticmethod
     def calculate_weighed_score(item1, item2):
-        """Calculate weighted similarity score between two strings"""
         score1 = fuzz.token_set_ratio(item1, item2)
         score2 = fuzz.partial_ratio(item1, item2)
         score3 = fuzz.ratio(item1, item2)
@@ -42,162 +29,112 @@ class GroceryComparator:
         return 0.4 * score1 + 0.2 * score2 + 0.2 * score3 + 0.2 * score4
 
     def _process_data(self):
-        """Process and clean raw data"""
-        # Kosik data processing
-        self.unique_kosik_dict = {}
-        for item in self.data_kosik_dupl:
-            self.unique_kosik_dict[item['name']] = item
-        self.data_kosik = list(self.unique_kosik_dict.values())
-        
-        # Rohlik data processing
-        self.rohlik_df = pd.DataFrame(self.data_rohlik, columns=('name', 'price', 'subcategory_name', 'subcategory_url'))
+        unique_kosik = {}
+        for item in self.data_kosik:
+            unique_kosik[item['name']] = item
+        self.data_kosik = list(unique_kosik.values())
 
     def _match_categories(self):
-        """Match product categories between stores"""
-        self.kosik_subcategories = {row['subcategory'] for row in self.data_kosik}
-        self.rohlik_subcategories = {item['subcategory_name'] for item in self.data_rohlik}
-        
-        self.normalized_kosik = {self.normalize(cat): cat for cat in self.kosik_subcategories}
-        self.normalized_rohlik = {self.normalize(cat): cat for cat in self.rohlik_subcategories}
-        
+        kosik_subs = {item['subcategory'] for item in self.data_kosik}
+        rohlik_subs = {item['subcategory_name'] for item in self.data_rohlik}
         self.match_rohlik_to_kosik = {}
-        for rohlik_cat in self.rohlik_subcategories:
-            norm_rohlik = self.normalize(rohlik_cat)
-            best_match = None
+        for r_sub in rohlik_subs:
+            norm_r = self.normalize(r_sub)
             best_score = 0
-            
-            for norm_kosik in self.normalized_kosik.keys():
-                score = self.calculate_weighed_score(norm_rohlik, norm_kosik)
-                if score > best_score and self._is_valid_match(norm_rohlik, norm_kosik):
+            best_match = None
+            for k_sub in kosik_subs:
+                norm_k = self.normalize(k_sub)
+                score = self.calculate_weighed_score(norm_r, norm_k)
+                if score > best_score and self._valid_match(norm_r, norm_k):
                     best_score = score
-                    best_match = norm_kosik
-            
-            self.match_rohlik_to_kosik[norm_rohlik] = self.normalized_kosik.get(best_match, None)
+                    best_match = k_sub
+            self.match_rohlik_to_kosik[r_sub] = best_match
 
-    def _is_valid_match(self, rohlik_norm, kosik_norm):
-        """Filter invalid category matches"""
+    def _valid_match(self, norm_r, norm_k):
         return not (
-            (kosik_norm == 'tvarohy' and rohlik_norm != 'smetany, slehacky, tvarohy - tvarohy') or
-            (kosik_norm == 'mlecne vyrobky pro deti' and rohlik_norm not in ['mlecne - pro deti', 'syry - snacky'])
+            (norm_k == 'tvarohy' and norm_r != 'smetany, slehacky, tvarohy - tvarohy') or
+            (norm_k == 'mlecne vyrobky pro deti' and norm_r not in ['mlecne - pro deti', 'syry - snacky'])
         )
 
     def _process_protein_items(self):
-        """Special handling for protein-enriched items"""
         for item in self.data_kosik:
             if "protein" in self.normalize(item['name']):
                 item['subcategory'] = 'Speciální - High protein'
 
     def find_products(self, selected_category):
-        """Find matching products between stores for a selected category"""
-    # Normalize the selected category
-        norm_category = self.normalize(selected_category)
-    
-    # Get corresponding Košík category
-        kosik_category = self.match_rohlik_to_kosik.get(norm_category, None)
-    
-    # Get all Košík products in matched category
-        kosik_products = []
-        if kosik_category:
-            kosik_products = [item for item in self.data_kosik 
-                            if item['subcategory'] == kosik_category]
-        
-    # Get all Rohlik products in selected category
-        rohlik_products = [item for item in self.data_rohlik 
-                        if self.normalize(item['subcategory_name']) == norm_category]
-        
-        return {
-            'rohlik': rohlik_products,
-            'kosik': kosik_products
-    }
+        kosik_category = self.match_rohlik_to_kosik.get(selected_category)
+        kosik_products = [p for p in self.data_kosik if p['subcategory'] == kosik_category] if kosik_category else []
+        rohlik_products = [p for p in self.data_rohlik if p['subcategory_name'] == selected_category]
 
-    def run_cli(self):
-        """Command-line interface for testing"""
-        print(f"Kosik data contains {len(self.data_kosik)} items.")
-        print("Available categories:", [self.normalized_rohlik[key] for key in self.normalized_rohlik])
-        
-        # Category selection
-        while True:
-            category_input = input("Enter category (or 'exit'): ")
-            if category_input.lower() == 'exit':
-                return
-            
-            norm_category = self.normalize(category_input)
-            if norm_category in self.normalized_rohlik:
-                self._handle_category_selection(norm_category)
-                break
-            print("Invalid category. Try again.")
-
-    def _handle_category_selection(self, norm_category):
-        """Handle product selection for a chosen category"""
-        print(f"Selected category: {self.normalized_rohlik[norm_category]}")
-    
-    def parse_rohlik_unit(self, item):
-        """Extract unit price and measurement unit from Rohlik's unit_price"""
-        unit_price_str = item.get('unit_price', '0 Kč/unit')
-        match = re.search(r"([\d,]+)\s*Kč/(\w+)", unit_price_str)
-        if match:
-            price = float(match.group(1).replace(',', '.'))
-            unit = match.group(2).lower()
-            return price, unit
-        return 0.0, 'unit'
-
-    def parse_kosik_price(self, item, rohlik_unit):
-        """Parse Košík's price using Rohlik's unit"""
-        price_str = item.get('price', '0')
-        try:
-            return float(price_str.replace(',', '.').replace(' Kč', ''))
-        except ValueError:
-            return 0.0
-
-    def find_products(self, selected_category):
-        """Enhanced product matching with unit awareness"""
-        norm_category = self.normalize(selected_category)
-        kosik_category = self.match_rohlik_to_kosik.get(norm_category, None)
-        
-        # Get Rohlik products with parsed units
-        rohlik_products = []
-        for item in self.data_rohlik:
-            if self.normalize(item.get('subcategory_name', '')) == norm_category:
-                unit_price, unit = self.parse_rohlik_unit(item)
-                rohlik_products.append({
-                    **item,
-                    'unit_price_value': unit_price,
-                    'unit': unit
-                })
-        
-        # Get Košík products
-        kosik_products = []
-        if kosik_category:
-            kosik_products = [item for item in self.data_kosik 
-                            if item.get('subcategory', '') == kosik_category]
-        
-        # Match products with unit conversion
-        matched_products = []
-        for r_product in rohlik_products:
+        matched = []
+        for rp in rohlik_products:
+            r_price, r_unit = self.parse_rohlik_unit(rp)
             best_match = None
             best_score = 0
-            for k_product in kosik_products:
+            for kp in kosik_products:
                 score = self.calculate_weighed_score(
-                    self.normalize(r_product['name']),
-                    self.normalize(k_product['name'])
+                    self.normalize(rp['name']),
+                    self.normalize(kp['name'])
                 )
-                if score > best_score:
-                    best_match = k_product
+                if score > best_score and score >= 60:
                     best_score = score
-            
+                    best_match = kp
             if best_match:
-                # Use Rohlik's unit for Košík price
-                kosik_price = self.parse_kosik_price(best_match, r_product['unit'])
-                matched_products.append({
-                    'rohlik': r_product,
-                    'kosik': {
-                        **best_match,
-                        'unit_price_value': kosik_price,
-                        'unit': r_product['unit']
-                    }
+                k_price = self.parse_kosik_price(best_match, r_unit)
+                matched.append({
+                    'rohlik': {**rp, 'unit_price': r_price, 'unit': r_unit},
+                    'kosik': {**best_match, 'unit_price': k_price, 'unit': r_unit}
                 })
-        return matched_products
+            else:
+                matched.append({
+                    'rohlik': {**rp, 'unit_price': r_price, 'unit': r_unit},
+                    'kosik': None
+                })
+        return matched
 
-if __name__ == "__main__":
-    comparator = GroceryComparator()
-    comparator.run_cli()
+    def parse_rohlik_unit(self, item):
+        """Extract unit price from Rohlik item with decimal support"""
+        unit_str = item.get('unit_price', '0 Kč/unit')
+        # Match numbers with dots/commas as decimals and optional thousand separators
+        match = re.search(r"(\d{1,3}(?:[.,\d]{3})*(?:[.,]\d+)?)\s*Kč/(\w+)", unit_str)
+        if match:
+            price_str = match.group(1)
+            
+            # Standardize decimal separator and remove thousand separators
+            if ',' in price_str and '.' in price_str:
+                # Handle both separators (e.g., 1.000,50 -> 1000.50)
+                price_str = price_str.replace('.', '').replace(',', '.')
+            else:
+                # Replace comma decimal separator with dot
+                price_str = price_str.replace(',', '.')
+                
+            # Remove any remaining thousand separators
+            price_str = price_str.replace('.', '', price_str.count('.') - 1 if '.' in price_str else 0)
+            
+            try:
+                price = float(price_str)
+                unit = match.group(2).lower()
+                return price, unit
+            except ValueError:
+                pass
+        
+        return 0.0, 'unit'
+
+
+    def parse_kosik_price(self, item, target_unit):
+        """Parse Košík's price directly as unit price"""
+        try:
+            # Extract and clean price from Košík's 'price' field
+            price_str = item.get('price', '0')
+            
+            # Remove all non-numeric characters except comma and period
+            clean_price = re.sub(r'[^\d,.]', '', price_str)
+            
+            # Replace comma with period for float conversion
+            price = float(clean_price.replace(',', '.'))
+            
+            return price
+            
+        except Exception as e:
+            print(f"Error parsing Košík price: {e}")
+            return 0.0
