@@ -10,7 +10,7 @@ The goal of this project is to create a **smart shopping list** that recommends 
 
 - [www.rohlik.cz](https://www.rohlik.cz)
 - [www.kosik.cz](https://www.kosik.cz)
-- 
+  
 📄 Input Files
 from web scraping of [www.kosik.cz](https://www.kosik.cz)
 	•	data_kosik_subcats.json: List of Kosik products with at least name, price, subcategory, sub-subcategory_name.
