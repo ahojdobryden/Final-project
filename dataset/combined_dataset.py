@@ -4,30 +4,40 @@ import numpy as np
 from pathlib import Path
 from collections import Counter
 
-# Category mapping dictionary
+#Category mapping dictionary
 KOSIK_TO_ROHLIK_MAPPING = {
-    # Dairy products
     'syry': 'Sýry',
     'jogurty a mlecne dezerty': 'Jogurty',
     'maslo margariny tuky': 'Máslo',
     'smetany a slehacky': 'Smetany, šlehačky, tvarohy',
     'tvarohy': 'Smetany, šlehačky, tvarohy',
     'mleko a mlecne napoje': 'Mléčné',
-    
-    # Sauces and condiments
-    'majonezy tatarky a dresingy': 'Majonézy',
-    
-    # Special categories
+    'majonezy tatarky a dresingy': 'Majonézy, Dresingy a Tatarské omáčky',
+    'rostlinne a bilkovinne alternativy': 'Mléčné',
+    'mlecne vyrobky pro deti': 'Mléčné',
+    'bez laktozy': 'Mléčné',
     'bio': 'Sýry BIO a farmářské',
     'farmarske': 'Sýry BIO a farmářské',
-    
-    # Products without direct equivalents -> mapped to 'Speciální'
-    'bez laktozy': 'Speciální',
-    'mlecne vyrobky pro deti': 'Speciální',
-    'rostlinne a bilkovinne alternativy': 'Speciální',
-    'vejce a drozdi': 'Speciální',
-    'xxl baleni': 'Speciální'
+    # Categories to be excluded (will be filtered out)
+    # 'vejce a drozdi': 'EXCLUDE',  # Will be removed
+    # 'xxl baleni': 'EXCLUDE',     # Will be removed
 }
+
+# Categories to exclude from the dataset
+EXCLUDED_CATEGORIES = ['vejce a drozdi', 'xxl baleni']
+
+# Rohlik categories to merge
+ROHLIK_CATEGORY_MAPPING = {
+    'Majonézy': 'Majonézy, Dresingy a Tatarské omáčky',
+    'Dresingy': 'Majonézy, Dresingy a Tatarské omáčky',
+    'Tatarské omáčky': 'Majonézy, Dresingy a Tatarské omáčky',
+    'Plátkové sýry': 'Sýry',
+    'Čerstvě krájené': 'Sýry',
+    'Sýry': 'Sýry'
+}
+
+# Rohlik categories to exclude
+ROHLIK_EXCLUDED_CATEGORIES = ['Speciální']
 
 def load_json_data():
     """
@@ -63,6 +73,103 @@ def load_json_data():
         print(f"✗ Rohlik file not found")
     
     return kosik_data, rohlik_data
+
+def filter_kosik_data(kosik_data):
+    """
+    Filter out excluded categories from Kosik data
+    
+    Args:
+        kosik_data: List of Kosik product dictionaries
+        
+    Returns:
+        list: Filtered Kosik data without excluded categories
+    """
+    if not kosik_data:
+        return kosik_data
+    
+    if isinstance(kosik_data, dict):
+        kosik_data = [kosik_data]
+    
+    original_count = len(kosik_data)
+    
+    # Filter out products with excluded categories
+    filtered_data = []
+    excluded_count = 0
+    
+    for item in kosik_data:
+        category = item.get('subcategory', '')
+        if category not in EXCLUDED_CATEGORIES:
+            filtered_data.append(item)
+        else:
+            excluded_count += 1
+    
+    print(f"\nFiltering Kosik data:")
+    print(f"Original products: {original_count}")
+    print(f"Excluded products: {excluded_count}")
+    print(f"Remaining products: {len(filtered_data)}")
+    print(f"Excluded categories: {EXCLUDED_CATEGORIES}")
+    
+    return filtered_data
+
+def filter_and_remap_rohlik_data(rohlik_data):
+    """
+    Filter out excluded categories and remap categories in Rohlik data
+    
+    Args:
+        rohlik_data: List of Rohlik product dictionaries
+        
+    Returns:
+        list: Filtered and remapped Rohlik data
+    """
+    if not rohlik_data:
+        return rohlik_data
+    
+    if isinstance(rohlik_data, dict):
+        rohlik_data = [rohlik_data]
+    
+    original_count = len(rohlik_data)
+    
+    # Filter out products with excluded categories and remap categories
+    filtered_data = []
+    excluded_count = 0
+    remapped_count = 0
+    
+    for item in rohlik_data:
+        if 'subcategory_name' in item and item['subcategory_name']:
+            # Extract main category (part before the "-")
+            full_category = item['subcategory_name']
+            main_category = full_category.split(' - ')[0].strip()
+            
+            # Skip excluded categories
+            if main_category in ROHLIK_EXCLUDED_CATEGORIES:
+                excluded_count += 1
+                continue
+            
+            # Remap categories if needed
+            if main_category in ROHLIK_CATEGORY_MAPPING:
+                new_category = ROHLIK_CATEGORY_MAPPING[main_category]
+                if new_category != main_category:
+                    remapped_count += 1
+                    # Create a new subcategory_name with the remapped category
+                    if ' - ' in full_category:
+                        subcategory = full_category.split(' - ', 1)[1]
+                        item['subcategory_name'] = f"{new_category} - {subcategory}"
+                    else:
+                        item['subcategory_name'] = new_category
+                    
+                    # Also store the original category for reference
+                    item['original_category'] = main_category
+            
+            filtered_data.append(item)
+    
+    print(f"\nFiltering and remapping Rohlik data:")
+    print(f"Original products: {original_count}")
+    print(f"Excluded products: {excluded_count}")
+    print(f"Remapped categories: {remapped_count}")
+    print(f"Remaining products: {len(filtered_data)}")
+    print(f"Excluded categories: {ROHLIK_EXCLUDED_CATEGORIES}")
+    
+    return filtered_data
 
 def extract_kosik_categories(kosik_data):
     """
@@ -157,7 +264,7 @@ def clean_price_string(price_str):
         return None
     
     # Remove common currency symbols and units
-    cleaned = str(price_str).replace('Kč', '').replace('€', '').replace('$', '')
+    cleaned = str(price_str).replace('Kč', '')
     cleaned = cleaned.replace('/kg', '').replace('/l', '').replace('/ks', '')
     cleaned = cleaned.strip()
     
@@ -180,7 +287,7 @@ def create_combined_dataset(kosik_data, rohlik_data):
     """
     combined_records = []
     
-    # Process Kosik data
+    # Process Kosik data (now filtered)
     if kosik_data:
         if isinstance(kosik_data, dict):
             kosik_data = [kosik_data]
@@ -314,8 +421,8 @@ def add_categories_to_dataset(df, kosik_data, rohlik_data):
     
     Args:
         df: Combined dataset DataFrame
-        kosik_data: Original Kosik data
-        rohlik_data: Original Rohlik data
+        kosik_data: Original Kosik data (filtered)
+        rohlik_data: Original Rohlik data (filtered and remapped)
         
     Returns:
         pandas.DataFrame: Dataset with category information added
@@ -324,7 +431,7 @@ def add_categories_to_dataset(df, kosik_data, rohlik_data):
     kosik_categories = {}
     rohlik_categories = {}
     
-    # Map Kosik products to categories
+    # Map Kosik products to categories (using filtered data)
     if kosik_data:
         if isinstance(kosik_data, dict):
             kosik_data = [kosik_data]
@@ -332,11 +439,11 @@ def add_categories_to_dataset(df, kosik_data, rohlik_data):
         for item in kosik_data:
             product_name = item.get('name', '')
             category = item.get('subcategory', '')
-            # Convert to standardized category
+            # Convert to standardized category using updated mapping
             standardized_category = convert_kosik_category(category)
             kosik_categories[product_name] = standardized_category
     
-    # Map Rohlik products to categories
+    # Map Rohlik products to categories (using filtered and remapped data)
     if rohlik_data:
         if isinstance(rohlik_data, dict):
             rohlik_data = [rohlik_data]
@@ -611,24 +718,30 @@ def convert_kosik_data_categories(kosik_data):
     
     return kosik_data
 
-# Enhanced main execution
+# Main execution with filtering and remapping
 if __name__ == "__main__":
     # Load the data
     kosik_data, rohlik_data = load_json_data()
 
+    # Filter Kosik data to remove excluded categories
     if kosik_data:
-        print("Ready to process Kosik data")
+        kosik_data = filter_kosik_data(kosik_data)
         
-        # Extract and display Kosik categories
+        print("Ready to process filtered Kosik data")
+        
+        # Extract and display Kosik categories (after filtering)
         kosik_categories = extract_kosik_categories(kosik_data)
         display_kosik_categories(kosik_categories)
         
-        print(f"\nKosik Summary:")
+        print(f"\nFiltered Kosik Summary:")
         print(f"- Found {len(kosik_categories['subcategories'])} unique subcategories")
         print(f"- Subcategory list: {kosik_categories['subcategories']}")
 
+    # Filter and remap Rohlik data
     if rohlik_data:
-        print("Ready to process Rohlik data")
+        rohlik_data = filter_and_remap_rohlik_data(rohlik_data)
+        
+        print("Ready to process filtered and remapped Rohlik data")
         
         # Extract and display Rohlik categories
         rohlik_categories = extract_rohlik_categories(rohlik_data)
@@ -638,9 +751,9 @@ if __name__ == "__main__":
         print(f"- Found {len(rohlik_categories['categories'])} unique categories")
         print(f"- Category list: {rohlik_categories['categories']}")
 
-    # Create combined dataset
+    # Create combined dataset with filtered data
     if kosik_data or rohlik_data:
-        print("\nCreating combined dataset...")
+        print("\nCreating combined dataset with filtered data...")
         combined_df = create_combined_dataset(kosik_data, rohlik_data)
         
         # Add category information to dataset
