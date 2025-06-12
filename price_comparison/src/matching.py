@@ -18,7 +18,7 @@ class GroceryComparator:
         # Load data files
         with open(DATA_PATH_kosik, 'r', encoding='utf-8') as file, \
              open(DATA_PATH_rohlik, 'r', encoding='utf-8') as file2:
-            self.data_kosik_dupl = js.load(file)
+            self.data_kosik = js.load(file)
             self.data_rohlik = js.load(file2)
 
         self._process_data()
