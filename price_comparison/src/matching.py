@@ -2,14 +2,12 @@ import json as js
 import os
 from rapidfuzz import fuzz, process
 import unicodedata
-import re
+import requests
 
 # Get absolute path to current directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Construct path to data files
-#DATA_PATH = os.path.join(BASE_DIR, '..', 'data')
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # directory of this .py file
 DATA_PATH_kosik = os.path.join(BASE_DIR, '..', 'data', 'data_kosik_subcats.json')
 DATA_PATH_rohlik = os.path.join(BASE_DIR, '..', 'data', 'rohlik_dairy_products_multi_cat.json')
@@ -27,25 +25,29 @@ class GroceryComparator:
 
     @staticmethod
     def normalize(text):
+        """Normalize text by lowercasing, stripping whitespace, and removing accents"""
         text = text.lower().strip()
         return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
 
     @staticmethod
     def calculate_weighed_score(item1, item2):
-        score1 = fuzz.token_set_ratio(item1, item2)
-        score2 = fuzz.partial_ratio(item1, item2)
-        score3 = fuzz.ratio(item1, item2)
-        score4 = fuzz.partial_token_set_ratio(item1, item2)
-        return 0.4 * score1 + 0.2 * score2 + 0.2 * score3 + 0.2 * score4
+        """Calculate a weighted score between two items using fuzzy matching"""
+        score1 = fuzz.token_set_ratio(item1, item2) #how strings overlap with each other
+        score2 = fuzz.partial_ratio(item1, item2) #compares the longest common subsequence
+        score3 = fuzz.ratio(item1, item2) #how similar the strings are character by character
+        score4 = fuzz.partial_token_set_ratio(item1, item2) #finds the best matching subsequence of tokens
+        return 0.4 * score1 + 0.2 * score2 + 0.2 * score3 + 0.2 * score4 
 
     def _process_data(self):
+        """Process and clean data from Košík, leaving only unique items"""
         unique_kosik = {}
         for item in self.data_kosik:
             unique_kosik[item['name']] = item
         self.data_kosik = list(unique_kosik.values())
 
     def _match_categories(self):
-        kosik_subs = {item['subcategory'] for item in self.data_kosik}
+        """Match Rohlik subcategories to Kosik subcategories"""
+        kosik_subs = {item['subcategory'] for item in self.data_kosik} 
         rohlik_subs = {item['subcategory_name'] for item in self.data_rohlik}
         self.match_rohlik_to_kosik = {}
         for r_sub in rohlik_subs:
@@ -61,15 +63,16 @@ class GroceryComparator:
             self.match_rohlik_to_kosik[r_sub] = best_match
 
     def _valid_match(self, norm_r, norm_k):
+        """Check if the match between Rohlik and Kosik is valid based on specific rules"""
         return not (
-            (norm_k == 'tvarohy' and norm_r != 'smetany, slehacky, tvarohy - tvarohy') or
+            (norm_k == 'tvarohy' and norm_r != 'smetany, slehacky, tvarohy - tvarohy') or #this is a special case, these two categories were matched incorrectly
             (norm_k == 'mlecne vyrobky pro deti' and norm_r not in ['mlecne - pro deti', 'syry - snacky'])
         )
 
     def _process_protein_items(self):
         """Special handling for protein-enriched items"""
         for item in self.data_kosik:
-            if "protein" in self.normalize(item['name']):
+            if "protein" in self.normalize(item['name']): #there is no "high protein" category in Kosik, so we need to create a special one by adding products that contain "protein" in their name
                 item['subcategory'] = 'Speciální - High protein'
 
     def find_products(self, selected_category):
