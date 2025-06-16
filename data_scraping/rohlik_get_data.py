@@ -10,7 +10,7 @@ import time
 import json
 import random
 
-CHROMEDRIVER_PATH = r"C:\\Drivers\\chromedriver-win64\\chromedriver.exe" # Your chromedriver path
+CHROMEDRIVER_PATH = "/Users/kucer/Downloads/chromedriver-mac-arm64/chromedriver" #  insert here your chromedriver path
 
 # --- Selenium Options ---
 options = Options()
@@ -89,15 +89,17 @@ ROHLIK_SUBCATEGORY_URLS = [
 DEBUG_TARGET_PRODUCT_NAME_CONTAINS = None 
 
 def gentle_scroll_and_wait(num_gentle_scrolls=1, pause_duration=1.5):
+    """Perform gentle scrolls to help load dynamic content on the page."""
     try:
         for i in range(num_gentle_scrolls):
-            driver.execute_script(f"window.scrollBy(0, {random.randint(100, 200)});") 
+            driver.execute_script(f"window.scrollBy(0, {random.randint(100, 200)});")  # Scroll down by a random amount
             time.sleep(pause_duration)
     except Exception as e_gs:
         print(f"    - Error during gentle_scroll_and_wait: {e_gs}")
 
 
 def scrape_rohlik_products_from_current_page(expected_products_on_page=None): # THIS IS THE UPDATED FUNCTION
+    """Scrape products from the current Rohlik.cz page using chunked scrolling."""
     current_url_for_debug = driver.current_url
     print(f"  - Attempting to scrape Rohlik products (chunked) from URL: {current_url_for_debug}")
     
@@ -112,62 +114,62 @@ def scrape_rohlik_products_from_current_page(expected_products_on_page=None): # 
     no_new_products_strikes = 0
     max_no_new_products_strikes = 2 # Stop after 2 consecutive scrolls yield no new products
 
-    while scroll_attempts < max_scroll_attempts:
+    while scroll_attempts < max_scroll_attempts: # Limit to 25 scroll attempts for now
         scroll_attempts += 1
         
         current_live_cards = []
         try:
             time.sleep(0.25) 
-            current_live_cards = driver.find_elements(By.CSS_SELECTOR, "div[data-test^='productCard-']")
+            current_live_cards = driver.find_elements(By.CSS_SELECTOR, "div[data-test^='productCard-']") # This selector targets all product cards
         except Exception as e_find_live: 
             print(f"    ERROR finding live cards in chunk {scroll_attempts}: {e_find_live}. Stopping.")
             break
             
         new_products_this_chunk = 0
-        if not current_live_cards and scroll_attempts > max_no_new_products_strikes: 
+        if not current_live_cards and scroll_attempts > max_no_new_products_strikes: # No live cards found after max strikes
             # print(f"    No live cards found for {max_no_new_products_strikes} consecutive checks in chunk {scroll_attempts}. Assuming end of page.") # Verbose
             no_new_products_strikes +=1
         
-        for card_idx, card_context in enumerate(current_live_cards):
+        for card_idx, card_context in enumerate(current_live_cards): # Verbose: "card_context" is the current product card element
             try:
-                card_data_test_id = card_context.get_attribute("data-test")
-                if not card_data_test_id or card_data_test_id in processed_card_data_tests:
+                card_data_test_id = card_context.get_attribute("data-test") 
+                if not card_data_test_id or card_data_test_id in processed_card_data_tests: # Skip if no data-test ID or already processed
                     continue 
 
                 # --- Condensed Parsing Logic (same as your working version for one card) ---
-                name, price_str, unit_price_str, package_amount_str = "Name not found", "Price not found", "Unit not found", "Amount not found"
+                name, price_str, unit_price_str, package_amount_str = "Name not found", "Price not found", "Unit not found", "Amount not found" # Initialize with defaults
                 link_wrapper_a = None
-                try: link_wrapper_a = card_context.find_element(By.CSS_SELECTOR, "a.sc-e9663433-1")
+                try: link_wrapper_a = card_context.find_element(By.CSS_SELECTOR, "a.sc-e9663433-1") # This is the link wrapper for the product card
                 except: 
-                    try: link_wrapper_a = card_context.find_element(By.CSS_SELECTOR, "a[href]")
+                    try: link_wrapper_a = card_context.find_element(By.CSS_SELECTOR, "a[href]") # Fallback to any link if the specific one is not found
                     except: pass
-                context_to_search_body = link_wrapper_a if link_wrapper_a else card_context
+                context_to_search_body = link_wrapper_a if link_wrapper_a else card_context # Use the link wrapper if found, otherwise use the card context directly
                 try:
-                    name_element = context_to_search_body.find_element(By.CSS_SELECTOR, "h3[data-test='productCard-body-name']")
+                    name_element = context_to_search_body.find_element(By.CSS_SELECTOR, "h3[data-test='productCard-body-name']") 
                     name = name_element.get_attribute("title").strip() or name_element.text.strip()
                     if not name: continue
                 except: continue
                 try:
-                    price_no_span = context_to_search_body.find_element(By.CSS_SELECTOR, "span[data-test='productCard-body-price-priceNo']")
+                    price_no_span = context_to_search_body.find_element(By.CSS_SELECTOR, "span[data-test='productCard-body-price-priceNo']") 
                     js_price = "var s=arguments[0].querySelector('span'); return s?s.textContent.trim():(arguments[0].childNodes.length>0&&arguments[0].childNodes[0].nodeType===Node.TEXT_NODE?arguments[0].childNodes[0].nodeValue.trim():'');"
                     main_price_digits = driver.execute_script(js_price, price_no_span)
                     decimal_digits = ""
                     try: decimal_digits = price_no_span.find_element(By.XPATH, "./sup").text.strip()
                     except: pass
-                    currency = context_to_search_body.find_element(By.CSS_SELECTOR, "span[data-test='productCard-body-price-currency']").text.strip()
+                    currency = context_to_search_body.find_element(By.CSS_SELECTOR, "span[data-test='productCard-body-price-currency']").text.strip() 
                     if main_price_digits and decimal_digits: price_str = f"{main_price_digits},{decimal_digits} {currency}"
                     elif main_price_digits: price_str = f"{main_price_digits} {currency}"
                     else: price_str = "Price parts missing"
                 except: price_str = "Price data missing"
                 try:
-                    footer_div = card_context.find_element(By.CSS_SELECTOR, "div.sc-90654762-0.fuXXWU")
+                    footer_div = card_context.find_element(By.CSS_SELECTOR, "div.sc-90654762-0.fuXXWU") # This is the footer div that contains unit price and package amount
                     try: unit_price_str = footer_div.find_element(By.CSS_SELECTOR, "p[data-test='productCard-footer-unitPrice']").text.strip()
                     except: unit_price_str = None
                     try: package_amount_str = footer_div.find_element(By.CSS_SELECTOR, "p[data-test='productCard-footer-amount']").text.strip()
                     except: package_amount_str = None
                 except: unit_price_str, package_amount_str = None, None
                 
-                if name and name != "Name not found":
+                if name and name != "Name not found": # Check if name is valid
                     all_products_on_page.append({
                         "name": name, "price": price_str,
                         "unit_price": unit_price_str, "package_amount": package_amount_str,
@@ -196,7 +198,7 @@ def scrape_rohlik_products_from_current_page(expected_products_on_page=None): # 
             break
 
         try:
-            driver.execute_script("window.scrollBy(0, window.innerHeight * 0.80);") 
+            driver.execute_script("window.scrollBy(0, window.innerHeight * 0.80);") # Scroll down by 80% of the viewport height
             time.sleep(random.uniform(1.8, 2.8)) 
         except Exception as e_scroll_final:
             print(f"    Error during scroll in chunk {scroll_attempts}: {e_scroll_final}. Stopping.")
@@ -211,6 +213,7 @@ def scrape_rohlik_products_from_current_page(expected_products_on_page=None): # 
 
 
 def main():
+    """Main function to scrape Rohlik.cz dairy products from multiple subcategories."""
     all_products = []
     
     if not ROHLIK_SUBCATEGORY_URLS:

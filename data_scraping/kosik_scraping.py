@@ -14,7 +14,7 @@ CHROMEDRIVER_PATH = "/Users/kucer/Downloads/chromedriver-mac-arm64/chromedriver"
 
 # Set Chrome options
 options = Options()
-options.add_argument("--headless")  # Runs Chrome in headless mode (no GUI) pak odkomentit
+options.add_argument("--headless")  # Runs Chrome in headless mode 
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
@@ -63,25 +63,27 @@ cookies = {
 }
 ##################
 def get_links(api_url, params, headers, base_url):
+    """Fetches links from the Kosik API for subcategories."""
     response = requests.get(api_url, params=params, headers=headers)
     data = response.json()
     links = []
     for item in data.get("subCategories", []):
         relative_url = item.get("url")
         if relative_url:
-            links.append(f"{base_url}{relative_url}")
+            links.append(f"{base_url}{relative_url}") #creating full URL
     return links
 
 def scrape_products_from_link(driver, link, subcat_name):
+    """Scrapes products from a given link using Selenium."""
     driver.get(link)
     WebDriverWait(driver, 10).until(
         EC.presence_of_all_elements_located((By.XPATH, '//article[@data-cnstrc-item-name]'))
-    )
+    ) # Wait for products to load
     # Load all products
     while True:
         try:
             wait = WebDriverWait(driver, 5)
-            button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Načíst další')]")))
+            button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Načíst další')]"))) # Wait for the "Load More" button to be clickable
             driver.execute_script("arguments[0].click();", button)
             time.sleep(2)
         except Exception:
@@ -99,7 +101,7 @@ links = []
 data_kosik = {}
 data_kosik_subcats = []
 
-for key,value in data.items():
+for key,value in data.items(): #defined above as a function 
     if key == "subCategories":
         data_url = value
         #links.append(f'{basic_url}{key.get('link')}')
@@ -112,9 +114,9 @@ for item in data_url:
 print(f'THESE ARE THE LINKS: {links}.')
 
 start_time = time.time()
-for i,link in enumerate(links):
-    driver = webdriver.Chrome(service=service, options=options)
-    subcategory_name_list = (link.split("/")[-1]).split("-")[1::]
+for i,link in enumerate(links): #iterate through the links
+    driver = webdriver.Chrome(service=service, options=options) # Initialize the WebDriver for each link
+    subcategory_name_list = (link.split("/")[-1]).split("-")[1::] # Extract the subcategory name from the URL
     subcat_name = " ".join(str(item) for item in subcategory_name_list)  # Extract the last part of the URL as the subcategory name
     print(f"Processing link {i+1}/{len(links)}: {subcat_name}")
     driver.get(link)
@@ -132,7 +134,7 @@ for i,link in enumerate(links):
         except ElementClickInterceptedException as e:
             print("ElementClickInterceptedException occurred:", e)
         except Exception as e:
-            print("No more 'Load More' button or error occurred:", e)
+            print("Loading", e)
 
         # Scroll to the bottom of the page
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
