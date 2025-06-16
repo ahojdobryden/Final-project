@@ -3,6 +3,7 @@ import os
 from rapidfuzz import fuzz, process
 import unicodedata
 import requests
+import re
 
 # Get absolute path to current directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

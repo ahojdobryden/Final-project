@@ -2,10 +2,11 @@ import streamlit as st
 import pandas as pd
 from src.matching import GroceryComparator
 
-# Enhanced session state initialization
+# Initialize session state for GroceryComparator instance
 if 'comparator' not in st.session_state:
     st.session_state.comparator = GroceryComparator()
-    
+
+# Initialize empty shopping cart in session state
 if 'cart' not in st.session_state:
     st.session_state.cart = {
         'rohlik': {},
@@ -13,6 +14,7 @@ if 'cart' not in st.session_state:
         'categories': {}
     }
 
+# Initialize result storage in session state
 if 'results' not in st.session_state:
     st.session_state.results = {
         'total_rohlik': 0.0,
@@ -21,17 +23,17 @@ if 'results' not in st.session_state:
         'unmatched_products': []
     }
 
-# Main interface
+# --- Main Interface ---
 st.title("Rohlik vs Košík - Unit Price Comparison")
 
-# Category selection
+# Category selection from unique subcategory names in Rohlik data
 categories = list({item['subcategory_name'] for item in st.session_state.comparator.data_rohlik})
 selected_category = st.selectbox("Select Product Category", categories)
 
-# Get matched products for the selected category
+# Get matched product pairs for the selected category
 matched_products = st.session_state.comparator.find_products(selected_category)
 
-# Display products
+# Display matched products from both retailers side by side
 rohlik_col, kosik_col = st.columns(2)
 
 with rohlik_col:
@@ -41,7 +43,7 @@ with rohlik_col:
         key = f"rohlik_{selected_category}_{rp['name']}_{idx}"
         
         if st.checkbox(f"{rp['name']} - {rp['unit_price']:.2f} Kč/{rp['unit']}", key=key):
-            # Add to cart
+            # Add selected Rohlik product (and match if exists) to cart
             st.session_state.cart['rohlik'][rp['name']] = {
                 'unit_price': rp['unit_price'],
                 'unit': rp['unit'],
@@ -55,11 +57,9 @@ with rohlik_col:
                     'name': kp['name']
                 }
         else:
-            # Remove from cart
-            if rp['name'] in st.session_state.cart['rohlik']:
-                del st.session_state.cart['rohlik'][rp['name']]
-            if rp['name'] in st.session_state.cart['kosik']:
-                del st.session_state.cart['kosik'][rp['name']]
+            # Remove product from cart if deselected
+            st.session_state.cart['rohlik'].pop(rp['name'], None)
+            st.session_state.cart['kosik'].pop(rp['name'], None)
 
 with kosik_col:
     st.subheader("Košík Matches")
@@ -71,9 +71,10 @@ with kosik_col:
             status = "✓" if rp['name'] in st.session_state.cart['rohlik'] else "→"
             st.write(f"{status} {kp['name']} - {kp['unit_price']:.2f} Kč/{kp['unit']}")
         else:
-            st.error("✗ No match found" if rp['name'] in st.session_state.cart['rohlik'] else "→ No match available")
+            msg = "✗ No match found" if rp['name'] in st.session_state.cart['rohlik'] else "→ No match available"
+            st.error(msg)
 
-# Shopping cart display
+# Display shopping cart if it has items
 if st.session_state.cart['rohlik']:
     st.subheader("Shopping Cart")
     for name, item in st.session_state.cart['rohlik'].items():
@@ -84,17 +85,28 @@ if st.session_state.cart['rohlik']:
         cols[2].metric("Košík", 
                       f"{kosik_item.get('unit_price', 0.0):.2f} Kč/{item['unit']}" if kosik_item else "N/A")
 
-# Calculation function
 def calculate_results():
+    """
+    Calculate the total prices (per unit) for selected products in both Rohlik and Košík carts.
+    Also prepare a comparison table and identify unmatched products.
+
+    Updates the session state with:
+    - st.session_state.cart: Dictionary containing selected products from Rohlik and Košík
+    - st.session_state.results: Dictionary containing:
+            - total_rohlik: Sum of prices from Rohlik
+            - total_kosik: Sum of prices from Košík (where matched)
+            - comparison_table: List of product-wise comparison dicts
+            - unmatched_products: List of products without a match in Košík
+    """
     total_r = 0.0
     total_k = 0.0
     comparison = []
     unmatched_products = []
-    
+
     for name in st.session_state.cart['rohlik']:
         r_item = st.session_state.cart['rohlik'][name]
         k_item = st.session_state.cart['kosik'].get(name)
-        
+
         if k_item:
             total_r += r_item['unit_price']
             total_k += k_item['unit_price']
@@ -112,7 +124,7 @@ def calculate_results():
                 'Rohlik Price (Kč)': round(r_item['unit_price'], 2),
                 'Košík Price (Kč)': None
             })
-    
+
     st.session_state.results = {
         'total_rohlik': total_r,
         'total_kosik': total_k,
@@ -120,20 +132,21 @@ def calculate_results():
         'unmatched_products': unmatched_products
     }
 
-# Results section
+# --- Results Section ---
 st.divider()
 if st.button("Calculate Totals") and st.session_state.cart['rohlik']:
     calculate_results()
-    
+
     st.subheader("Comparison Results")
     cols = st.columns(2)
     cols[0].metric("Total Rohlik", f"{st.session_state.results['total_rohlik']:.2f} Kč")
     cols[1].metric("Total Košík", f"{st.session_state.results['total_kosik']:.2f} Kč")
-    
+
     total_r = st.session_state.results['total_rohlik']
     total_k = st.session_state.results['total_kosik']
     unmatched = st.session_state.results['unmatched_products']
-    
+
+    # Interpret total price comparison
     if total_r < total_k:
         st.success("Recommended to shop at Rohlik")
     elif total_k < total_r:
@@ -148,11 +161,14 @@ if st.button("Calculate Totals") and st.session_state.cart['rohlik']:
             st.warning("Recommended to shop at Košík")
     else:
         st.info("Prices are equal")
-    
-    # Create and display table
+
+    # Display comparison table
     df = pd.DataFrame(st.session_state.results['comparison_table'])
+
     def format_na(val):
+        """Format missing values as 'N/A'."""
         return 'N/A' if pd.isna(val) else f'{val:.2f}'
+
     st.table(df.style.format({
         'Rohlik Price (Kč)': '{:.2f}',
         'Košík Price (Kč)': format_na
